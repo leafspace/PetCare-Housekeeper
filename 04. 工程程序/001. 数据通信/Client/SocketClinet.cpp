@@ -20,8 +20,8 @@ SocketClient::~SocketClient()
 void SocketClient::initBase() 
 {
     this->client_socket = 0;
-    memset(&(this->client_addr), 0, sizeof(client_addr));
-    memset(&(this->server_addr), 0, sizeof(client_addr));
+    memset(&(this->client_addr), 0, sizeof(this->client_addr));
+    memset(&(this->server_addr), 0, sizeof(this->client_addr));
 }
 
 void SocketClient::initClient() 
@@ -40,7 +40,8 @@ bool SocketClient::bindClient()
     }
 
     // Socket绑定Socket地址结构
-    if (bind(this->client_socket, (struct sockaddr*)&this->client_addr, sizeof(client_addr))) {
+    if (bind(this->client_socket, (struct sockaddr*)&this->client_addr, 
+        sizeof(this->client_addr))) {
         return false;
     }
     return true;
@@ -76,7 +77,8 @@ bool SocketClient::connectServer()
     }
 
     socklen_t server_addr_length = sizeof(server_addr);
-    if (connect(this->client_socket, (struct sockaddr*)&this->server_addr, server_addr_length) < 0) {
+    if (connect(this->client_socket, (struct sockaddr*)&this->server_addr, 
+        server_addr_length) < 0) {
         return false;
     }
     return true;
@@ -115,7 +117,7 @@ void SocketClient::setServerHost(const char* serverHost)
     memcpy_s(this->serverHost, hostSize, serverHost, strnlen_s(serverHost, hostSize));
 }
 
-void setServerPort(const uint32_t serverPort)
+void SocketClient::setServerPort(const uint32_t serverPort)
 {
 #ifdef SERVER_PORT
     #undef SERVER_PORT
@@ -123,7 +125,7 @@ void setServerPort(const uint32_t serverPort)
 #endif
 }
 
-void setBufferSize(const uint32_t bufferSize)
+void SocketClient::setBufferSize(const uint32_t bufferSize)
 {
 #ifdef BUFFER_SIZE
     #undef BUFFER_SIZE
