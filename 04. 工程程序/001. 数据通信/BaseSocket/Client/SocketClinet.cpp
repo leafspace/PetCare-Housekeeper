@@ -86,7 +86,7 @@ bool SocketClient::connectServer()
 
 int SocketClient::sendMessage() 
 {
-    return send(this->client_socket, this->fileBuffer, BUFFER_SIZE, 0);
+    return send(this->client_socket, this->fileBuffer, this->messageSize, 0);
 }
 
 int SocketClient::recvMessage() 
@@ -106,8 +106,9 @@ bool SocketClient::closeClientSocket()
     return true;
 }
 
-void SocketClient::setMessage(uint8_t* message, uint32_t messageSize)
+void SocketClient::setMessage(const uint8_t* message, uint32_t messageSize)
 {
+    this->messageSize = messageSize;
     memcpy_s(this->fileBuffer, BUFFER_SIZE, message, messageSize);
 }
 

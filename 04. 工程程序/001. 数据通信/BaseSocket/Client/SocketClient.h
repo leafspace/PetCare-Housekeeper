@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -36,6 +38,7 @@ class SocketClient
 {
 private:
     int client_socket = 0;
+    uint32_t messageSize = 0;
     uint8_t *fileBuffer = NULL;
     uint8_t *serverHost = NULL;
     struct sockaddr_in client_addr;
@@ -57,7 +60,7 @@ public:
     uint8_t* getMessage();
     bool closeClientSocket();
     
-    void setMessage(uint8_t* message, uint32_t messageSize);
+    void setMessage(const uint8_t* message, uint32_t messageSize);
     void setServerHost(const char* serverHost);
     void setServerPort(const uint32_t serverPort);
     void setBufferSize(const uint32_t bufferSize);

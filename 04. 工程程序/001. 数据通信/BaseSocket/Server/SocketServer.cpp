@@ -81,7 +81,7 @@ bool SocketServer::acceptLink()
 
 int SocketServer::sendMessage()
 {
-    return send(this->link_socket, this->fileBuffer, BUFFER_SIZE, 0);
+    return send(this->link_socket, this->fileBuffer, this->messageSize, 0);
 }
 
 int SocketServer::recvMessage()
@@ -100,8 +100,9 @@ bool SocketServer::closeServerSocket()
     return true;
 }
 
-void SocketServer::setMessage(uint8_t* message, uint32_t messageSize)
+void SocketServer::setMessage(const uint8_t* message, uint32_t messageSize)
 {
+    this->messageSize = messageSize;
     memcpy_s(this->fileBuffer, BUFFER_SIZE, message, messageSize);
 }
 
