@@ -51,7 +51,8 @@ bool ClientLink::linkServer(const char* ipHost)
 
 bool ClientLink::shutdownLink()
 {
-    return socketClient->closeClientSocket();
+    this->linkState = false;
+    return this->socketClient->closeClientSocket();
 }
 
 uint8_t* ClientLink::analyzeCommond()
