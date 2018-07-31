@@ -1,14 +1,12 @@
 #include "SocketClient.h"
 
-SocketClient::SocketClient(const char* serverHost = "192.168.1.1")
+SocketClient::SocketClient(const char* serverHost = "192.168.1.1", const uint32_t serverPort = 6666)
 {
-    const uint8_t hostSize = 16;
     this->fileBuffer = new uint8_t[BUFFER_SIZE];
-    this->serverHost = new uint8_t[hostSize];
+    this->serverHost = new uint8_t[HOST_SIZE];
     memset(&(this->fileBuffer), 0, BUFFER_SIZE);
-    memset(&(this->serverHost), 0, hostSize);
-
-    this->setServerHost(serverHost);
+    memset(&(this->serverHost), 0, HOST_SIZE);
+    this->serverPort = serverPort;
 }
 
 SocketClient::~SocketClient()
@@ -49,7 +47,7 @@ bool SocketClient::bindClient()
 
 void SocketClient::initServer() 
 {
-    this->server_addr.sin_port = htons(SERVER_PORT);
+    this->server_addr.sin_port = htons(this->serverPort);
     this->server_addr.sin_family = AF_INET;
 }
 
@@ -109,27 +107,15 @@ bool SocketClient::closeClientSocket()
 void SocketClient::setMessage(const uint8_t* message, uint32_t messageSize)
 {
     this->messageSize = messageSize;
-    memcpy_s(this->fileBuffer, BUFFER_SIZE, message, messageSize);
+    memcpy(this->fileBuffer, message, messageSize);
 }
 
 void SocketClient::setServerHost(const char* serverHost)
 {
-    const uint8_t hostSize = 16;
-    memcpy_s(this->serverHost, hostSize, serverHost, strnlen_s(serverHost, hostSize));
+    memcpy(this->serverHost, serverHost, strnlen(serverHost, HOST_SIZE));
 }
 
 void SocketClient::setServerPort(const uint32_t serverPort)
 {
-#ifdef SERVER_PORT
-    #undef SERVER_PORT
-    #define SERVER_PORT serverPort
-#endif
-}
-
-void SocketClient::setBufferSize(const uint32_t bufferSize)
-{
-#ifdef BUFFER_SIZE
-    #undef BUFFER_SIZE
-    #define BUFFER_SIZE bufferSize
-#endif
+    this->serverPort = serverPort;
 }
