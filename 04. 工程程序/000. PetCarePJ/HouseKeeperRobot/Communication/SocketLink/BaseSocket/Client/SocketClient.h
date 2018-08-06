@@ -1,19 +1,17 @@
 #pragma once
 
 #include <stdio.h>
+#include <assert.h>
+#include <unistd.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <string.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
+#include <sys/socket.h>
 
 #define BUFFER_SIZE     1024
 #define HOST_SIZE       16
-
-/* Todo 待确认(UBUNTU下) */
-#include <stdint.h>
-#include <sys/socket.h>
-#include <unistd.h>
-/* Todo 待确认(UBUNTU下) */
 
 /*
   use sample

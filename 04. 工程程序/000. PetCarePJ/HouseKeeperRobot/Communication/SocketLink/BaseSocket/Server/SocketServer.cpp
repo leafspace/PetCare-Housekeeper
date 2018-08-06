@@ -105,19 +105,3 @@ void SocketServer::setMessage(const uint8_t* message, uint32_t messageSize)
     this->messageSize = messageSize;
     memcpy_s(this->fileBuffer, BUFFER_SIZE, message, messageSize);
 }
-
-void SocketServer::setServerPort(const uint32_t serverPort)
-{
-#ifdef SERVER_PORT
-    #undef SERVER_PORT
-    #define SERVER_PORT serverPort
-#endif
-}
-
-void SocketServer::setBufferSize(const uint32_t bufferSize)
-{
-#ifdef BUFFER_SIZE
-    #undef BUFFER_SIZE
-    #define BUFFER_SIZE bufferSize
-#endif
-}

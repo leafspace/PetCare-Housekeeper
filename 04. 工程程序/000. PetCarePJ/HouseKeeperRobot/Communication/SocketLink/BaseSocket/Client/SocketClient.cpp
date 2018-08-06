@@ -4,9 +4,13 @@ SocketClient::SocketClient(const char* serverHost = "192.168.1.1", const uint32_
 {
     this->fileBuffer = new uint8_t[BUFFER_SIZE];
     this->serverHost = new uint8_t[HOST_SIZE];
+    assert(this->fileBuffer != NULL);
+    assert(this->serverHost != NULL);
     memset(&(this->fileBuffer), 0, BUFFER_SIZE);
     memset(&(this->serverHost), 0, HOST_SIZE);
-    this->serverPort = serverPort;
+    this->setServerHost(serverHost);
+    this->setServerPort(serverPort);
+    printf("Finish init Clietn socket!\n");
 }
 
 SocketClient::~SocketClient()
@@ -64,15 +68,19 @@ bool SocketClient::openClientSocket()
     if (state == false) {
         return false;
     }
+
     this->initServer();
     return true;
 }
 
 bool SocketClient::connectServer() 
 {
+    printf("%s", this->serverHost);
     if (inet_aton((char*)this->serverHost, &this->server_addr.sin_addr)) {
         return false;
     }
+
+   
 
     socklen_t server_addr_length = sizeof(server_addr);
     if (connect(this->client_socket, (struct sockaddr*)&this->server_addr, 

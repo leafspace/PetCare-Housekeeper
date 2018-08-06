@@ -37,6 +37,4 @@ public:
     bool closeServerSocket();
 
     void setMessage(const uint8_t* message, uint32_t messageSize);
-    void setServerPort(const uint32_t serverPort);
-    void setBufferSize(const uint32_t bufferSize);
 };
