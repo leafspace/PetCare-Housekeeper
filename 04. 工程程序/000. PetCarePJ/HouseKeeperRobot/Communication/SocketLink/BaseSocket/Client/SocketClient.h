@@ -10,6 +10,11 @@
 #include <netinet/in.h>
 #include <sys/socket.h>
 
+#include <string>
+#include <iostream>
+
+using namespace std;
+
 #define BUFFER_SIZE     1024
 #define HOST_SIZE       16
 
@@ -38,7 +43,7 @@ private:
     int client_socket = 0;
     uint32_t messageSize = 0;
     uint8_t *fileBuffer = NULL;
-    uint8_t *serverHost = NULL;
+    string serverHost = NULL;
     uint32_t serverPort = 0;
     struct sockaddr_in client_addr;
     struct sockaddr_in server_addr;
@@ -49,7 +54,7 @@ private:
     void initServer(void);
     void closeLink(void);
 public:
-    SocketClient(const char* serverHost, const uint32_t serverPort);
+    SocketClient(const string serverHost, const uint32_t serverPort);
     ~SocketClient(void);
 
     bool openClientSocket(void);
@@ -60,6 +65,6 @@ public:
     bool closeClientSocket(void);
     
     void setMessage(const uint8_t* message, uint32_t messageSize);
-    void setServerHost(const char* serverHost);
+    void setServerHost(const string serverHost);
     void setServerPort(const uint32_t serverPort);
 };
