@@ -103,5 +103,5 @@ bool SocketServer::closeServerSocket()
 void SocketServer::setMessage(const uint8_t* message, uint32_t messageSize)
 {
     this->messageSize = messageSize;
-    memcpy_s(this->fileBuffer, BUFFER_SIZE, message, messageSize);
+    memcpy(this->fileBuffer, message, messageSize);
 }

@@ -6,36 +6,15 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
+#include <iostream>
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <sys/socket.h>
-
-#include <string>
-#include <iostream>
 
 using namespace std;
 
 #define BUFFER_SIZE     1024
 #define HOST_SIZE       16
-
-/*
-  use sample
-        bool state = false;
-        SocketClient* socketClient = new SocketClient("192.168.1.1");
-        state = socketClient->openClientSocket();
-        state = socketClient->connectServer();
-        do
-        {
-            socketClient->setMessage((uint8_t*)"Hello", 5);
-            socketClient->sendMessage();
-            socketClient->recvMessage();
-            uint8_t *recvMessage = socketClient->getMessage();
-            // Todo recvMessage
-            
-        } while(true);
-        state = socketClient->closeClientSocket();
-        delete socketClient;  
-*/
 
 class SocketClient
 {

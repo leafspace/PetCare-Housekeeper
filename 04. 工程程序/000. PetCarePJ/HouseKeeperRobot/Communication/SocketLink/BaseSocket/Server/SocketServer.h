@@ -1,10 +1,17 @@
 #pragma once
 
 #include <stdio.h>
+#include <assert.h>
+#include <unistd.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <string.h>
+#include <iostream>
 #include <arpa/inet.h>
 #include <netinet/in.h>
+#include <sys/socket.h>
+
+using namespace std;
 
 #define SERVER_PORT     6666
 #define BUFFER_SIZE     1024
@@ -30,9 +37,9 @@ public:
 
     bool openServerSocket();
     bool listenClient();
-    inline bool acceptLink();
-    inline int sendMessage();
-    inline int recvMessage();
+    bool acceptLink();
+    int sendMessage();
+    int recvMessage();
     uint8_t* getMessage();
     bool closeServerSocket();
 

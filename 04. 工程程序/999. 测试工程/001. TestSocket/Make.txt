@@ -1,1 +1,2 @@
-g++ TestClientSourceMain.cpp "../../000. PetCarePJ/HouseKeeperRobot/Communication/SocketLink/BaseSocket/Client/SocketClient.cpp" -o TestClientSourceMai
+g++ TestClientSourceMain.cpp "../../000. PetCarePJ/HouseKeeperRobot/Communication/SocketLink/BaseSocket/Client/SocketClient.cpp" -o TestClientSourceMain
+g++ TestServerSourceMain.cpp "../../000. PetCarePJ/HouseKeeperRobot/Communication/SocketLink/BaseSocket/Server/SocketServer.cpp" -o TestServerSourceMain
