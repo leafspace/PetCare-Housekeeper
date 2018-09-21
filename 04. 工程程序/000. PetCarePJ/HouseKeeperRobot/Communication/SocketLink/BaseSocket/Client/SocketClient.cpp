@@ -1,8 +1,17 @@
 #include "SocketClient.h"
 
-SocketClient::SocketClient(const string serverHost = "127.0.0.1", const uint32_t serverPort = 6666)
+SocketClient::SocketClient()
 {
-    cout << "Test !" << endl;
+    cout << "Hello Test" << endl;
+    this->fileBuffer = new uint8_t[BUFFER_SIZE];
+    assert(this->fileBuffer != NULL);
+    memset(&(this->fileBuffer), 0, BUFFER_SIZE);
+    this->setServerHost("127.0.0.1");
+    this->setServerPort(6666);
+}
+
+SocketClient::SocketClient(const string serverHost, const uint32_t serverPort)
+{
     this->fileBuffer = new uint8_t[BUFFER_SIZE];
     assert(this->fileBuffer != NULL);
     memset(&(this->fileBuffer), 0, BUFFER_SIZE);

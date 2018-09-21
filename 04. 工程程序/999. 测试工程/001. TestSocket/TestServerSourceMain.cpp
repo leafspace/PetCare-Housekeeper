@@ -18,8 +18,9 @@ int main()
         cout << "Can't find clinet socket !" << endl;
         exit(0);
     }
-
-    do {
+    
+    cout << "SocketServer is listening ..." << endl;
+    do{
         state = socketServer->acceptLink();
         socketServer->recvMessage();
         cout << socketServer->getMessage() << endl;

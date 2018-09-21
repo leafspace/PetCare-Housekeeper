@@ -27,21 +27,21 @@ private:
     struct sockaddr_in client_addr;
     struct sockaddr_in server_addr;
 
-    void initBase();
-    void initServer();
-    bool bindServer();
-    void closeLink();
+    void initBase(void);
+    void initServer(void);
+    bool bindServer(void);
+    void closeLink(void);
 public:
-    SocketServer();
-    ~SocketServer();
+    SocketServer(void);
+    ~SocketServer(void);
 
-    bool openServerSocket();
-    bool listenClient();
-    bool acceptLink();
-    int sendMessage();
-    int recvMessage();
-    uint8_t* getMessage();
-    bool closeServerSocket();
+    bool openServerSocket(void);
+    bool listenClient(void);
+    bool acceptLink(void);
+    int sendMessage(void);
+    int recvMessage(void);
+    uint8_t* getMessage(void);
+    bool closeServerSocket(void);
 
     void setMessage(const uint8_t* message, uint32_t messageSize);
 };

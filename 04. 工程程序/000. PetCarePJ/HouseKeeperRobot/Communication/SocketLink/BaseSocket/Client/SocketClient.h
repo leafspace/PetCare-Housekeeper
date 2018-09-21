@@ -33,6 +33,7 @@ private:
     void initServer(void);
     void closeLink(void);
 public:
+    SocketClient(void);
     SocketClient(const string serverHost, const uint32_t serverPort);
     ~SocketClient(void);
 
