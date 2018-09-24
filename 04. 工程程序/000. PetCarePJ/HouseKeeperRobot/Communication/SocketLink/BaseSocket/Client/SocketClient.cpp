@@ -1,16 +1,6 @@
 #include "SocketClient.h"
 
-SocketClient::SocketClient()
-{
-    cout << "Hello Test" << endl;
-    this->fileBuffer = new uint8_t[BUFFER_SIZE];
-    assert(this->fileBuffer != NULL);
-    memset(&(this->fileBuffer), 0, BUFFER_SIZE);
-    this->setServerHost("127.0.0.1");
-    this->setServerPort(6666);
-}
-
-SocketClient::SocketClient(const string serverHost, const uint32_t serverPort)
+SocketClient::SocketClient(const uint8_t* serverHost = (uint8_t*)("127.0.0.1"), const uint32_t serverPort = 6666)
 {
     this->fileBuffer = new uint8_t[BUFFER_SIZE];
     assert(this->fileBuffer != NULL);
@@ -80,8 +70,9 @@ bool SocketClient::openClientSocket()
 
 bool SocketClient::connectServer() 
 {
-    printf("%s", this->serverHost);
-    if (inet_aton((char*)this->serverHost.data(), &this->server_addr.sin_addr)) {
+    cout << "Connect config : " << this->serverHost << " (" 
+        << this->serverPort << ")" << endl;
+    if (inet_aton((char*)this->serverHost, &this->server_addr.sin_addr)) {
         return false;
     }
 
@@ -121,9 +112,9 @@ void SocketClient::setMessage(const uint8_t* message, uint32_t messageSize)
     memcpy(this->fileBuffer, message, messageSize);
 }
 
-void SocketClient::setServerHost(const string serverHost)
+void SocketClient::setServerHost(const uint8_t* serverHost)
 {
-    this->serverHost = serverHost;
+    memcpy(this->serverHost, serverHost, strlen((char*)serverHost));
 }
 
 void SocketClient::setServerPort(const uint32_t serverPort)

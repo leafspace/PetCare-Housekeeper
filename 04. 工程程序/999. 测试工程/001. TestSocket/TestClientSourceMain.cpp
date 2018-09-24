@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     bool state = false;
-    SocketClient* socketClient = new SocketClient("172.0.0.1", 6666);
+    SocketClient* socketClient = new SocketClient((uint8_t*)"172.0.0.1", 6666);
     state = socketClient->openClientSocket();
     if (state == false) {
         cout << "Can't open client socket !" << endl;
