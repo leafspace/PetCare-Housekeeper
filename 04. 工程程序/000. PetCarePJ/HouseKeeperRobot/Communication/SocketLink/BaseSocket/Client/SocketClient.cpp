@@ -72,7 +72,7 @@ bool SocketClient::connectServer()
 {
     cout << "Connect config : " << this->serverHost << " (" 
         << this->serverPort << ")" << endl;
-    if (inet_aton((char*)this->serverHost, &this->server_addr.sin_addr)) {
+    if (!inet_aton((char*)this->serverHost, &this->server_addr.sin_addr)) {
         return false;
     }
 
