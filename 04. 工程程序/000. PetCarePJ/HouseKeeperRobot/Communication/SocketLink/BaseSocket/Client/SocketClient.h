@@ -22,7 +22,7 @@ private:
     int client_socket = 0;
     uint32_t messageSize = 0;
     uint8_t *fileBuffer = NULL;
-    uint8_t serverHost[16];
+    uint8_t serverHost[16] = { 0 };
     uint32_t serverPort = 0;
     struct sockaddr_in client_addr;
     struct sockaddr_in server_addr;

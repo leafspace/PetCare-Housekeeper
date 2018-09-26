@@ -3,7 +3,7 @@
 SocketServer::SocketServer()
 {
     this->fileBuffer = new uint8_t[BUFFER_SIZE];
-    memset(&(this->fileBuffer), 0, BUFFER_SIZE);
+    memset(this->fileBuffer, 0, BUFFER_SIZE);
 }
 
 SocketServer::~SocketServer()
@@ -13,6 +13,8 @@ SocketServer::~SocketServer()
 
 void SocketServer::initBase() 
 {
+    bzero(&(this->client_addr), sizeof(this->client_addr));
+    bzero(&(this->server_addr), sizeof(this->server_addr));
     memset(&(this->client_addr), 0, sizeof(this->client_addr));
     memset(&(this->server_addr), 0, sizeof(this->client_addr));
 }
@@ -103,5 +105,5 @@ bool SocketServer::closeServerSocket()
 void SocketServer::setMessage(const uint8_t* message, uint32_t messageSize)
 {
     this->messageSize = messageSize;
-    memcpy(this->fileBuffer, message, messageSize);
+    memcpy(this->fileBuffer, message, this->messageSize);
 }

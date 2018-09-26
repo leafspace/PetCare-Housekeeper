@@ -4,7 +4,7 @@ SocketClient::SocketClient(const uint8_t* serverHost = (uint8_t*)("127.0.0.1"), 
 {
     this->fileBuffer = new uint8_t[BUFFER_SIZE];
     assert(this->fileBuffer != NULL);
-    memset(&(this->fileBuffer), 0, BUFFER_SIZE);
+    memset(this->fileBuffer, 0, BUFFER_SIZE);
     this->setServerHost(serverHost);
     this->setServerPort(serverPort);
 }
@@ -16,9 +16,10 @@ SocketClient::~SocketClient()
 
 void SocketClient::initBase() 
 {
-    this->client_socket = 0;
+    bzero(&(this->client_addr), sizeof(this->client_addr));
+    bzero(&(this->server_addr), sizeof(this->server_addr));
     memset(&(this->client_addr), 0, sizeof(this->client_addr));
-    memset(&(this->server_addr), 0, sizeof(this->client_addr));
+    memset(&(this->server_addr), 0, sizeof(this->server_addr));
 }
 
 void SocketClient::initClient() 
@@ -70,9 +71,11 @@ bool SocketClient::openClientSocket()
 
 bool SocketClient::connectServer() 
 {
-    cout << "Connect config : " << this->serverHost << " (" 
+    cout << "Connect config : [" << this->serverHost << "] (" 
         << this->serverPort << ")" << endl;
-    if (!inet_aton((char*)this->serverHost, &this->server_addr.sin_addr)) {
+
+    if (inet_aton((char*)this->serverHost, &this->server_addr.sin_addr) == 0) {
+        cout << "test" << endl;
         return false;
     }
 

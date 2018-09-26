@@ -6,12 +6,13 @@ using namespace std;
 int main()
 {
     bool state = false;
-    SocketClient* socketClient = new SocketClient((uint8_t*)"172.0.0.1", 10000);
+    SocketClient* socketClient = new SocketClient((uint8_t*)"127.0.0.1", 6666);
     state = socketClient->openClientSocket();
     if (state == false) {
         cout << "Can't open client socket !" << endl;
         exit(0);
     }
+
     state = socketClient->connectServer();
     if (state == false) {
         cout << "Can't connect client socket !" << endl;
@@ -19,14 +20,12 @@ int main()
     }
 
     cout << "Connect Success !" << endl;
-    do
-    {
-        socketClient->setMessage((uint8_t*)"Client : Hello", 14);
+    do {
+        char strSendMessage[] = "Client : Hello";
+        socketClient->setMessage((uint8_t*)strSendMessage, strlen(strSendMessage));
         socketClient->sendMessage();
         socketClient->recvMessage();
-        uint8_t *recvMessage = socketClient->getMessage();
-        // Todo recvMessage
-        
+        cout << socketClient->getMessage() << endl;
     } while(false);
 
     state = socketClient->closeClientSocket();
