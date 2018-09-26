@@ -1,6 +1,7 @@
 #pragma once
 
 #include <time.h>
+#include "../CommonCommandType.h"
 #include "../../BaseSocket/Server/SocketServer.h"
 
 #define FILENAME_SIZE 512
@@ -11,19 +12,16 @@ private:
     bool linkState = false;
     SocketServer *socketServer = NULL;
 
-    const uint8_t commondListSize = 2;
-    const char *commondList[2] = { "Link-file", "Link-commond" };
-
+    bool recvFile(void);
     void createHashCharacters(char* fileName, const int bufferSize);
 public:
-    ServerLink();
-    ~ServerLink();
+    ServerLink(void);
+    ~ServerLink(void);
 
-    bool linkClient();
-    bool shutdownLink();
+    bool linkClient(void);
+    bool shutdownLink(void);
 
-    uint8_t* analyzeCommond();
-    bool recvFile();
+    uint8_t* analyzeCommond(void);
     void sendCommond(const uint8_t* message, const uint32_t messageSize);
     void sendFile(const char* fileName);
 };

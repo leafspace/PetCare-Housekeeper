@@ -2,8 +2,7 @@
 
 int main()
 {
-	do {
-		
-	} while(true);
-	return 0;
+    bool state = false;
+
+    return 0;
 }
