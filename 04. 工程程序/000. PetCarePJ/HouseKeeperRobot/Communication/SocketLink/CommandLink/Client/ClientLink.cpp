@@ -119,6 +119,7 @@ void ClientLink::sendFile(const char* fileName)
     while((sendSize = fread(fileBuffer, sizeof(uint8_t), BUFFER_SIZE, fp)) > 0) {
         this->sendCommond(fileBuffer, sendSize);
     }
+    this->sendCommond((uint8_t*)g_commondList[Link_EndFile], strlen(g_commondList[Link_EndFile]));
     
     fclose(fp);
 }

@@ -30,6 +30,7 @@ bool ServerLink::recvFile()
         }
 
         uint8_t* recvMessage = this->socketServer->getMessage();
+        
         if (GetCommondType(recvMessage) == Link_EndFile) {
             fwrite((char*)recvMessage, sizeof(uint8_t), 
                 strstr((char*)recvMessage, g_commondList[Link_EndFile]) - (char*)recvMessage, fp);
@@ -125,6 +126,7 @@ void ServerLink::sendFile(const char* fileName)
     while((sendSize = fread(fileBuffer, sizeof(uint8_t), BUFFER_SIZE, fp)) > 0) {
         this->sendCommond(fileBuffer, sendSize);
     }
+    this->sendCommond((uint8_t*)g_commondList[Link_EndFile], strlen(g_commondList[Link_EndFile]));
     
     fclose(fp);
 }
