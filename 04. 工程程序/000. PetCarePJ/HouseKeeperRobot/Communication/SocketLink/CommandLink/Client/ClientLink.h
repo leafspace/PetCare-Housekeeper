@@ -16,7 +16,7 @@ private:
     void createHashCharacters(char* fileName, const int bufferSize);
 public:
     ClientLink(const char* ipHost, const uint32_t ipPort);
-    ~ClientLink();
+    ~ClientLink(void);
 
     bool linkServer(void);
     bool shutdownLink(void);

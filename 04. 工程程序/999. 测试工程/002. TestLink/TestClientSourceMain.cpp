@@ -6,11 +6,12 @@ using namespace std;
 int main()
 {
     bool state = false;
-    ClientLink* clientLink = new ClientLink();
+    ClientLink* clientLink = new ClientLink("127.0.0.1", 6666);
     do {
         state = clientLink->linkServer();
         if (state == false) {
             cout << "Link Server failure !" << endl;
+            exit(0);
         }
 
         clientLink->sendFile("testfile.exe");

@@ -31,8 +31,8 @@ bool ServerLink::recvFile()
 
         uint8_t* recvMessage = this->socketServer->getMessage();
         if (GetCommondType(recvMessage) == Link_EndFile) {
-            fwrite(recvMessage, sizeof(uint8_t), 
-                strstr((char*)recvMessage, g_commondList[Link_EndFile]) - recvMessage, fp);
+            fwrite((char*)recvMessage, sizeof(uint8_t), 
+                strstr((char*)recvMessage, g_commondList[Link_EndFile]) - (char*)recvMessage, fp);
             break;
         }
 
@@ -63,6 +63,11 @@ void ServerLink::createHashCharacters(char* fileName, const int bufferSize)
 
 bool ServerLink::linkClient()
 {
+    this->linkState = this->socketServer->openServerSocket();
+    if (this->linkState == false) {
+        return this->linkState;
+    }
+
     this->linkState = this->socketServer->listenClient();
     if (this->linkState == false) {
         return this->linkState;
@@ -92,9 +97,9 @@ uint8_t* ServerLink::analyzeCommond()
     uint8_t *recvMessage = this->socketServer->getMessage();
     switch(GetCommondType(recvMessage))
     {
-        case Link_Commond : return "";
-        case Link_File : this->recvFile(); return "";
-        case Link_EndFile : return "";
+        case Link_Commond : return (uint8_t*)"";
+        case Link_File : this->recvFile(); return (uint8_t*)"";
+        case Link_EndFile : return (uint8_t*)"";
         default: break;
     }
 
@@ -116,7 +121,7 @@ void ServerLink::sendFile(const char* fileName)
         return ;
     }
 
-    this->sendCommond(g_commondList[Link_File], strlen(g_commondList[Link_File]));
+    this->sendCommond((uint8_t*)g_commondList[Link_File], strlen(g_commondList[Link_File]));
     while((sendSize = fread(fileBuffer, sizeof(uint8_t), BUFFER_SIZE, fp)) > 0) {
         this->sendCommond(fileBuffer, sendSize);
     }

@@ -29,10 +29,17 @@ void ServerLink::createHashCharacters(char* fileName, const int bufferSize)
 
 bool ServerLink::linkClient()
 {
+    cout << "test" << endl;
+    this->linkState = this->socketServer->openServerSocket();
+    if (this->linkState == false) {
+        return this->linkState;
+    }
+
     this->linkState = this->socketServer->listenClient();
     if (this->linkState == false) {
         return this->linkState;
     }
+
     this->linkState = this->socketServer->acceptLink();
     if (this->linkState == false) {
         return this->linkState;

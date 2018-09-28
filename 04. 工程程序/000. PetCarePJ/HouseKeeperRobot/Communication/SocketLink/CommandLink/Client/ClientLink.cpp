@@ -2,7 +2,7 @@
 
 ClientLink::ClientLink(const char* ipHost = "127.0.0.1", const uint32_t ipPort = 6666)
 {
-    this->socketClient = new SocketClient(ipHost, ipPort);
+    this->socketClient = new SocketClient((uint8_t*)ipHost, ipPort);
 }
 
 ClientLink::~ClientLink()
@@ -30,8 +30,8 @@ bool ClientLink::recvFile()
 
         uint8_t* recvMessage = this->socketClient->getMessage();
         if (GetCommondType(recvMessage) == Link_EndFile) {
-            fwrite(recvMessage, sizeof(uint8_t), 
-                strstr((char*)recvMessage, g_commondList[Link_EndFile]) - recvMessage, fp);
+            fwrite((char*)recvMessage, sizeof(uint8_t), 
+                strstr((char*)recvMessage, g_commondList[Link_EndFile]) - (char*)recvMessage, fp);
             break;
         }
 
@@ -91,9 +91,9 @@ uint8_t* ClientLink::analyzeCommond()
     uint8_t *recvMessage = this->socketClient->getMessage();
     switch(GetCommondType(recvMessage))
     {
-        case Link_Commond : return "";
-        case Link_File : this->recvFile(); return "";
-        case Link_EndFile : return "";
+        case Link_Commond : return (uint8_t*)"";
+        case Link_File : this->recvFile(); return (uint8_t*)"";
+        case Link_EndFile : return (uint8_t*)"";
         default: break;
     }
 
@@ -115,7 +115,7 @@ void ClientLink::sendFile(const char* fileName)
         return ;
     }
 
-    this->sendCommond(g_commondList[Link_File], strlen(g_commondList[Link_File]));
+    this->sendCommond((uint8_t*)g_commondList[Link_File], strlen(g_commondList[Link_File]));
     while((sendSize = fread(fileBuffer, sizeof(uint8_t), BUFFER_SIZE, fp)) > 0) {
         this->sendCommond(fileBuffer, sendSize);
     }
