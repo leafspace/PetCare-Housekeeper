@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leafspace/workspace/PetCarePJ/HouseKeeperRobot/Common/CommonHead.h
+iostream
+-
+
+/home/leafspace/workspace/PetCarePJ/HouseKeeperRobot/SourceMain.cpp
+Common/CommonHead.h
+/home/leafspace/workspace/PetCarePJ/HouseKeeperRobot/Common/CommonHead.h
+
