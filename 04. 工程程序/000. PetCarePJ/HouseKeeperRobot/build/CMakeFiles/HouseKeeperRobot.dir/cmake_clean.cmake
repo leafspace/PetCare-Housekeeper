@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o"
   "CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o"
   "HouseKeeperRobot.pdb"
   "HouseKeeperRobot"

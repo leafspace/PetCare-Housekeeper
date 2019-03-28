@@ -57,33 +57,9 @@ include CMakeFiles/HouseKeeperRobot.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HouseKeeperRobot.dir/flags.make
 
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o: CMakeFiles/HouseKeeperRobot.dir/flags.make
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o: ../Drive/DriveCamera/DriveCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o -c "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/Drive/DriveCamera/DriveCamera.cpp"
-
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/Drive/DriveCamera/DriveCamera.cpp" > CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.i
-
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/Drive/DriveCamera/DriveCamera.cpp" -o CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.s
-
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.requires:
-
-.PHONY : CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.requires
-
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.provides: CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.requires
-	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.provides.build
-.PHONY : CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.provides
-
-CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.provides.build: CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o
-
-
 CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o: CMakeFiles/HouseKeeperRobot.dir/flags.make
 CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o: ../SourceMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o -c "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/SourceMain.cpp"
 
 CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.i: cmake_force
@@ -107,13 +83,11 @@ CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o.provides.build: CMakeFiles/Hous
 
 # Object files for target HouseKeeperRobot
 HouseKeeperRobot_OBJECTS = \
-"CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o" \
 "CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o"
 
 # External object files for target HouseKeeperRobot
 HouseKeeperRobot_EXTERNAL_OBJECTS =
 
-HouseKeeperRobot: CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o
 HouseKeeperRobot: CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o
 HouseKeeperRobot: CMakeFiles/HouseKeeperRobot.dir/build.make
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.9
@@ -123,6 +97,7 @@ HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.9
+HouseKeeperRobot: Drive/DriveCamera/libDriveCamera.a
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.9
@@ -135,7 +110,7 @@ HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.9
 HouseKeeperRobot: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.9
 HouseKeeperRobot: CMakeFiles/HouseKeeperRobot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HouseKeeperRobot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HouseKeeperRobot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HouseKeeperRobot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,7 +118,6 @@ CMakeFiles/HouseKeeperRobot.dir/build: HouseKeeperRobot
 
 .PHONY : CMakeFiles/HouseKeeperRobot.dir/build
 
-CMakeFiles/HouseKeeperRobot.dir/requires: CMakeFiles/HouseKeeperRobot.dir/Drive/DriveCamera/DriveCamera.cpp.o.requires
 CMakeFiles/HouseKeeperRobot.dir/requires: CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o.requires
 
 .PHONY : CMakeFiles/HouseKeeperRobot.dir/requires

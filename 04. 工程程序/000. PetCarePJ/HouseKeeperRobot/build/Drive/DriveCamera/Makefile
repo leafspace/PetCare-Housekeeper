@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles/progress.marks"
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/Drive/DriveCamera/CMakeFiles/progress.marks"
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f CMakeFiles/Makefile2 Drive/DriveCamera/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f CMakeFiles/Makefile2 Drive/DriveCamera/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,71 +141,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f CMakeFiles/Makefile2 Drive/DriveCamera/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f CMakeFiles/Makefile2 Drive/DriveCamera/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named HouseKeeperRobot
+# Convenience name for target.
+Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule:
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f CMakeFiles/Makefile2 Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule
+.PHONY : Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule
 
-# Build rule for target.
-HouseKeeperRobot: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HouseKeeperRobot
-.PHONY : HouseKeeperRobot
+# Convenience name for target.
+DriveCamera: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule
 
-# fast build rule for target.
-HouseKeeperRobot/fast:
-	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/build
-.PHONY : HouseKeeperRobot/fast
-
-#=============================================================================
-# Target rules for targets named DriveCamera
-
-# Build rule for target.
-DriveCamera: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DriveCamera
 .PHONY : DriveCamera
 
 # fast build rule for target.
 DriveCamera/fast:
-	$(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build
 .PHONY : DriveCamera/fast
 
-SourceMain.o: SourceMain.cpp.o
+DriveCamera.o: DriveCamera.cpp.o
 
-.PHONY : SourceMain.o
+.PHONY : DriveCamera.o
 
 # target to build an object file
-SourceMain.cpp.o:
-	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.o
-.PHONY : SourceMain.cpp.o
+DriveCamera.cpp.o:
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/DriveCamera.cpp.o
+.PHONY : DriveCamera.cpp.o
 
-SourceMain.i: SourceMain.cpp.i
+DriveCamera.i: DriveCamera.cpp.i
 
-.PHONY : SourceMain.i
+.PHONY : DriveCamera.i
 
 # target to preprocess a source file
-SourceMain.cpp.i:
-	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.i
-.PHONY : SourceMain.cpp.i
+DriveCamera.cpp.i:
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/DriveCamera.cpp.i
+.PHONY : DriveCamera.cpp.i
 
-SourceMain.s: SourceMain.cpp.s
+DriveCamera.s: DriveCamera.cpp.s
 
-.PHONY : SourceMain.s
+.PHONY : DriveCamera.s
 
 # target to generate assembly for a file
-SourceMain.cpp.s:
-	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/SourceMain.cpp.s
-.PHONY : SourceMain.cpp.s
+DriveCamera.cpp.s:
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/DriveCamera.cpp.s
+.PHONY : DriveCamera.cpp.s
 
 # Help Target
 help:
@@ -216,14 +205,13 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... HouseKeeperRobot"
+	@echo "... DriveCamera"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... edit_cache"
-	@echo "... DriveCamera"
-	@echo "... SourceMain.o"
-	@echo "... SourceMain.i"
-	@echo "... SourceMain.s"
+	@echo "... DriveCamera.o"
+	@echo "... DriveCamera.i"
+	@echo "... DriveCamera.s"
 .PHONY : help
 
 
@@ -235,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

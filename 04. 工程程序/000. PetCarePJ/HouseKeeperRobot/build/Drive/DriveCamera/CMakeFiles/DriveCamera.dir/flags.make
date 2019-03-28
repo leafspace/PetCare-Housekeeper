@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/opencv -I/home/leafspace/workspace/PetCarePJ/HouseKeeperRobot/include 
+CXX_INCLUDES = -I/usr/include/opencv 
 

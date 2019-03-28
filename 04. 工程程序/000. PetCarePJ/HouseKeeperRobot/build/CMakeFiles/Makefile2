@@ -63,10 +63,10 @@ CMAKE_BINARY_DIR = "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. Pe
 # Target rules for target CMakeFiles/HouseKeeperRobot.dir
 
 # All Build rule for target.
-CMakeFiles/HouseKeeperRobot.dir/all:
+CMakeFiles/HouseKeeperRobot.dir/all: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/all
 	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/depend
 	$(MAKE) -f CMakeFiles/HouseKeeperRobot.dir/build.make CMakeFiles/HouseKeeperRobot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=1,2,3 "Built target HouseKeeperRobot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=3,4 "Built target HouseKeeperRobot"
 .PHONY : CMakeFiles/HouseKeeperRobot.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/HouseKeeperRobot.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HouseKeeperRobot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HouseKeeperRobot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" 0
 .PHONY : CMakeFiles/HouseKeeperRobot.dir/rule
@@ -93,6 +93,61 @@ CMakeFiles/HouseKeeperRobot.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/HouseKeeperRobot.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Drive/DriveCamera
+
+# Convenience name for "all" pass in the directory.
+Drive/DriveCamera/all: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/all
+
+.PHONY : Drive/DriveCamera/all
+
+# Convenience name for "clean" pass in the directory.
+Drive/DriveCamera/clean: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/clean
+
+.PHONY : Drive/DriveCamera/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Drive/DriveCamera/preinstall:
+
+.PHONY : Drive/DriveCamera/preinstall
+
+#=============================================================================
+# Target rules for target Drive/DriveCamera/CMakeFiles/DriveCamera.dir
+
+# All Build rule for target.
+Drive/DriveCamera/CMakeFiles/DriveCamera.dir/all:
+	$(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/depend
+	$(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" --progress-num=1,2 "Built target DriveCamera"
+.PHONY : Drive/DriveCamera/CMakeFiles/DriveCamera.dir/all
+
+# Include target in all.
+all: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 Drive/DriveCamera/CMakeFiles/DriveCamera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leafspace/PetCare-Housekeeper/04. 工程程序/000. PetCarePJ/HouseKeeperRobot/build/CMakeFiles" 0
+.PHONY : Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule
+
+# Convenience name for target.
+DriveCamera: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/rule
+
+.PHONY : DriveCamera
+
+# clean rule for target.
+Drive/DriveCamera/CMakeFiles/DriveCamera.dir/clean:
+	$(MAKE) -f Drive/DriveCamera/CMakeFiles/DriveCamera.dir/build.make Drive/DriveCamera/CMakeFiles/DriveCamera.dir/clean
+.PHONY : Drive/DriveCamera/CMakeFiles/DriveCamera.dir/clean
+
+# clean rule for target.
+clean: Drive/DriveCamera/CMakeFiles/DriveCamera.dir/clean
 
 .PHONY : clean
 

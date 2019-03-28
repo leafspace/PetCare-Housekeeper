@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDriveCamera.a  CMakeFiles/DriveCamera.dir/DriveCamera.cpp.o
+/usr/bin/ranlib libDriveCamera.a
