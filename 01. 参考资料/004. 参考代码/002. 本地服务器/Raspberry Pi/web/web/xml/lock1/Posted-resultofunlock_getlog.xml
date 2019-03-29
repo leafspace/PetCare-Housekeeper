@@ -1,0 +1,6 @@
+--MIIDgzCCAuygAw
+Content-Disposition: form-data; name="xml"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioEvent version="1.3"><LastUserLog><ErrorInfo>1</ErrorInfo><UserId>test</UserId><LoginTime>2017-01-01T01:02:43</LoginTime><LogoutTime>2017-01-01T01:03:22</LogoutTime><JobLogs><JobLog func="DirectPrint"><LogItem attr="DuplexPrintEnable">false</LogItem><LogItem attr="PaperSize">A4</LogItem><LogItem attr="NumMonoPages">0</LogItem><LogItem attr="NumColorPages">1</LogItem><LogItem attr="FileName">Multi File Selected</LogItem><LogItem attr="JobResult">1</LogItem></JobLog></JobLogs></LastUserLog></SerioEvent>
+--MIIDgzCCAuygAw--

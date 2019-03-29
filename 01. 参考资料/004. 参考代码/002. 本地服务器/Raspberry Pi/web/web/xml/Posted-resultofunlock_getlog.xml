@@ -1,0 +1,6 @@
+--MIIDgzCCAuygAw
+Content-Disposition: form-data; name="xml"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioEvent version="1.3"><LastUserLog><ErrorInfo>1</ErrorInfo><UserId></UserId><LoginTime>Unknown Time</LoginTime><LogoutTime>Unknown Time</LogoutTime></LastUserLog></SerioEvent>
+--MIIDgzCCAuygAw--

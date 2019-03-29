@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+    <UiScreen>
+     
+     <Operations>
+      <Op type="Submit" action="./2.xml" ></Op>
+      
+      <Op type="Back" action="./1.xml" ></Op>
+      
+     </Operations>
+     <IoScreen>
+      <IoObject>
+       <Title>1234567890</Title>
+       <Selection id="selectid test" multiple="false" display="Bottom" >
+        
+        <Item selected="false" value="FirstItem">
+         <Label>First Item</Label>
+        </Item>
+
+        <Item selected="false" value="SecondItem">
+         <Label>Second Item</Label>
+        </Item>
+
+        <Item selected="false" value="ThirdItem">
+         <Label>Third Item</Label>
+        </Item>
+
+        
+       </Selection>
+      </IoObject>
+     </IoScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>

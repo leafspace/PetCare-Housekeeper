@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./5.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./18.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./3.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                     <IoScreen>
+                                                                        
+
+<IoObject>
+   <Title>IoObject Title 18</Title>
+   <Description>IoObject Description  18</Description>
+   <NumericalArea id="numericalarea_id18">
+      <InitValue>
+         18
+      </InitValue>
+      <MinValue>0</MinValue>
+      <MaxValue>
+         18
+      </MaxValue>
+      <Mask>
+         true
+      </Mask>
+   </NumericalArea>
+</IoObject>
+                                                
+                        
+                        
+<!-- <!-- 
+
+ -->
+<IoObject>
+   <Title>IoObject Title 45</Title>
+   <Description>IoObject Description  45</Description>
+
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      
+      <PageInfo lastPageNum="100" thisPageNum="77" />
+      <Navigations> 
+         <Navi type="Prev" action="foo"></Navi>
+         <Navi type="Next" action="foo"></Navi>
+      </Navigations>
+
+
+
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img71.jpg" >1-71 SaudiArabia Philippines Myanmar 山形県 東京都 </Label>
+   <Details>
+      <Detail>Detail 1-71-1 Bangladesh Iran 高知県 </Detail>
+      <Detail>Detail 1-71-2 島根県 India Iraq </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img84.jpg" >2-84 Syria Timor SriLanka Brunei Bangladesh </Label>
+   <Details>
+      <Detail>Detail 2-84-1 UAE 栃木県 Myanmar </Detail>
+      <Detail>Detail 2-84-2 Nepal Laos 熊本県 </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                        
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 61</Title>
+   <Description>IoObject Description  61</Description>
+   <TextArea id="textarea_id61">
+      <InitValue>
+         Thailand Bhutan Timor VietNam UAE Turkey 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         61
+      </MaxLength>
+      <Mask>
+         false
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>Numeric</LetterType>
+<LetterType>EnvDependent</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                        
+<!-- <!-- 
+
+ -->
+<IoObject>
+   <Title>IoObject Title 61</Title>
+   <Description>IoObject Description  61</Description>
+
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      
+      <PageInfo lastPageNum="100" thisPageNum="18" />
+      <Navigations> 
+         <Navi type="Prev" action="foo"></Navi>
+         <Navi type="Next" action="foo"></Navi>
+      </Navigations>
+
+
+
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img83.jpg" >1-83 愛知県 大分県 滋賀県 Mongolia 奈良県 </Label>
+   <Details>
+      <Detail>Detail 1-83-1 京都府 Bangladesh 兵庫県 </Detail>
+      <Detail>Detail 1-83-2 Philippines Syria Yemen </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img31.jpg" >2-31 岩手県 Qatar Myanmar Bangladesh 高知県 </Label>
+   <Details>
+      <Detail>Detail 2-31-1 Afghanistan 宮城県 福島県 </Detail>
+      <Detail>Detail 2-31-2 Nepal 長野県 Thailand </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="3">
+   <Label imgsrc="item3-img36.jpg" >3-36 高知県 宮城県 Thailand Turkmenistan Cyprus </Label>
+   <Details>
+      <Detail>Detail 3-36-1 滋賀県 Philippines 奈良県 </Detail>
+      <Detail>Detail 3-36-2 Georgia Kazakhstan 山梨県 </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                                             </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

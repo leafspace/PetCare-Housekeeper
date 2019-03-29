@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+         <IoScreen>
+            <IoObject>
+               <Title>IoObject Title 1</Title>
+               <Description>IoObject Description 1</Description>
+               <Message>33333333333333333333333</Message>
+            </IoObject>
+         </IoScreen>
+      </UiScreen>
+      ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

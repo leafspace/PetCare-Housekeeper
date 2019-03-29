@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioCommands version="1.0">
+
+<IoDirectPrint>
+	<FilePath>http://10.145.40.87/dtest/SST_L000439/TC-101.pdf</FilePath>
+	<ColorMode>Color</ColorMode>
+	<PaperType>Plain</PaperType>
+	<PaperSize>A4</PaperSize>
+	<Layout>Normal</Layout>
+	<DuplexPrintEnable>false</DuplexPrintEnable>
+	<ShortEdgeBinding>false</ShortEdgeBinding>
+	<Collate>false</Collate>
+	<FeedTray>Auto</FeedTray>
+	<PrintQuality>Fine</PrintQuality>
+	<PdfOption>Document</PdfOption>
+	<NumCopies>1</NumCopies>
+
+	<JobFinAckUrl>./IoDirectPrint_Pdf_Test_Main.xml</JobFinAckUrl>
+</IoDirectPrint>
+
+<DisplayInfo>
+	<Script>
+	<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+	<UiScreen infoLevel="Normal">
+	<IoScreen>
+	<IoObject>
+	<Title>IoDirectPrint</Title>
+	<Message>Printing Your Document Now.</Message>
+	</IoObject>
+	</IoScreen>
+	</UiScreen>
+	]]>
+	</Script> 
+</DisplayInfo>
+
+</SerioCommands>

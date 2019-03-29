@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-->
+<SerioCommands version="1.0">
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+       <Title>1234567890123456789012345678901234567890123456789012345678901234567890</Title>
+
+
+
+<Operations>
+   <Op type="Submit" action="./7.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="Back" action="./5.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+
+               <IoScreen>
+                              
+               
+
+<IoObject>
+   
+       <Title>1234567890123456789012345678901234567890123456789012345678901234567890</Title>
+   <Description>6.xml Message Description</Description>
+   <Message>Lebanon Tajikistan 
+Lebanon 
+Timor Turkmenistan Timor Mongolia Syria Malaysia Korea Armenia VietNam Yemen Israel Bahrain Malaysia Timor Kyrgyz Kuwait Turkmenistan Tajikistan Georgia Iraq Israel Uzbekistan </Message>
+</IoObject>
+
+
+                              </IoScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

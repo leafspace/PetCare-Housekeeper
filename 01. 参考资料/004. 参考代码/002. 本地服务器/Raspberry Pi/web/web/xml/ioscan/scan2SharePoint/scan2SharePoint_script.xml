@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <SharePoint>
+            <SharePointParams>
+               <Host>http://bsh0173</Host>
+               <StoreDir>Shared%20Documents\Forms\BllItems.aspx</StoreDir>
+               <FileName>caipn_sp</FileName>
+               <AuthMethod>Auto</AuthMethod>
+               <User>bshtest5\sapb0050_test5</User>
+               <KerberosServer>kjhgykj</KerberosServer>
+               <Password>123456</Password>
+            </SharePointParams>
+         </SharePoint>
+      </TxProfiles>
+
+      <ScanTray>FB</ScanTray>
+      <ColorMode>Mono</ColorMode>
+      <Resolution>300</Resolution>
+      <FileType>PDF</FileType>
+      <DocSize>A4</DocSize>
+      <JpgQuality>Low</JpgQuality>
+      <SPdfPassword>1234</SPdfPassword>
+      <DuplexScanEnable>false</DuplexScanEnable>
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+
+
+
+   </IoScanAndSend>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

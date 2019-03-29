@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./6.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./1.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./4.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                           
+<!-- <!-- 
+-->
+<IoScreen>
+<IoObject>
+   <Title>IoObject Title 91</Title>
+   <Description>IoObject Description  91</Description>
+   <TextArea id="textarea_id91">
+      <InitValue>
+         山梨県 Lebanon Maldives 山形県 SriLanka UAE 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         91
+      </MaxLength>
+      <Mask>
+         false
+      </Mask>
+      <LetterTypes>
+         <LetterType>LowerCase</LetterType>
+<LetterType>Glyph</LetterType>
+<LetterType>EnvDependent</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                  
+         
+         
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 60</Title>
+   <Description>IoObject Description  60</Description>
+   <TextArea id="textarea_id60">
+      <InitValue>
+         山口県 大分県 鹿児島県 Georgia Iran 香川県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         60
+      </MaxLength>
+      <Mask>
+         true
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>LowerCase</LetterType>
+<LetterType>Numeric</LetterType>
+<LetterType>Glyph</LetterType>
+<LetterType>EnvDependent</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+         
+
+
+
+<IoObject>
+   <Title>IoObject Title 16</Title>
+   <Description>IoObject Description  16</Description>
+   <FileSelection id="fileselection-id_16" multiple="true" maxSelectNum="4">
+   <FileType>jpg</FileType>
+<FileType>pdf</FileType>
+<FileType>jpeg</FileType>
+<FileType>txt</FileType>
+<FileType>doc</FileType>
+<FileType>xps</FileType>
+<FileType>ps</FileType>
+
+   </FileSelection>
+</IoObject>
+         
+
+
+
+<IoObject>
+   <Title>IoObject Title 0</Title>
+   <Description>IoObject Description  0</Description>
+   <FileSelection id="fileselection-id_0" multiple="true" maxSelectNum="6">
+   <FileType>jpeg</FileType>
+<FileType>doc</FileType>
+<FileType>xps</FileType>
+<FileType>eps</FileType>
+<FileType>ps</FileType>
+
+   </FileSelection>
+</IoObject>
+         </IoScreen>
+               </UiScreen>
+      ]]>
+       </Script>
+   </DisplayForm>
+</SerioCommands>

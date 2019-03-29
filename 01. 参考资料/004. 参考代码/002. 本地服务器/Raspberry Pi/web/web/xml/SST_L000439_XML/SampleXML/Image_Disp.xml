@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+<DisplayForm>
+	<Script>
+	<UiScreen infoLevel="Normal">
+
+	<Operations>
+	<Op type="Submit"	action="./End_Message.xml"></Op>
+	</Operations>
+
+	<IoScreen>
+	<IoObject>
+	<Title>Title</Title>
+	<Img imgsrc="./Image.jpg">Message</Img>
+	</IoObject>
+	</IoScreen>
+	</UiScreen>
+	</Script>
+</DisplayForm>
+</SerioCommands>

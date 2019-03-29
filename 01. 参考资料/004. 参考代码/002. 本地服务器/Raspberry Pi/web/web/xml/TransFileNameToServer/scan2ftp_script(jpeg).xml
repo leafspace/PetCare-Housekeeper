@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Ftp>
+            <FtpParams>
+               <FileName>wangdh_test_file</FileName>
+               <Host>10.244.4.159</Host>
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <StoreDir>wangdh</StoreDir>
+               <PassiveMode>true</PassiveMode>
+               <PortNum>21</PortNum>
+            </FtpParams> 
+         </Ftp>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>100</Resolution>
+        <!-- FileType:JPEG PDF TIFF XPS -->
+      <FileType>JPEG</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>true</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Low</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>Letter</DocSize>
+        <!-- FileNameFixed:true false -->
+      <FileNameFixed>true</FileNameFixed>
+
+      <FileNameAckUrl>../../start.xml</FileNameAckUrl>
+   </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2FTP</Title>
+                  <Description>executing scan2ftp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

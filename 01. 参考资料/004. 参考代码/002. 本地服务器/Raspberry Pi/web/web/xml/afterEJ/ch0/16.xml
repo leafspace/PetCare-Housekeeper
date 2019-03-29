@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--  -->
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./17.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./3.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./15.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+   <Op type="Prev" action="./15.xml"></Op>
+   <Op type="Next" action="./17.xml"></Op>
+   
+</Operations>
+                     <IoScreen>
+                        
+                        
+<!--  -->
+<IoObject>
+   <Title>IoObject Title 67</Title>
+   <Description>IoObject Description  67</Description>
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      <PageInfo lastPageNum="100" thisPageNum="67" />
+<!-- 
+ -->
+
+ 
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img14.jpg" >1-14 京都府 Yemen Uzbekistan Lebanon 北海道 </Label>
+   <Details>
+      <Detail>Detail 1-14-1 大分県 沖縄県 山梨県 </Detail>
+      <Detail>Detail 1-14-2 Japan 山梨県 神奈川県 </Detail>
+   </Details>
+</Item>
+
+ 
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img98.jpg" >2-98 Iran 群馬県 Kazakhstan Pakistan Bhutan </Label>
+   <Details>
+      <Detail>Detail 2-98-1 Iraq 福岡県 沖縄県 </Detail>
+      <Detail>Detail 2-98-2 岩手県 Japan Turkmenistan </Detail>
+   </Details>
+</Item>
+
+ 
+<Item selected="false" value="3">
+   <Label imgsrc="item3-img24.jpg" >3-24 大分県 Myanmar 山形県 山形県 徳島県 </Label>
+   <Details>
+      <Detail>Detail 3-24-1 茨城県 長野県 Iraq </Detail>
+      <Detail>Detail 3-24-2 Pakistan SaudiArabia Turkey </Detail>
+   </Details>
+</Item>
+
+ 
+<Item selected="false" value="4">
+   <Label imgsrc="item4-img28.jpg" >4-28 島根県 Georgia 福井県 埼玉県 三重県 </Label>
+   <Details>
+      <Detail>Detail 4-28-1 佐賀県 長野県 高知県 </Detail>
+      <Detail>Detail 4-28-2 宮崎県 愛知県 UAE </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                        
+                     </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

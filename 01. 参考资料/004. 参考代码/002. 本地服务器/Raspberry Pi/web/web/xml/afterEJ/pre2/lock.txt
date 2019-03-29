@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<SerioCommands version="1.0">
+    <ActivateLock>
+        <UserId>enomoto</UserId>
+        <LockInfo>
+            <Copy permitted="true" colorEnable="true" />
+            <SendFax permitted="false" />
+            <ScanAndSend LockAttr permitted="true" />
+            <DirectPrint permitted="true" colorEnable="true" />
+            <PrintFax LockAttr permitted="true" />
+            <PcPrint LockAttr permitted="true" colorEnable="true" />
+        </LockInfo>
+    </ActivateLock>
+</SerioCommands>

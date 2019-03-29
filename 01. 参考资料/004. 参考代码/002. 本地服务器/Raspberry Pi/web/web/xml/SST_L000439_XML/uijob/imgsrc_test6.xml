@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title></Title>
+               <Operations>
+                  <Op type="Submit"	action="./UIJOB_TEST.xml"></Op>
+                  <Op type="Back"	action="./UIJOB_TEST.xml"></Op>
+               </Operations>
+               <IoScreen>
+                  <IoObject>
+                     <Title>idscanner.xml Message Title</Title>
+                     <Description>idscanner.xml Message Description</Description>
+                     <IdScanner id="CardInput">
+                        <Label imgsrc="../../../10.145.40.87/dtest/uijob/IMAGE.jpg">Idscanner with image (relative path)</Label>
+                     </IdScanner>
+                  </IoObject>
+               </IoScreen>
+            </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<SerioCommands version="1.0">
+   <DisplayForm>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen>
+            <Operations>
+               <Op action="/moi/account/tmpid/edit/?totalAccountNumber=2&amp;service=picasa&amp;displayName=P2&amp;displayName=P1" type="Submit"></Op>
+            </Operations>
+            <IoScreen>
+               <IoObject>
+                  <Title>Information</Title>
+                  <Message>You must enter the&#xD;&#xA;temporary ID that you&#xD;&#xA;received from the 'Web&#xD;&#xA;Connected Registration'&#xD;&#xA;process. If you have not&#xD;&#xA;yet received your&#xD;&#xA;temoporary ID please start&#xD;&#xA;the 'Web Connected&#xD;&#xA;Registration' process by&#xD;&#xA;clicking the "Brother Web&#xD;&#xA;Connect" option in your&#xD;&#xA;computer's Start Menu or go&#xD;&#xA;to the following internet&#xD;&#xA;address.&#xD;&#xA;http://www.brother.com/&#xD;&#xA;cloud11/</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]> 
+      </Script>
+   </DisplayForm>
+</SerioCommands>

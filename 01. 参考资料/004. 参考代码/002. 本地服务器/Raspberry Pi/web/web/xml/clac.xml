@@ -1,0 +1,147 @@
+<SerioCommands version="1.0">
+  <UpdateDb>
+    <DataList>
+
+
+          <!-- #7 sid -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.2.7</Key>
+          <Value>2</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #7 pin -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.3.7</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #7 dispName -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.4.7</Key>
+          <Value>BRTEST201-2</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #7 nonDispInfo -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.5.7</Key>
+          <Value>1/gMr0ioszspmz-3-Aa57dXC5uPTyNFqH7nVJDI6B2hUk:oDqyWfvou3k5hS1hDtpWTrl6</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #7 poNameSave -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.6.7</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #8 sid -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.2.8</Key>
+          <Value>1</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #8 pin -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.3.8</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #8 dispName -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.4.8</Key>
+          <Value>BRTEST201-3</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #8 nonDispInfo -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.5.8</Key>
+          <Value>72157625366445777-f5cc06866c0cc838</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #8 poNameSave -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.6.8</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #9 sid -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.2.9</Key>
+          <Value>3</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #9 pin -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.3.9</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #9 dispName -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.4.9</Key>
+          <Value>BRTEST201-4</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #9 nonDispInfo -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.5.9</Key>
+          <Value>1/s93eCLxvKIi7nSIwqMzrupuRFbQOXs8tAf6f2d-ku5M:Ylfn6tZViSIvQ1Z4uq3jcz54</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #9 poNameSave -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.6.9</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #10 sid -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.2.10</Key>
+          <Value>4</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #10 pin -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.3.10</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #10 dispName -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.4.10</Key>
+          <Value>BRTEST_100-2</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #10 nonDispInfo -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.5.10</Key>
+          <Value>172423529442430|1344245093b7bf263ae5687c-100001847634915|KLtUrqqkF-NnvUsBUFKUROnpwOQ</Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+        <Mib>
+          <!-- #10 poNameSave -->
+          <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.6.10</Key>
+          <Value></Value>
+          <AuthInfo>hogehoge</AuthInfo>
+        </Mib>
+
+    </DataList>
+  </UpdateDb>
+</SerioCommands>

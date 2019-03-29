@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+      <![CDATA[
+      <UiScreen>
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+         <IoScreen>
+            <IoObject>
+               <Title>IoObject Title 1</Title>
+               <Description>IoObject Description 1</Description>
+               <TextArea id="id00">
+                  <InitValue>This is TextArea</InitValue>
+                  <MinLength>0</MinLength>
+                  <MaxLength>1000</MaxLength>
+                  <Mask>false</Mask>
+                  <LetterTypes>
+                     <LetterType>UpperCase</LetterType>
+                     <LetterType>LowerCase</LetterType>
+                  </LetterTypes>
+               </TextArea>
+            </IoObject>
+         </IoScreen>
+      </UiScreen>
+      ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

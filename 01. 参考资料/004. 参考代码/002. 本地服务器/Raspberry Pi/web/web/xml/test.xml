@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.1">
+    <DisplayForm>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+                <UiScreen>
+	                <IoScreen>
+                        <IoObject>
+                                <Title>Title Message</Title>
+                                <Message imgsrc="http://10.244.4.121/static/google_calendar.JPG"/>
+                        </IoObject>
+	                </IoScreen>
+
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayForm>
+</SerioCommands>

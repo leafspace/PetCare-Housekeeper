@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<Title>UIJOB TEST</Title>
+
+				<LinkScreen>
+					<Description>UIJOB Select</Description>
+					<LinkControl>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_LINK.xml">
+							<Label>LINK</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_LIST.xml">
+							<Label>LIST</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_LIST2.xml">
+							<Label>LIST2</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_LIST3.xml">
+							<Label>LIST3</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_LIST_WITH_IMAGE.xml">
+							<Label>LIST_WITH_IMAGE</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_IMAGE.xml">
+							<Label>IMAGE</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_INPUT.xml">
+							<Label>INPUT</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_NUM_INPUT.xml">
+							<Label>NUM_INPUT</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_MESSAGE.xml">
+							<Label>MESSAGE</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_MESSAGE_WITH_IMAGE.xml">
+							<Label>MESSAGE_WITH_IMAGE</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_STATUS.xml">
+							<Label>STATUS</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_MEDIA.xml">
+							<Label>MEDIA</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_WHICH.xml">
+							<Label>WHICH</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_ERROR.xml">
+							<Label>ERROR</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_FIXED.xml">
+							<Label>FIXED</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_MACHINE.xml">
+							<Label>MACHINE</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_SHORTCUT.xml">
+							<Label>SHORTCUT</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_CARD.xml">
+							<Label>CARD</Label>
+						</LinkItem>
+						<LinkItem href="./CPAPI_UISCR_TEMPLATE_CARD_WITH_IMAGE.xml">
+							<Label>CARD_WITH_IMAGE</Label>
+						</LinkItem>
+					</LinkControl>
+				</LinkScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> <SerioCommands version="v009">
+<DisplayForm>
+   <Script>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+         <Operations>
+            <Op type="Submit" action="./3.xml">
+               <Label imgsrc="submit.jpg">Submit</Label>
+            </Op>
+            <Op type="SkipGo" action="./20.xml">
+               <Label imgsrc="skipgo.jpg">Skipgo</Label>
+            </Op>
+            <Op type="Back" action="./1.xml">
+               <Label imgsrc="back.jpg">Back</Label>
+            </Op>
+            
+         </Operations>
+         <LinkScreen>
+            <Description>Description (Brunei 静岡県 山口県 佐賀県 岩手県 )</Description>
+            
+            <!-- -->
+            <LinkControl>
+               
+               
+               <LinkItem href="./16.xml">
+                  <Label imgsrc="img01.jpg">LinkItem label 01</Label>
+               </LinkItem>
+               
+               <LinkItem href="./14.xml">
+                  <Label imgsrc="img02.jpg">LinkItem label 02</Label>
+               </LinkItem>
+               
+               <LinkItem href="./5.xml">
+                  <Label imgsrc="img03.jpg">LinkItem label 03</Label>
+               </LinkItem>
+               
+               <LinkItem href="./12.xml">
+                  <Label imgsrc="img04.jpg">LinkItem label 04</Label>
+               </LinkItem>
+               
+            </LinkControl>               
+         </LinkScreen>
+      </UiScreen>
+      ]]>
+   </Script>
+</DisplayForm>
+</SerioCommands>

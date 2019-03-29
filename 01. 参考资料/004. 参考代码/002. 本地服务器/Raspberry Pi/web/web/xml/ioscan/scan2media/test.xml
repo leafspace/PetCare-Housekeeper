@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend strictParam="true">
+      <TxProfiles>
+         <Media>
+           <MediaParams>
+               <FileName>NONE</FileName>
+              <!-- <FileNameFixed>true</FileNameFixed>-->
+            </MediaParams> 
+         </Media>
+      </TxProfiles>
+	  <!-- ColorMode:Mono Gray Color -->
+	  <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <!--Resolution>300</Resolution-->     
+	  <!-- FileType:JPEG PDF TIFF XPS -->
+      <FileType>PDF</FileType>
+	  <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+	  <DocSize>A4</DocSize>
+      <ScanTray>ADF</ScanTray>
+	  <!-- DuplexScanEnable:true false -->
+     <!-- <JobFinAckUrl>./end_message.xml</JobFinAckUrl> -->
+   </IoScanAndSend>
+   <DisplayInfo>
+    <Script><![CDATA[
+		<?xml version="1.0" encoding="UTF-8"?>
+		<UiScreen>
+			<NullScreen></NullScreen>
+		</UiScreen>
+]]></Script>
+  </DisplayInfo>
+</SerioCommands>

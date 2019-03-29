@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version='1.0'>
+  <IoContinue>
+    <!-- 1:YES 2:NO  -->
+    <UserChoice>2</UserChoice>
+    <PausedReason>2</PausedReason>
+  </IoContinue>
+</SerioCommands>

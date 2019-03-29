@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<Operations>
+					<Op type="Submit"	action="./1/imgsrc_test_1.xml"></Op>
+					<Op type="Back"		action="./1/imgsrc_test_1.xml"></Op>
+				</Operations>
+
+				<Title>CPAPI_UISCR_TEMPLATE_LIST_WITH_IMAGE</Title>
+
+				<LinkScreen>
+
+					<Description>List</Description>
+
+					<LinkControl>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="http://10.244.3.213/IMAGE.jpg">full pass</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="IMAGE.jpg">relative pass</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="../uijob/IMAGE.jpg">relative pass</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="../../dtest/uijob/IMAGE.jpg">relative pass</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="../../../10.145.101.179/dtest/uijob/IMAGE.jpg">relative pass</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="./image/IMAGE.jpg">relative pass</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="">relative pass</Label>
+						</LinkItem>
+					</LinkControl>
+
+				</LinkScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

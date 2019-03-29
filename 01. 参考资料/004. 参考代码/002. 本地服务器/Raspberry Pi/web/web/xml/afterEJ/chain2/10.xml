@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--  -->
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./11.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./7.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./9.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+   <Op type="Prev" action="./9.xml"></Op>
+   <Op type="Next" action="./11.xml"></Op>
+   
+</Operations>
+                     <IoScreen>
+                        
+                        
+<!--  -->
+<IoObject>
+   <Title>IoObject Title 6</Title>
+   <Description>IoObject Description  6</Description>
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      <PageInfo lastPageNum="100" thisPageNum="30" />
+<!-- 
+ -->
+
+ 
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img19.jpg" >1-19 奈良県 熊本県 Afghanistan 岩手県 鳥取県 </Label>
+   <Details>
+      <Detail>Detail 1-19-1 鹿児島県 愛媛県 徳島県 </Detail>
+      <Detail>Detail 1-19-2 青森県 石川県 Thailand </Detail>
+   </Details>
+</Item>
+
+ 
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img76.jpg" >2-76 長崎県 Korea Brunei 山口県 島根県 </Label>
+   <Details>
+      <Detail>Detail 2-76-1 福井県 岡山県 佐賀県 </Detail>
+      <Detail>Detail 2-76-2 奈良県 Tajikistan 静岡県 </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                        
+                        
+<!-- -->
+<IoObject>
+   <Title>IoObject Title 89</Title>
+   <Description>IoObject Description  89</Description>
+   <TextArea id="textarea_id89">
+      <InitValue>
+         Kazakhstan Turkey Iraq Bahrain 群馬県 Bahrain 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         89
+      </MaxLength>
+      <Mask>
+         false
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>Glyph</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                        
+                     </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

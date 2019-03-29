@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Smtp>
+            <Destination>gen.yang@brother-bsh.com.cn</Destination>
+            <FileName>test</FileName>
+            <FileNameFixed>true</FileNameFixed>
+         </Smtp>
+      </TxProfiles>
+
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>Normal</Resolution>
+        <!-- FileType:JPEG PDF TIFF -->
+      <FileType>JPEG</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>A4</DocSize>
+
+     <!-- <JobFinAckUrl>../complete.xml</JobFinAckUrl>-->
+   </IoScanAndSend>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

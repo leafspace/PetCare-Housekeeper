@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./20.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./15.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./18.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                     <IoScreen>
+                                                                        
+
+
+
+<IoObject>
+   <Title>IoObject Title 95</Title>
+   <Description>IoObject Description  95</Description>
+   <FileSelection id="fileselection-id_95" multiple="true" maxSelectNum="2">
+   <FileType>jpg</FileType>
+<FileType>pdf</FileType>
+
+   </FileSelection>
+</IoObject>
+                                                
+                        
+                                             </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

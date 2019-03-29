@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+         <IoScreen>
+            <IoObject>
+               <Title>IoObject Title 2</Title>
+               <Description>IoObject Description 2</Description>
+               <Img imgsrc="1.jpg">alternative text for gandhi.jpg</Img>
+            </IoObject>
+         </IoScreen>
+      </UiScreen>
+      ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-->
+<SerioCommands version="1.0">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title></Title>
+
+      <Operations>
+      <Op type="Submit">
+          <Label>Submit</Label>
+      </Op>
+      </Operations>
+
+      <IoScreen>
+         <IoObject>
+            <Title>idscanner.xml Message Title</Title>
+            <Description>idscanner.xml Message Description</Description>
+            <IdScanner id="CardInput">
+			<Label imgsrc="./1.jpg">Idscanner test</Label>
+	     
+            </IdScanner>
+         </IoObject>
+      </IoScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<!-- -->
+
+<Operations>
+   <Op type="Submit" action="./9.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./4.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./7.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+
+               <LinkScreen>
+               <Description>Description (Cyprus Turkey Brunei Laos Cyprus )</Description>
+               
+<!-- 
+-->
+<EitherOrControl>
+   <ItemY href="./1.xml">
+      <Label imgsrc="imageY.jpg">Label text for ImageY.jpg</Label>
+   </ItemY>
+   <ItemN href="./13.xml"> 
+      <Label imgsrc="imageN.jpg">Label text for ImageN.jpg</Label>
+   </ItemN>
+</EitherOrControl>
+
+               
+               </LinkScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

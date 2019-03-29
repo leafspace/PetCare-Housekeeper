@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+      <GetLastUserLog>
+         <!-- <JobFinAckUrl>http://10.145.101.53/lock/testlogout.xml</JobFinAckUrl> -->
+         <JobFinAckUrl>./resultofunlock_getlog.xml</JobFinAckUrl>
+      </GetLastUserLog>
+</SerioCommands>

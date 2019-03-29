@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./8.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./20.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./6.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                     <IoScreen>
+                                                                        
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 93</Title>
+   <Description>IoObject Description  93</Description>
+   <TextArea id="textarea_id93">
+      <InitValue>
+         Kazakhstan 和歌山県 千葉県 Israel UAE 沖縄県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         93
+      </MaxLength>
+      <Mask>
+         false
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>Numeric</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                                                
+                        
+                                             </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

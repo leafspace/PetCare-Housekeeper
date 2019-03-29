@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./2.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./3.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./0.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                           
+<!-- <!-- 
+
+ -->
+<IoScreen>
+<IoObject>
+   <Title>IoObject Title 10</Title>
+   <Description>IoObject Description  10</Description>
+
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      
+      <PageInfo lastPageNum="100" thisPageNum="96" />
+      <Navigations> 
+         <Navi type="Prev" action="foo"></Navi>
+         <Navi type="Next" action="foo"></Navi>
+      </Navigations>
+
+
+
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img52.jpg" >1-52 India 和歌山県 Yemen 栃木県 Yemen </Label>
+   <Details>
+      <Detail>Detail 1-52-1 徳島県 India Cambodia </Detail>
+      <Detail>Detail 1-52-2 山梨県 岡山県 愛知県 </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img3.jpg" >2-3 島根県 長野県 静岡県 島根県 滋賀県 </Label>
+   <Details>
+      <Detail>Detail 2-3-1 Jordan Timor 新潟県 </Detail>
+      <Detail>Detail 2-3-2 Bhutan Kyrgyz 福岡県 </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                  
+         
+         </IoScreen>
+               </UiScreen>
+      ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

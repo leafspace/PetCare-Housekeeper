@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Cifs>
+            <CifsParams>
+               <Host>10.244.3.213</Host>
+               <StoreDir>cbsi_test_file</StoreDir>
+               <FileName>wang_file</FileName>
+               <AuthMethod>NTLMv2</AuthMethod>
+               <User>wangdh</User>
+               <Password>wangdehuai</Password>
+               <KerberosServer></KerberosServer>
+            </CifsParams>
+         </Cifs>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>Normal</Resolution>
+        <!-- FileType:JPEG PDF TIFF -->
+      <FileType>PDFA</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>true</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+        <!-- FileNameFixed:true false -->
+      <FileNameFixed>true</FileNameFixed>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>A4</DocSize>
+
+      <FileNameAckUrl>../../start.xml</FileNameAckUrl>
+
+   </IoScanAndSend>
+   <!-- DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2CIFS</Title>
+                  <Description>executing scan2cifs</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo -->
+</SerioCommands>
+

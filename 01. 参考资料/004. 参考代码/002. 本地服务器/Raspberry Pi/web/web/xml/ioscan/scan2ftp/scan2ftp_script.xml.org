@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Ftp>
+            <FtpParams>
+               <FileName>wangdh_test_file</FileName>
+               <Host>10.244.3.53</Host>
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <StoreDir>wangdh</StoreDir>
+               <PassiveMode>true</PassiveMode>
+               <PortNum>21</PortNum>
+            </FtpParams> 
+         </Ftp>
+      </TxProfiles>
+
+      <!-- <ScanTray>FB</ScanTray> -->
+      <ColorMode>Color</ColorMode>
+      <Resolution>Low</Resolution>
+      <FileType>JPEG</FileType>
+      <!-- <FileType>PDF</FileType> -->
+
+      <DuplexScanEnable>true</DuplexScanEnable>
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+
+      <!-- JobFinAckUrl>../start.xml</JobFinAckUrl -->
+   </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2FTP</Title>
+                  <Description>executing scan2ftp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

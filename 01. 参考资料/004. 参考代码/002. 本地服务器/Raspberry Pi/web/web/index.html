@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <script type="text/javascript" src="js/ews.js"></script>
+    <script type="text/javascript" src="js/user-define.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/ews.css" />
+    <title>
+        Voice Printer
+    </title>
+</head>
+<body>
+    <div id="baseFrame">
+        <div id="frameContainer">
+            <div id="headerFrameContainerLeft">
+                <div id="headerFrameContainerRight">
+                    <div id="headerFrameInner">
+                        <div id="headerFrame">
+                            <div id="modelName">
+                                <h1>
+                                    Voice Printer
+                                </h1>
+                            </div>
+                            <div id="corporateLogo">
+                                <img src="images/logo.gif" alt="Brother" />
+                            </div>
+                        </div>
+                        <div id="solutions">
+                            <div>
+                                <span>
+                                    <a href="#">
+                                        Brother
+                                        <br />Solutions Center
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="tabMenu">
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li class="selected">
+                                            <p>
+                                                Administrator
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mainFrameContainer">
+                <div id="mainFrameTopLeft">
+                    <div id="mainFrameTopRight">
+                        <div id="mainFrameTopInner">
+                            <div id="subTabMenu">
+                                <div>
+                                    <span>
+                                        <a href="#">
+                                            Bottom
+                                            <img src="images/ic_bottom.gif" alt="Bottom" />
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mainFrameInner">
+                    <div id="subMenu">
+                        <div class="selected">
+                            <div class="top">
+                                <div class="bottom">
+                                    <a href="#">
+                                        Raspberry PI Setting
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rightFrameContainer">
+                        <div id="rightFrame">
+                            <div id="mainContent">
+                                <div id="pageContents" style="min-height: 775px;">
+                                    <div id="pageContents">
+                                        <form method="GET" action="index.html">
+                                            <div class="contentsGroup">
+                                                <dl class="items">
+                                                    <dt>
+                                                        User Name
+                                                    </dt>
+                                                    <dd>
+                                                        <div>
+                                                            <input type="password" id="userName" name="userName" style="width:100%" />
+                                                        </div>
+                                                    </dd>
+                                                </dl>
+                                                <dl class="items">
+                                                    <dt>
+                                                        MFC Request Address
+                                                    </dt>
+                                                    <dd>
+                                                        <div>
+                                                            <input type="text" id="requestAddress" name="requestAddress" style="width:100%; color: gray;" value = "http://[IP]/openinterface/kickapp?appid=[idName]" onclick="recoverAddress()"/>
+                                                        </div>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="contentsButtons">
+                                                <input type="reset" value="Reset" />
+                                                <input type="submit" value="Submit" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                    </script>
+                </div>
+                <div id="mainFrameBottomLeft">
+                    <div id="mainFrameBottomRight">
+                        <div id="mainFrameBottomInner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerFrameContainer">
+                <div id="copyright">
+                    Copyright(C) 2000-2018 Brother Industries, Ltd. All Rights Reserved.
+                </div>
+                <div id="topBack">
+                    <a href="#">
+                        Top
+                        <img src="images/ic_pt.gif" alt="Top" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

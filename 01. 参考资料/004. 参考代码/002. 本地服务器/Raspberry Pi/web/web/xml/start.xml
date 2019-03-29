@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Ftp>
+            <FtpParams>
+               <FileName>wangdh_test_file</FileName>
+               <Host>10.244.3.11</Host>
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <StoreDir>wangdh</StoreDir>
+               <PassiveMode>true</PassiveMode>
+               <PortNum>21</PortNum>
+            </FtpParams> 
+         </Ftp>
+      </TxProfiles>
+
+   </IoScanAndSend>
+
+</SerioCommands>

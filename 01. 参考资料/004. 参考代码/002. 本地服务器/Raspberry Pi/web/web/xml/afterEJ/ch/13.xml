@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands>
+   <DisplayForm>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./14.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./0.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./12.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                           
+
+<IoObject>
+   <Title>IoObject Title 6</Title>
+   <Description>IoObject Description  6</Description>
+   <NumericalArea id="numericalarea_id6">
+      <InitValue>
+         6
+      </InitValue>
+      <MinValue>0</MinValue>
+      <MaxValue>
+         6
+      </MaxValue>
+      <Mask>
+         true
+      </Mask>
+   </NumericalArea>
+</IoObject>
+                  
+         
+         
+
+
+
+<IoObject>
+   <Title>IoObject Title 47</Title>
+   <Description>IoObject Description  47</Description>
+   <FileSelection id="fileselection-id_47" multiple="true" maxSelectNum="4">
+   <FileType>txt</FileType>
+<FileType>doc</FileType>
+<FileType>xps</FileType>
+<FileType>ps</FileType>
+
+   </FileSelection>
+</IoObject>
+         
+<IoObject>
+   
+   <Title>IoObject Title 13</Title>
+   <Description>IoObject Description  13</Description>
+   <Message>三重県 東京都 China 秋田県 宮崎県 Japan Armenia Georgia 福島県 宮崎県 富山県 茨城県 India Singapore Mongolia Bhutan 茨城県 Azerbaijan Afghanistan Laos 静岡県 Qatar Iraq 岐阜県 Kuwait </Message>
+</IoObject>
+
+         
+
+<IoObject>
+   <Title>IoObject Title 50</Title>
+   <Description>IoObject Description  50</Description>
+   <NumericalArea id="numericalarea_id50">
+      <InitValue>
+         50
+      </InitValue>
+      <MinValue>0</MinValue>
+      <MaxValue>
+         50
+      </MaxValue>
+      <Mask>
+         true
+      </Mask>
+   </NumericalArea>
+</IoObject>
+               </UiScreen>
+      ]]>
+   </DisplayForm>
+</SerioCommands>

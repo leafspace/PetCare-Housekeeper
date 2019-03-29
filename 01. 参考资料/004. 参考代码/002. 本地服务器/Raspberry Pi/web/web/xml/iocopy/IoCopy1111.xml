@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+<IoCopy>
+<ColorMode>Color</ColorMode>
+<CopyQuality>Auto</CopyQuality>
+<Density>Normal</Density>
+<FeedTray>Auto</FeedTray>
+<Ratio>100</Ratio>
+<Layout>Normal</Layout>
+<LayoutOrientation>Landscape</LayoutOrientation>
+<DuplexScanEnable>false</DuplexScanEnable>
+<DuplexPrintEnable>false</DuplexPrintEnable>
+<ShortEdgeBinding>false</ShortEdgeBinding>
+<PaperSize>A4</PaperSize>
+<Sorting>true</Sorting>
+<NumCopies>1</NumCopies>
+</IoCopy>
+<DisplayInfo>
+<Script>
+<<![CDATA[<?xml version="1.0" encoding="UTF-8"?><UiScreen><NullScreen></NullScreen></UiScreen>]]>/>
+</Script>
+</DisplayInfo>
+</SerioCommands>

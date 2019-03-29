@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+   <SerioCommands version="1.1">
+        <DisplayForm>
+           <Script>
+                        <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                                <UiScreen>
+
+                                        <Operations>
+
+                                                <Op action="/moi/iojob/upload/scan/scanExecute/?scanResolution=300&amp;scanColor=Color&amp;scanSize=A4&amp;selectedAuthInfo=S%3Ds62%3AU%3D6c38db%3AE%3D1582f42c3b8%3AC%3D150d79195f0%3AP%3D185%3AA%3Dbwc_2011-3985%3AV%3D2%3AH%3Dcc98ce2bc3daea8bde7deb914525bfd7&amp;scanAdditionalAdfScan=Off&amp;scanSkipBlankPage=Off&amp;accountIndx=1&amp;scanDuplex=LongEdge&amp;fname=20160101132700&amp;scanAutoDeskew=Off&amp;uploadTarget=scan&amp;scanSinglePageFile=Multi&amp;params=accId%3AQ_evernote&amp;scanJpgQuality=Normal&amp;scanFormat=SecurePDF&amp;service=evernote&amp;isDefaultFolder=true" type="Submit"></Op>
+                                        </Operations>
+
+                                        <IoScreen>
+                                                <IoObject>
+                                                        <Title>inputPassword</Title>
+
+                                                        <TextArea id="pdfPassword" cpos="Tail" priorInput="Numeric">
+
+
+
+
+
+                                                                <MinLength>4</MinLength>
+
+                                                                <MaxLength>4</MaxLength>
+																<Mask>true</Mask>
+                                                                <DoubleCheck>true</DoubleCheck>
+
+                                                                <UseClientMem>true</UseClientMem>
+
+                                                                <LetterTypes>
+
+                                                                        <LetterType>Numeric</LetterType>
+
+                                                                </LetterTypes>
+
+                                                        </TextArea>
+                                                </IoObject>
+                                        </IoScreen>
+                                </UiScreen>
+                        ]]>
+                </Script>
+        </DisplayForm>
+   </SerioCommands>

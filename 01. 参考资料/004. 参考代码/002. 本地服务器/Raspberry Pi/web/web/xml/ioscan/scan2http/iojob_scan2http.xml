@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Http>
+            <HttpParams>
+                <Url>http://10.244.3.19:5000/scan2http/test</Url>
+                <AdditionalHttpHeaders>
+					<HttpHeader>
+						<HeaderName>Content-type</HeaderName>
+						<HeaderValue>multipart/form-data; boundary=-AabbZ</HeaderValue>
+					</HttpHeader>
+                </AdditionalHttpHeaders>
+
+                <CallbackHttpHeaders>
+					<CallbackHttpHeader>Content-type</CallbackHttpHeader>
+                </CallbackHttpHeaders>
+
+               <AccessMethod>POST</AccessMethod>
+               <Template>---AabbZ
+Content-Disposition: form-data; name="username"
+
+Mike
+---AabbZ
+Content-Disposition: form-data; name="submitfile"; filename="myfile.pdf"
+Content-Type: text/plain
+
+___FILE_DATA___
+---AabbZ--</Template>
+
+               <User>scantestuser</User>
+               <Password>scantest</Password>
+
+            </HttpParams>
+         </Http>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>Normal</Resolution>
+        <!-- FileType:JPEG PDF TIFF -->
+      <FileType>PDF</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+
+     <!--  <JobFinAckUrl>/serio3?operation=JobFinAck&amp;session_id={session_id}</JobFinAckUrl> -->
+   </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2HTTP</Title>
+                  <Description>executing scan2http</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

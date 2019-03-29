@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<Title>IoDirectPrint_Pdf_Test</Title>
+
+				<LinkScreen>
+					<LinkControl>
+						<LinkItem href="./IoDirectPrint_Pdf_Test1.xml">
+							<Label>IoDirectPrint_Pdf_Test1</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test2.xml">
+							<Label>IoDirectPrint_Pdf_Test2</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test3.xml">
+							<Label>IoDirectPrint_Pdf_Test3</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test4.xml">
+							<Label>IoDirectPrint_Pdf_Test4</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test5.xml">
+							<Label>IoDirectPrint_Pdf_Test5</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test6.xml">
+							<Label>IoDirectPrint_Pdf_Test6</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test7.xml">
+							<Label>IoDirectPrint_Pdf_Test7</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test8.xml">
+							<Label>IoDirectPrint_Pdf_Test8</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test9.xml">
+							<Label>IoDirectPrint_Pdf_Test9</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test10.xml">
+							<Label>IoDirectPrint_Pdf_Test10</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test11.xml">
+							<Label>IoDirectPrint_Pdf_Test11</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test12.xml">
+							<Label>IoDirectPrint_Pdf_Test12</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test13.xml">
+							<Label>IoDirectPrint_Pdf_Test13</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test14.xml">
+							<Label>IoDirectPrint_Pdf_Test14</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test15.xml">
+							<Label>IoDirectPrint_Pdf_Test15</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test16.xml">
+							<Label>IoDirectPrint_Pdf_Test16</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test17.xml">
+							<Label>IoDirectPrint_Pdf_Test17</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test18.xml">
+							<Label>IoDirectPrint_Pdf_Test18</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test19.xml">
+							<Label>IoDirectPrint_Pdf_Test19</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test20.xml">
+							<Label>IoDirectPrint_Pdf_Test20</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test21.xml">
+							<Label>IoDirectPrint_Pdf_Test21</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test22.xml">
+							<Label>IoDirectPrint_Pdf_Test22</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test23.xml">
+							<Label>IoDirectPrint_Pdf_Test23</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test24.xml">
+							<Label>IoDirectPrint_Pdf_Test24</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test25.xml">
+							<Label>IoDirectPrint_Pdf_Test25</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test26.xml">
+							<Label>IoDirectPrint_Pdf_Test26</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test27.xml">
+							<Label>IoDirectPrint_Pdf_Test27</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test28.xml">
+							<Label>IoDirectPrint_Pdf_Test28</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test29.xml">
+							<Label>IoDirectPrint_Pdf_Test29</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test30.xml">
+							<Label>IoDirectPrint_Pdf_Test30</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test31.xml">
+							<Label>IoDirectPrint_Pdf_Test31</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test32.xml">
+							<Label>IoDirectPrint_Pdf_Test32</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test33.xml">
+							<Label>IoDirectPrint_Pdf_Test33</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test34.xml">
+							<Label>IoDirectPrint_Pdf_Test34</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test35.xml">
+							<Label>IoDirectPrint_Pdf_Test35</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test36.xml">
+							<Label>IoDirectPrint_Pdf_Test36</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test37.xml">
+							<Label>IoDirectPrint_Pdf_Test37</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test38.xml">
+							<Label>IoDirectPrint_Pdf_Test38</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test39.xml">
+							<Label>IoDirectPrint_Pdf_Test39</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test40.xml">
+							<Label>IoDirectPrint_Pdf_Test40</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test41.xml">
+							<Label>IoDirectPrint_Pdf_Test41</Label>
+						</LinkItem>
+						<LinkItem href="./IoDirectPrint_Pdf_Test42.xml">
+							<Label>IoDirectPrint_Pdf_Test42</Label>
+						</LinkItem>
+					</LinkControl>
+				</LinkScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

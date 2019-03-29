@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-->
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+         <UiScreen infoLevel="Normal">
+            <Title>title of 0.xml</Title>
+            <AutoTransition>10</AutoTransition>
+            <!-- -->
+            <Operations>
+               <Op type="Submit" action="./1.xml">
+                  <Label imgsrc="submit.jpg">Submit</Label>
+               </Op>
+               <Op type="SkipGo" action="./19.xml">
+                  <Label imgsrc="skipgo.jpg">Skipgo</Label>
+               </Op>
+               <Op type="Back" action="./20.xml">
+                  <Label imgsrc="back.jpg">Back</Label>
+               </Op>
+            </Operations>
+            <IoScreen>
+               
+               <IoObject>
+                  <Title>IoObject Title 19</Title>
+                  <Description>IoObject Description  19</Description>
+                  <Message>Lebanon Kuwait Singapore India Indonesia UAE Thailand Iraq Thailand Afghanistan Tajikistan SaudiArabia Azerbaijan Kazakhstan Myanmar Cambodia Israel SriLanka VietNam India Georgia SriLanka Malaysia Nepal Maldives </Message>
+               </IoObject>
+
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

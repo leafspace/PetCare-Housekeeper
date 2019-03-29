@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--  -->
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./8.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./9.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./6.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+   <Op type="Prev" action="./6.xml"></Op>
+   <Op type="Next" action="./8.xml"></Op>
+   
+</Operations>
+                     <IoScreen>
+                        
+                        
+<!--  -->
+<IoObject>
+   <Title>IoObject Title 64</Title>
+   <Description>IoObject Description  64</Description>
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      <PageInfo lastPageNum="100" thisPageNum="35" />
+<!-- 
+ -->
+
+ 
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img30.jpg" >1-30 Tajikistan Nepal 香川県 神奈川県 SaudiArabia </Label>
+   <Details>
+      <Detail>Detail 1-30-1 岡山県 Singapore 大分県 </Detail>
+      <Detail>Detail 1-30-2 岩手県 長崎県 Oman </Detail>
+   </Details>
+</Item>
+
+ 
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img17.jpg" >2-17 Iraq Uzbekistan 高知県 山口県 Jordan </Label>
+   <Details>
+      <Detail>Detail 2-17-1 Uzbekistan 秋田県 Mongolia </Detail>
+      <Detail>Detail 2-17-2 Lebanon 鹿児島県 静岡県 </Detail>
+   </Details>
+</Item>
+
+ 
+<Item selected="false" value="3">
+   <Label imgsrc="item3-img33.jpg" >3-33 SriLanka Georgia 徳島県 SriLanka 広島県 </Label>
+   <Details>
+      <Detail>Detail 3-33-1 Syria Kazakhstan Myanmar </Detail>
+      <Detail>Detail 3-33-2 新潟県 千葉県 Uzbekistan </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                        
+                     </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

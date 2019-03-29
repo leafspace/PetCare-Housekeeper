@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Smtp>
+            <Destination>xingwang.xie@brother-bsh.com.cn</Destination>
+         </Smtp>
+      </TxProfiles>
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Gray</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>100</Resolution>
+        <!-- FileType:JPEG PDF TIFF -->
+      <FileType>PDF</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <!-- <JpgQuality>Normal</JpgQuality> -->
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>A4</DocSize>
+
+      <PageScanAckUrl>../ui/PageScanAckURL.xml</PageScanAckUrl>
+   </IoScanAndSend>
+
+</SerioCommands>

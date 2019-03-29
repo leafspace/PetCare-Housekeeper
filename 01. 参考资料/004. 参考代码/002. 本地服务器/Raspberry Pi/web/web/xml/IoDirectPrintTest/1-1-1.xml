@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SerioCommands version="1.0">
+  <IoDirectPrint>
+    <FilePath>http://10.244.2.53/2pages.pdf</FilePath>
+    <ColorMode>Mono</ColorMode>
+    <PaperType>Plain</PaperType>
+    <PaperSize>Letter</PaperSize>
+    <LayoutOrientation>Portrait</LayoutOrientation>
+    <Sorting>true</Sorting>
+    <FeedTray>Auto</FeedTray>
+    <PrintQuality>Normal</PrintQuality>
+    <PagePrintAckUrl>SysXML\UserChoice_No.xml</PagePrintAckUrl>
+    <JobFinAckUrl>SysXML\CloseSession.xml</JobFinAckUrl>
+  </IoDirectPrint>
+  <DisplayInfo>
+    <Script><![CDATA[
+		<?xml version="1.0" encoding="UTF-8"?>
+		<UiScreen>
+			<NullScreen></NullScreen>
+		</UiScreen>
+]]></Script>
+  </DisplayInfo>
+</SerioCommands>

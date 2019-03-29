@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./4.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./13.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./2.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+               <IoScreen>
+                              
+               
+               
+<IoObject>
+   
+   <Title>IoObject Title 45</Title>
+   <Description>IoObject Description  45</Description>
+   <Message>和歌山県 東京都 青森県 China VietNam Cyprus 福井県 Lebanon 茨城県 Yemen Syria 福井県 Thailand China 徳島県 群馬県 UAE Tajikistan 奈良県 京都府 香川県 Myanmar 千葉県 静岡県 Korea </Message>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 47</Title>
+   <Description>IoObject Description  47</Description>
+   <Img imgsrc="image47.jpg">image #47 alt text</Img>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 33</Title>
+   <Description>IoObject Description  33</Description>
+   <Message>愛知県 Indonesia Kyrgyz Mongolia 北海道 香川県 Syria Israel Lebanon Oman 新潟県 Mongolia UAE Kuwait 徳島県 福島県 Korea 京都府 徳島県 Jordan 福岡県 Timor 滋賀県 Indonesia 京都府 </Message>
+</IoObject>
+
+                              </IoScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

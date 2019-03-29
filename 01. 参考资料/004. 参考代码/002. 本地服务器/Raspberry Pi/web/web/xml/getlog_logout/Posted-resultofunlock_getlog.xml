@@ -1,0 +1,6 @@
+--MIIDgzCCAuygAw
+Content-Disposition: form-data; name="xml"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioEvent version="1.3"><LastUserLog><ErrorInfo>1</ErrorInfo><UserId>zhanln</UserId><LoginTime>2017-10-26T10:33:09</LoginTime><LogoutTime>2017-10-26T10:34:40</LogoutTime><JobLogs><JobLog func="ScanAndSend"><LogItem attr="DuplexScanEnable">false</LogItem><LogItem attr="DocSize">Letter</LogItem><LogItem attr="ScanTo">0ŸqN</LogItem><LogItem attr="Resolution">100</LogItem><LogItem attr="ColorMode">Color</LogItem><LogItem attr="NumSendPages">0</LogItem><LogItem attr="JobResult">20</LogItem><LogItem attr="Destination">NULL</LogItem></JobLog></JobLogs></LastUserLog></SerioEvent>
+--MIIDgzCCAuygAw--

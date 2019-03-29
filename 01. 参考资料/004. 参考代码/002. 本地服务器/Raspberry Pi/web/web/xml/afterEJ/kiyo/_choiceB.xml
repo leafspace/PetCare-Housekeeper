@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-->
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+         <UiScreen infoLevel="Normal">
+            <Title>choiceB.xml</Title>
+            <AutoTransition>100</AutoTransition>
+            <!-- -->
+            <Operations>
+               <Op type="Submit" action="../start.xml">
+                  <Label imgsrc="submit.jpg">Submit</Label>
+               </Op>
+               <Op type="SkipGo" action="../start.xml">
+                  <Label imgsrc="skipgo.jpg">Skipgo</Label>
+               </Op>
+               <Op type="Back" action="../start.xml">
+                  <Label imgsrc="back.jpg">Back</Label>
+               </Op>
+            </Operations>
+            <IoScreen>
+               <IoObject>
+                  <Title>choiceB.xml</Title>
+                  <Description>choiceB.xml</Description>
+                  <Message>Press OK or START to proceed.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

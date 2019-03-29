@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+    <UiScreen>
+     
+     <IoScreen>
+      <IoObject>
+       <Title>1234567890</Title>
+       <Selection id="selectid test" multiple="false" display="Bottom" >
+        
+        <Item selected="false" value="FirstItem">
+         <Label imgsrc="http://10.244.3.213/dtest/uijob/IMAGE.jpg"></Label>
+        </Item>
+
+        <Item selected="false" value="SecondItem">
+         <Label imgsrc="./IMAGE.jpg"></Label>
+        </Item>
+
+        <Item selected="false" value="ThirdItem">
+         <Label imgsrc="../uijob/IMAGE.jpg"></Label>
+        </Item>
+
+        <Item selected="false" value="4th Item">
+         <Label imgsrc="../../dtest/uijob/IMAGE.jpg"></Label>
+        </Item>
+
+        <Item selected="false" value="5th Item">
+         <Label imgsrc="../../../10.244.3.213/dtest/uijob/IMAGE.jpg"></Label>
+        </Item>
+
+        <Item selected="false" value="6th Item">
+         <Label imgsrc="./image/IMAGE.jpg"></Label>
+        </Item>
+
+        <Item selected="false" value="7th Item">
+         <Label imgsrc=""></Label>
+        </Item>
+       </Selection>
+      </IoObject>
+     </IoScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>

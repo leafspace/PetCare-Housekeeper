@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+         <UiScreen infoLevel="Normal">
+            <Title>1234567890123456789012345678901234567890123456789012345678901234567890</Title>
+            <Operations>
+               <Op type="Submit" action="./1.xml">
+                  <Label imgsrc="submit.jpg">Submit</Label>
+               </Op>
+            </Operations>
+            <LinkScreen>
+               <Description>1234567890123456789012345678901234567890123456789012345678901234567890</Description>
+               <!--  -->
+               <LinkControl>
+                  <LinkItem href="../iocopy/IoCopy.xml">
+                     <Label >IoCopy</Label>
+                  </LinkItem>
+                  <LinkItem href="../iocopy/IoCopy2.xml">
+                     <Label >IoCopy2</Label>
+                  </LinkItem>
+                  <LinkItem href="./3.xml">
+                     <Label >LinkItem label 03</Label>
+                  </LinkItem>
+                  <LinkItem href="./4.xml">
+                     <Label >LinkItem label 04</Label>
+                  </LinkItem>
+                  <LinkItem href="./5.xml">
+                     <Label >LinkItem label 05</Label>
+                  </LinkItem>
+                  <LinkItem href="./6.xml">
+                     <Label >LinkItem label 06</Label>
+                  </LinkItem>
+                  <LinkItem href="./7.xml">
+                     <Label >LinkItem label 07</Label>
+                  </LinkItem>
+                  <LinkItem href="./8.xml">
+                     <Label >LinkItem label 08</Label>
+                  </LinkItem>
+                  <LinkItem href="./8.xml">
+                     <Label >1234567890123456789012345678901234567890123</Label>
+                  </LinkItem>
+               </LinkControl>
+            </LinkScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

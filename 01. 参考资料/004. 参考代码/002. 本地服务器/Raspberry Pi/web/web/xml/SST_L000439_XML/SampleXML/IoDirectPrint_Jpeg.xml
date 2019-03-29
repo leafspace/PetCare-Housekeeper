@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioCommands version="1.0">
+
+<IoDirectPrint>
+	<FilePath>http://xx.xx.xx.xx/Image.jpg</FilePath>
+	<ColorMode>Color</ColorMode>
+	<PaperType>Plain</PaperType>
+	<PaperSize>A4</PaperSize>
+	<Layout>Normal</Layout>
+	<LayoutOrientation>Landscape</LayoutOrientation>
+	<Collate>false</Collate>
+	<FeedTray>Auto</FeedTray>
+	<PrintQuality>Normal</PrintQuality>
+	<NumCopies>1</NumCopies>
+
+	<JobFinAckUrl>./End_Message.xml</JobFinAckUrl>
+</IoDirectPrint>
+
+<DisplayInfo>
+	<Script>
+	<UiScreen infoLevel="Normal">
+	<IoScreen>
+	<IoObject>
+	<Title>IoDirectPrint</Title>
+	<Message>Printing Your Document Now.</Message>
+	</IoObject>
+	</IoScreen>
+	</UiScreen>
+	</Script> 
+</DisplayInfo>
+
+</SerioCommands>

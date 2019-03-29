@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>                                                      
+<SerioCommands version="v009">                                                      
+    <DisplayForm>                                                   
+        <Script>                                                
+            <![CDATA[                                           
+            <UiScreen infoLevel="Normal">                                           
+                                                        
+                <Operations>                                        
+                    <Op type="Submit"   action="./UIJOB_TEST.xml"></Op>                             
+                    <Op type="Back"     action="./UIJOB_TEST.xml"></Op>                         
+                </Operations>                                       
+                                                        
+                <IoScreen>                                      
+                    <IoObject>                                  
+                        <Title>password check</Title>                               
+                        <Description>NumArea Description</Description>                              
+                                                        
+                        <TextArea id="numericalarea_id20" cpos="Head">                             
+                            <InitValue>0000</InitValue>                            
+                            <MinLength>4</MinLength>                          
+                            <MaxLength>4</MaxLength>                           
+                            <Mask>true</Mask>                           
+                            <DoubleCheck>true</DoubleCheck>                         
+                            <UseClientMem>true</UseClientMem>
+                            <LetterTypes>
+                            	<LetterType>Numeric</LetterType>
+                            </LetterTypes>                           
+                        </TextArea>                                
+                                                        
+                    </IoObject>                                 
+                </IoScreen>                                     
+                                                        
+            </UiScreen>                                         
+            ]]>                                         
+        </Script>                                               
+    </DisplayForm>                                                  
+</SerioCommands>                                                        
+                                                        

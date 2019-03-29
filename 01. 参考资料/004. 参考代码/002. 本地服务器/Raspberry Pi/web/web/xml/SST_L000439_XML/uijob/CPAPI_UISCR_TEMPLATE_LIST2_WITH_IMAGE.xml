@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<Operations>
+					<Op type="Submit"	action="./UIJOB_TEST.xml"></Op>
+					<Op type="Back"		action="./UIJOB_TEST.xml"></Op>
+				</Operations>
+
+				<Title>WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW</Title>
+
+				<LinkScreen>
+
+					<Description>List</Description>
+
+					<LinkControl>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="http://10.145.40.87/dtest/uijob/IMAGE.jpg">WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="http://10.145.40.87/dtest/uijob/IMAGE.jpg">WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW</Label>
+						</LinkItem>
+						<LinkItem href="./UIJOB_TEST.xml">
+							<Label imgsrc="http://10.145.40.87/dtest/uijob/IMAGE.jpg">WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW</Label>
+						</LinkItem>
+					</LinkControl>
+
+				</LinkScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

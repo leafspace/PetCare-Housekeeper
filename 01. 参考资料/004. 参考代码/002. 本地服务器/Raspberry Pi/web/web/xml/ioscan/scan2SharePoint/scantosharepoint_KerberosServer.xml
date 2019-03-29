@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+  <IoScanAndSend>
+    <ColorMode>Auto</ColorMode>
+    <Resolution>300</Resolution>
+    <DocSize>Auto</DocSize>
+    <FileType>PDF</FileType>
+    <AutoDeskew />
+    <SkipBlankPage />
+    <RemoveBackground />
+    <DuplexScanEnable />
+    <FileNameFixed />
+    <SinglePageFile />
+    <TxProfiles>
+      <SharePoint>
+        <SharePointParams>
+          <Host>http://w2008-001042-sp/shared documents/cui</Host>
+          <StoreDir>Dummy</StoreDir>
+          <FileName>SSSS</FileName>
+          <AuthMethod>Kerberos</AuthMethod>
+          <User>nethyoka@ad2008.2nd.local</User>
+          <Password>nethyoka</Password>
+          <KerberosServer>afaferewara</KerberosServer>
+          <CertificationCheck />
+        </SharePointParams>
+      </SharePoint>
+    </TxProfiles>
+  </IoScanAndSend>
+</SerioCommands>

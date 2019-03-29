@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Ftp>
+            <FtpParams>
+               <Host>10.244.4.26</Host>
+               <StoreDir>scan_network</StoreDir>
+               <FileName>JpgQualityLow</FileName>              
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <PassiveMode>true</PassiveMode>
+               <PortNum>21</PortNum>
+            </FtpParams> 
+         </Ftp>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>FB</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>Normal</Resolution>
+        <!-- FileType:JPEG PDF TIFF XPS -->
+      <FileType>TIFF</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Low</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>Legal</DocSize>
+        <!-- FileNameFixed:true false  -->
+      <FileNameFixed>true</FileNameFixed>
+      
+      <!-- JobFinAckUrl>../../ui/1.xml</JobFinAckUrl -->
+
+   </IoScanAndSend>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

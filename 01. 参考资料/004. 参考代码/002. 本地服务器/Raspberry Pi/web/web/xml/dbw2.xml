@@ -1,0 +1,24 @@
+<SerioCommands version="009a">
+   <UpdateDb>
+      <DataList>
+         <Mib>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.2.2</Key>
+            <Value>2</Value>
+         </Mib>
+         <Mib>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.5.2</Key>
+            <Value>1/JOYS5YdLSb_EFLBhHz0UHiNNBdY2JOkTVVQv962AJUE:EOQTxf2GiLklo1VQwkMMhdg/</Value>
+         </Mib>
+         <Mib>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.4.2</Key>
+            <Value>takesi</Value>
+         </Mib>
+         <Mib>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.65.4.1.1.3.2</Key>
+            <Value>
+            </Value>
+         </Mib>
+      </DataList>
+      <JobFinAckUrl>./dbw2_ans.xml</JobFinAckUrl>
+   </UpdateDb>
+</SerioCommands>

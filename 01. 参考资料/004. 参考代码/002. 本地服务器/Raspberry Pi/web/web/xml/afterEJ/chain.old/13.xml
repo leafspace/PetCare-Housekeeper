@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./14.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./9.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./12.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                     <IoScreen>
+                                                                        
+
+<IoObject>
+   <Title>IoObject Title 75</Title>
+   <Description>IoObject Description  75</Description>
+   <NumericalArea id="numericalarea_id75">
+      <InitValue>
+         75
+      </InitValue>
+      <MinValue>0</MinValue>
+      <MaxValue>
+         75
+      </MaxValue>
+      <Mask>
+         false
+      </Mask>
+   </NumericalArea>
+</IoObject>
+                                                
+                        
+                        
+<IoObject>
+   
+   <Title>IoObject Title 22</Title>
+   <Description>IoObject Description  22</Description>
+   <Message>佐賀県 福井県 鹿児島県 岡山県 Singapore Kazakhstan Kyrgyz Iraq Kazakhstan Qatar Bahrain 埼玉県 India 栃木県 宮城県 山口県 新潟県 Timor SaudiArabia Kyrgyz Iran 石川県 和歌山県 Syria Azerbaijan </Message>
+</IoObject>
+
+                        
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 42</Title>
+   <Description>IoObject Description  42</Description>
+   <TextArea id="textarea_id42">
+      <InitValue>
+         Bahrain 長崎県 Korea Azerbaijan 宮城県 沖縄県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         42
+      </MaxLength>
+      <Mask>
+         true
+      </Mask>
+      <LetterTypes>
+         <LetterType>LowerCase</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                                             </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

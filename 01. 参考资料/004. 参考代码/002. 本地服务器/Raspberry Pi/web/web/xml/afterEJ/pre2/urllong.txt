@@ -1,0 +1,108 @@
+<?xml version="1 0" encoding="UTF-8" ?>
+
+
+<SerioCommands version="1 0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1 0" encoding="UTF-8"?>
+
+    <UiScreen>
+     
+     <Title>Print Settings</Title>
+     <Operations>
+      
+      <Op action="/moi/download/photo/list/?selectedAlbumId=5496690759783728289&amp;downloadTarget=print&amp;service=picasa&amp;selectedAuthInfo=1%2FJ4gIS24h_dUCbFratRRixrB_am6dg8CeseJJgRxoRVE%3AdN5ZSuA46qetV%2FljVsPm0J6z&amp;selectedPhotoId=5524114493971740098_1" type="Back"></Op>
+      
+      <Op action="/moi/dbjob/setting/print/update/?selectedAlbumId=5496690759783728289&amp;downloadTarget=print&amp;service=picasa&amp;selectedAuthInfo=1%2FJ4gIS24h_dUCbFratRRixrB_am6dg8CeseJJgRxoRVE%3AdN5ZSuA46qetV%2FljVsPm0J6z&amp;selectedPhotoId=5524114493971740098_1" type="Skip">
+       <Label>OK</Label>
+      </Op>
+      
+     </Operations>
+     <IoScreen>
+     
+     <IoObject>
+     <Title>Print Quality</Title>
+      <Selection id="printQuality" multiple="false">      
+       
+        <Item value="2" selected="true">
+         <Label>Photo</Label>
+        </Item>
+       
+        <Item value="1" selected="false">
+         <Label>Normal</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+        
+     <IoObject>
+     <Title>Paper Size</Title>
+      <Selection id="printPaperSize" multiple="false">      
+       
+        <Item value="1" selected="true">
+         <Label>Letter</Label>
+        </Item>
+       
+        <Item value="2" selected="false">
+         <Label>A4</Label>
+        </Item>
+       
+        <Item value="3" selected="false">
+         <Label>4"x6"</Label>
+        </Item>
+       
+        <Item value="4" selected="false">
+         <Label>5"x7"</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+        
+     <IoObject>
+     <Title>Paper Type</Title>
+      <Selection id="printPaperType" multiple="false">      
+       
+        <Item value="1" selected="true">
+         <Label>Plain Paper</Label>
+        </Item>
+       
+        <Item value="2" selected="false">
+         <Label>Inkjet Paper</Label>
+        </Item>
+       
+        <Item value="3" selected="false">
+         <Label>Brother BP61</Label>
+        </Item>
+       
+        <Item value="4" selected="false">
+         <Label>Brother BP71</Label>
+        </Item>
+       
+        <Item value="5" selected="false">
+         <Label>Other Glossy</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+        
+     <IoObject>
+     <Title>Borderless Print</Title>
+      <Selection id="printBorderless" multiple="false">      
+       
+        <Item value="1" selected="true">
+         <Label>On</Label>
+        </Item>
+       
+        <Item value="2" selected="false">
+         <Label>Off</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+         
+     </IoScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>

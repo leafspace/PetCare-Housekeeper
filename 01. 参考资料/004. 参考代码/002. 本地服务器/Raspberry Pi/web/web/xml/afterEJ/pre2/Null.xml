@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--  -->
+<SerioCommands version="v009" >
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+         <UiScreen infoLevel="Normal">
+            <NullScreen/>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

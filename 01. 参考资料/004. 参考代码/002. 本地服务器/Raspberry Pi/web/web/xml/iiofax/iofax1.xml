@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoSendFax>
+      <FaxProfiles>
+         <Fax>
+            <Destination>123</Destination>
+         </Fax>
+      </FaxProfiles>
+      <Realtime>true</Realtime>
+      <DocSize>A4</DocSize>
+      <ColorMode>Mono</ColorMode>
+      <FaxQuality>Photo</FaxQuality>
+      <DuplexScanEnable>true</DuplexScanEnable>
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+      <OverseasMode>true</OverseasMode>
+      <Contrast>Highest</Contrast>
+      <JobFinAckUrl>./end_message.xml</JobFinAckUrl>
+   </IoSendFax>
+
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+
+</SerioCommands>

@@ -1,0 +1,65 @@
+<!-- SerioCommands version="009a">
+<!-- ‚±‚Ì•”•ª‚Í³‚µ‚¢‚Å‚· -->
+   <ReadDb>
+      <ReadDbProfiles>
+         <ReadDbProfile>
+            <AuthInfo>n4v43VT03K</AuthInfo>
+            <!--brCheckPaperSize-->
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.72.1.0</Key>
+         </ReadDbProfile>
+      </ReadDbProfiles>
+ 
+   </ReadDb>
+
+   <UpdateDb>
+      <DataList>
+         <Mib>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.72.1.0</Key>
+            <Value>2</Value>
+         </Mib>
+      </DataList>
+   </UpdateDb>
+
+   <ReadDb>
+      <ReadDbProfiles>
+         <ReadDbProfile>
+            <AuthInfo>n4v43VT03K</AuthInfo>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.72.1.0</Key>
+         </ReadDbProfile>
+      </ReadDbProfiles>
+ 
+   </ReadDb>
+</SerioCommands -->
+
+<SerioCommands version="009a">
+   <ReadDb>
+      <ReadDbProfiles>
+         <ReadDbProfile>
+            <AuthInfo>n4v43VT03K</AuthInfo>
+            <!--brCheckPaperSize-->
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.72.1.0</Key>
+         </ReadDbProfile>
+      </ReadDbProfiles>
+ 
+   </ReadDb>
+
+   <UpdateDb>
+      <DataList>
+         <Mib>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.72.1.0</Key>
+            <Value>2</Value>
+         </Mib>
+      </DataList>
+   </UpdateDb>
+
+   <ReadDb>
+      <ReadDbProfiles>
+         <ReadDbProfile>
+            <AuthInfo>n4v43VT03K</AuthInfo>
+            <Key>1.3.6.1.4.1.2435.2.3.9.4.2.1.5.1.2.72.1.0</Key>
+         </ReadDbProfile>
+      </ReadDbProfiles>
+ 
+   </ReadDb>
+</SerioCommands>
+

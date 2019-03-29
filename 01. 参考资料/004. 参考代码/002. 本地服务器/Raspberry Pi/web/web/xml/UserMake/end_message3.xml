@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <Operations>
+                  <Op type="Submit" action="./IoCopy.xml">
+                  </Op>
+                  <Op type="Back" action="./7.xml">
+                  </Op>
+               </Operations>
+               <IoScreen>
+                  <IoObject>
+                     <Title>Message Title</Title>
+                     <Description>Message Description</Description>
+                     <Message>Please press "OK" button</Message>
+                  </IoObject>
+               </IoScreen>
+            </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

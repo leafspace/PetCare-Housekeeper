@@ -1,0 +1,53 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <SerioCommands version="v009">
+       <DisplayForm>
+          <Script>
+             <![CDATA[
+             <UiScreen infoLevel="Normal">
+                <Operations>
+                <Op type="Submit" action="./1.xml"></Op>
+                </Operations>
+                <Title>UIJOB_1</Title>
+                <IoScreen>
+                   <IoObject>
+                      <Title>MarginSetting</Title>
+                      <Description>Message Description</Description>
+                      <MarginSetting id="MarginInfo">
+                         <Rectangle imgsrc="http://10.244.4.58/IMAGE.jpg">
+                            <Top>
+                               <unit>mm</unit>
+                               <InitValue>0</InitValue>
+                               <MinValue>-30</MinValue>
+                               <MaxValue>30</MaxValue>
+                               <NumSteps>1</NumSteps>
+                            </Top>
+                            <Bottom>
+                               <unit>mm</unit>
+                               <InitValue>0</InitValue>
+                               <MinValue>-30</MinValue>
+                               <MaxValue>30</MaxValue>
+                               <NumSteps>1</NumSteps>
+                            </Bottom>
+                            <Left>
+                               <unit>mm</unit>
+                               <InitValue>0</InitValue>
+                               <MinValue>-30</MinValue>
+                               <MaxValue>30</MaxValue>
+                               <NumSteps>1</NumSteps>
+                            </Left>
+                            <Right>
+                               <unit>mm</unit>
+                               <InitValue>0</InitValue>
+                               <MinValue>-30</MinValue>
+                               <MaxValue>30</MaxValue>
+                               <NumSteps>1</NumSteps>
+                            </Right>
+                         </Rectangle>
+                      </MarginSetting>
+                   </IoObject>
+                </IoScreen>
+             </UiScreen>
+             ]]>
+          </Script>
+       </DisplayForm>
+    </SerioCommands>

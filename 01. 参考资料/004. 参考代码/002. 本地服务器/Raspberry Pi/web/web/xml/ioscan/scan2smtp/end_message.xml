@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SerioCommands version="1.0">
+ <DisplayInfo>
+  <Script> 
+   <UiScreen>
+    <Title>Start Copy</Title>
+    <IoScreen>
+     <IoObject>
+      <Message> Oishi-</Message>
+     </IoObject>
+    </IoScreen>
+   </UiScreen>
+  </Script> 
+ </DisplayInfo>
+</SerioCommands>

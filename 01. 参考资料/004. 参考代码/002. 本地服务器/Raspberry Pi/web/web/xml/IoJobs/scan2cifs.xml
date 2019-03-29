@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Cifs>
+            <CifsParams>
+               <Host>cobri.soft.dev.dic.brother.co.jp</Host>
+               <StoreDir>share</StoreDir>
+               <FileName>FROM_SERIO</FileName>
+               <AuthMethod>NTLMv2</AuthMethod>
+               <User>hyoka</User>
+               <Password>passs</Password>
+               <KerberosServer></KerberosServer>
+            </CifsParams>
+         </Cifs>
+      </TxProfiles>
+
+      <!-- <ScanTray>FB</ScanTray> -->
+      <ColorMode>Gray</ColorMode>
+      <Resolution>Low</Resolution>
+      <FileType>PDF</FileType>
+      
+          <DuplexScanEnable>true</DuplexScanEnable>
+          <ShortEdgeBinding>true</ShortEdgeBinding>
+
+      <JobFinAckUrl>../start.xml</JobFinAckUrl>
+   </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2CIFS</Title>
+                  <Description>executing scan2cifs</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

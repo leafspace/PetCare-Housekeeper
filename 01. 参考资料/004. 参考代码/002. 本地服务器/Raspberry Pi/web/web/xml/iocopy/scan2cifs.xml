@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Cifs>
+            <CifsParams>
+               <Host>10.244.2.53</Host>		<!-- User Setting -->
+               <StoreDir>Scan2NW_File</StoreDir>		<!-- User Setting -->
+               <FileName>Scan2NW_File</FileName>
+               <AuthMethod>NTLMv2</AuthMethod>
+               <User>yangne</User>			<!-- User Setting -->
+               <Password>bsh@0701</Password>		<!-- User Setting -->
+               <KerberosServer>1</KerberosServer>
+            </CifsParams>
+         </Cifs>
+      </TxProfiles>
+
+
+      <!-- ScanTray:FB ADF -->
+      <ScanTray>FB</ScanTray>
+
+      <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+
+      <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>300</Resolution>
+
+      <!-- FileType:JPEG PDF TIFF -->
+      <FileType>PDF</FileType>
+
+      <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+
+      <!-- FileNameFixed:true false -->
+      <FileNameFixed>false</FileNameFixed>
+
+      <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+
+      <!-- DocSize:A4 Letter Legal-->
+      <DocSize>A4</DocSize>
+
+      <JobFinAckUrl>./end_message.xml</JobFinAckUrl>
+   </IoScanAndSend>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

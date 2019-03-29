@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./7.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./14.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./5.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+               <IoScreen>
+                              
+               
+               
+<IoObject>
+   
+   <Title>IoObject Title 50</Title>
+   <Description>IoObject Description  50</Description>
+   <Img imgsrc="image50.jpg">image #50 alt text</Img>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 99</Title>
+   <Description>IoObject Description  99</Description>
+   <Img imgsrc="image99.jpg">image #99 alt text</Img>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 51</Title>
+   <Description>IoObject Description  51</Description>
+   <Img imgsrc="image51.jpg">image #51 alt text</Img>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 55</Title>
+   <Description>IoObject Description  55</Description>
+   <Img imgsrc="image55.jpg">image #55 alt text</Img>
+</IoObject>
+
+                              </IoScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

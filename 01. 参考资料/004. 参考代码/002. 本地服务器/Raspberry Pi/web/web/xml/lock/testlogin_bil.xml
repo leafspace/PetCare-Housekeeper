@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+<ActivateLock>
+ <UserId>BSI</UserId>
+ <!--<UserId>Solucoes</UserId>-->
+ <LockInfo>
+ <Copy permitted="true" colorEnable="false">
+</Copy>
+ <SendFax permitted="true" colorEnable="true">
+</SendFax>
+ <ScanAndSend permitted="true" colorEnable="true">
+</ScanAndSend>
+ <DirectPrint permitted="true" colorEnable="true">
+</DirectPrint>
+ <PrintFax permitted="true" colorEnable="true">
+</PrintFax>
+ <PcPrint permitted="true" colorEnable="true">
+</PcPrint>
+ <WebConnectUload permitted="true" colorEnable="false">
+</WebConnectUload>
+ <WebConnectDload permitted="true" colorEnable="true">
+</WebConnectDload>
+</LockInfo>
+ <JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+</ActivateLock>
+</SerioCommands>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+<ActivateLock>
+ <UserId>test</UserId>
+ <LockInfo permitted="true" colorEnable="true">
+ 
+	<Copy permitted="true" colorEnable="true"></Copy>
+	<ScanAndSend>
+	 
+		<Scan2Media permitted="true"></Scan2Media>
+		<Scan2Remote permitted="true"></Scan2Remote>
+		<Scan2PC permitted="true"></Scan2PC>
+		<Scan2FTP permitted="true"></Scan2FTP>
+		<Scan2Smtp permitted="true"></Scan2Smtp>
+		<Scan2Cifs permitted="true"></Scan2Cifs>
+		<Scan2Http permitted="true"></Scan2Http>
+		<Scan2SharePoint permitted="true"></Scan2SharePoint>
+	
+	
+		<Scan2Media></Scan2Media>
+		<Scan2Remote></Scan2Remote>
+		<Scan2PC></Scan2PC>
+		<Scan2FTP></Scan2FTP>
+		<Scan2Smtp></Scan2Smtp>
+		<Scan2Cifs></Scan2Cifs>
+		<Scan2Http></Scan2Http>
+		<Scan2SharePoint></Scan2SharePoint>
+
+	</ScanAndSend>
+	<DirectPrint permitted="true"  colorEnable="false"></DirectPrint>
+	<SendFax permitted="true"></SendFax>
+	<PrintFax permitted="true"></PrintFax>
+	<PcPrint permitted="true"></PcPrint>
+	<WebConnectUload permitted="true"></WebConnectUload>
+	<WebConnectDload permitted="true" colorEnable="true"></WebConnectDload>
+
+</LockInfo>
+ <JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+</ActivateLock>
+</SerioCommands>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<SerioCommands version="1.0">
+    <IoDloadToMedia>
+        <Dl2MediaFiles>
+            <Dl2MediaFile>
+                <Url>http://farm5.static.flickr.com/4076/4903252258_db5e35d4b9_b.jpg</Url>
+                <FileName>0000.jpg</FileName>
+                
+                
+            </Dl2MediaFile>
+        </Dl2MediaFiles>
+        
+        
+        
+        <DlMethod>GET</DlMethod>
+        
+        <JobFinAckUrl>/serio/iojob/download/complete/?service=flickr</JobFinAckUrl>
+        
+    </IoDloadToMedia>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]> .
+        </Script>
+    </DisplayInfo>            
+</SerioCommands>

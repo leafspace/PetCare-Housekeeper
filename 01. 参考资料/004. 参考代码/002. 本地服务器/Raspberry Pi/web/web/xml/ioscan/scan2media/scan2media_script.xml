@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Media>
+           <MediaParams>
+               <FileName>NONE</FileName>
+              <!-- <FileNameFixed>true</FileNameFixed>-->
+            </MediaParams> 
+         </Media>
+      </TxProfiles>
+	  <!-- ColorMode:Mono Gray Color -->
+	  <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>300</Resolution>     
+	  <!-- FileType:JPEG PDF TIFF XPS -->
+      <FileType>PDF</FileType>
+	  <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+	  <DocSize>Auto</DocSize>
+      <ScanTray>ADF</ScanTray>
+	  <!-- DuplexScanEnable:true false -->
+   
+     <!-- <JobFinAckUrl>./end_message.xml</JobFinAckUrl> -->
+   </IoScanAndSend>
+    <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2Media</Title>
+                  <Description>executing scan2media</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

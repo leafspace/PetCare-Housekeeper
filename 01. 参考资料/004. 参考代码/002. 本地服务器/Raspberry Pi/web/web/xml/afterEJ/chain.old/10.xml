@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./11.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./6.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./9.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                     <IoScreen>
+                                                                        
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 56</Title>
+   <Description>IoObject Description  56</Description>
+   <TextArea id="textarea_id56">
+      <InitValue>
+         岩手県 Singapore 大阪府 Tajikistan 福島県 Indonesia 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         56
+      </MaxLength>
+      <Mask>
+         true
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>LowerCase</LetterType>
+<LetterType>Numeric</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                                                
+                        
+                        
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 79</Title>
+   <Description>IoObject Description  79</Description>
+   <TextArea id="textarea_id79">
+      <InitValue>
+         Lebanon 愛媛県 Cambodia 北海道 山梨県 滋賀県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         79
+      </MaxLength>
+      <Mask>
+         false
+      </Mask>
+      <LetterTypes>
+         <LetterType>EnvDependent</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                                             </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

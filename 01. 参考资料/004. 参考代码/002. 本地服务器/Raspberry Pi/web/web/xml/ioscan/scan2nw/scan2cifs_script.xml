@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Cifs>
+            <CifsParams>
+               <Host>10.244.2.53</Host>
+               <StoreDir>testfile\zhanln</StoreDir>
+               <FileName>bsitest</FileName>
+               <AuthMethod>Auto</AuthMethod>
+               <User>bsitest</User>
+               <Password>bsitest</Password>
+               <KerberosServer>1</KerberosServer>
+               <FileNameFixed>false</FileNameFixed>
+            </CifsParams>
+         </Cifs>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>FB</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>Auto</Resolution>
+        <!-- FileType:JPEG PDF TIFF -->
+      <FileType>PDF</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize></DocSize>
+        <!-- FileNameFixed:true false -->
+	
+     <!--  <JobFinAckUrl>./end_message.xml</JobFinAckUrl>-->
+	 
+	 </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2CIFS</Title>
+                  <Description>executing scan2cifs</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

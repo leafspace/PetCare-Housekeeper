@@ -1,0 +1,103 @@
+
+<!-- Example -->
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		 <LockInfo>
+			 <Copy permitted="true" colorEnable="true"></Copy>
+			 <SendFax permitted="true" colorEnable="true"></SendFax>
+			 <ScanAndSend permitted="true" colorEnable="true"></ScanAndSend>
+			 <DirectPrint permitted="true" colorEnable="true"></DirectPrint>
+			 <PrintFax permitted="true" colorEnable="true"></PrintFax>
+			 <PcPrint permitted="true" colorEnable="true"></PcPrint>
+			 <WebConnectUload permitted="true" colorEnable="true"></WebConnectUload>
+			 <WebConnectDload permitted="true" colorEnable="true"></WebConnectDload>
+		</LockInfo>
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands>
+
+
+<!-- パターン1 
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		 <LockInfo permitted="true" colorEnable="true">
+		</LockInfo>
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands>-->
+
+<!-- パターン2  
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		 <LockInfo permitted="false" colorEnable="false">
+		</LockInfo>
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands>-->
+
+<!-- パターン3
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		 <LockInfo>
+		</LockInfo>
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands> -->
+
+<!-- パターン4 
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		<LockInfo permitted="true" colorEnable="true"></LockInfo>
+		<ScanAndSend permitted="false"></ScanAndSend>
+		<WebConnectUload permitted="false"></WebConnectUload>
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands> -->
+
+<!-- パターン5
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		<LockInfo permitted="true" colorEnable="true"></LockInfo>
+		<ScanAndSend></ScanAndSend>
+		<WebConnectUload></WebConnectUload>
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands> --> 
+
+
+<!-- パターン6 
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		<LockInfo permitted="false" colorEnable="false"></LockInfo>
+		<ScanAndSend permitted="true"></ScanAndSend>
+		<SendFax permitted="true"></SendFax>
+		<WebConnectUload permitted="true"></WebConnectUload>
+		
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands> -->
+
+<!-- パターン7
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+	<ActivateLock>
+	 	<UserId>1234567</UserId>
+		<LockInfo permitted="false" colorEnable="false"></LockInfo>
+		<ScanAndSend permitted="false"></ScanAndSend>		
+	 	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+	</ActivateLock>
+</SerioCommands> -->

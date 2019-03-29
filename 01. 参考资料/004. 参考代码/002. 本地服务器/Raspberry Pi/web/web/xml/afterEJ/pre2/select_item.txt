@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+    <UiScreen>
+     
+     <Title>Select Item</Title>
+     <LinkScreen>
+      <LinkControl>
+       
+       <LinkItem href="/first_item.txt">
+        <Label>First Item</Label>
+       </LinkItem>
+       
+       <LinkItem href="/second_item.txt">
+        <Label>Secound Item</Label>
+       </LinkItem>
+	
+       <LinkItem href="/third_item.txt">
+        <Label>Third Item</Label>
+       </LinkItem>
+       
+      </LinkControl>
+     </LinkScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>

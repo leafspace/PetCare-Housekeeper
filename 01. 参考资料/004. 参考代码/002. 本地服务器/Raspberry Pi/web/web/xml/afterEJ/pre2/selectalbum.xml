@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<SerioCommands version="1.0">
+	<DisplayForm>
+		<Script>
+			<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+				<UiScreen>
+					
+					<Operations>
+						<Op action="/selectphoto.xml" type="Submit"></Op>
+						
+						<Op action="/download/user/edit/?service=flickr&amp;downloadTarget=media" type="Back"></Op>
+						
+						<Op action="/download/album/list/?service=flickr&amp;downloadTarget=media&amp;totalAlbumPage=1&amp;albumPage=1" type="Prev"></Op>
+						
+						<Op action="/download/album/list/?service=flickr&amp;downloadTarget=media&amp;totalAlbumPage=1&amp;albumPage=1" type="Next"></Op>
+						
+					</Operations>
+					<IoScreen>
+						<IoObject>
+							<Title>Select an Album</Title>
+							<Selection id="selectedAlbumId" multiple="false">
+								
+								<Item value="72157625065090606">
+									
+									<Label>set4</Label>
+									
+								</Item>
+
+								<Item value="72157625065090606">
+									
+									<Label>set3</Label>
+									
+								</Item>
+								
+								<Item value="72157625065090118">
+									
+									<Label>set2</Label>
+									
+								</Item>
+								
+								<Item value="72157624940367367">
+									
+									<Label>set1</Label>
+									
+								</Item>
+								
+
+							</Selection>
+						</IoObject>
+					</IoScreen>
+				</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

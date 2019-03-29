@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title></Title>
+                  <Operations>
+                     <Op type="Submit" action="./UIJOB_TEST.xml">
+                        <Label>Submit</Label>
+                     </Op>
+                     <Op type="Back" action="./UIJOB_TEST.xml">
+                        <Label imgsrc="IMAGE.jpg">Back</Label>
+                     </Op>
+                  </Operations>
+               <IoScreen>
+                  <IoObject>
+                     <Title>idscanner Title</Title>
+                     <Description>idscanner Message Description</Description>
+                     <IdScanner id="CardInput">
+	                    <Label imgsrc="./IMAGE.jpg">Please card swipe!!</Label>
+                     </IdScanner>
+                  </IoObject>
+               </IoScreen>
+            </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

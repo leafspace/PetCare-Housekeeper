@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<!-- -->
+
+<Operations>
+   <Op type="Submit" action="./15.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./18.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./13.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+
+               <LinkScreen>
+               <Description>Description (Turkmenistan Kuwait Nepal Georgia SriLanka )</Description>
+               
+<!--  -->
+<LinkControl>
+   
+   
+   <LinkItem href="./18.xml">
+      <Label imgsrc="img01.jpg">LinkItem label 01</Label>
+   </LinkItem>
+   
+</LinkControl>
+               
+               </LinkScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

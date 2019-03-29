@@ -1,0 +1,124 @@
+<?xml version="1 0" encoding="UTF-8" ?>
+
+
+<SerioCommands version="1 0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1 0" encoding="UTF-8"?>
+
+    <UiScreen>
+     
+     <Title>Multi UI</Title>
+     <Operations>
+      <Op type="Submit" action="./card_auth.asp" ></Op>
+     </Operations>
+     <IoScreen>
+
+     <IoObject>
+      <Title>idscanner</Title>
+      <Description>Swipe card</Description>
+      <IdScanner id="card">
+       <Label>Idscanner test</Label>
+      </IdScanner>
+     </IoObject>
+
+      <IoObject>
+       <Title>Message</Title>
+       <Description>Message Description</Description>
+       <Message>Message</Message>
+      </IoObject>
+
+      <IoObject>
+       <Title>CopyNum</Title>
+         <Description>NumArea Description</Description>
+         <NumericalArea id="numericalarea_id20" cpos="Head">
+           <InitValue>10</InitValue>
+           <MinValue>0</MinValue>
+           <MaxValue>100</MaxValue>
+           <Mask>false</Mask>
+         </NumericalArea>
+      </IoObject>
+
+      <IoObject>
+           <Title>Quality</Title>
+      <Selection id="printQuality" multiple="false">      
+       <Item value="2" selected="true">
+        <Label>Photo</Label>
+       </Item>
+       <Item value="1" selected="false">
+        <Label>Normal</Label>
+       </Item>
+      </Selection>       
+     </IoObject>
+
+     <IoObject>
+       <Title>Letter Size</Title>
+      <Selection id="printPaperSize" multiple="false">      
+       
+        <Item value="1" selected="true">
+         <Label>Letter</Label>
+        </Item>
+       
+        <Item value="2" selected="false">
+         <Label>A4</Label>
+        </Item>
+       
+        <Item value="3" selected="false">
+         <Label>4"x6"</Label>
+        </Item>
+       
+        <Item value="4" selected="false">
+         <Label>5"x7"</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+        
+     <IoObject>
+       <Title>PaperType</Title>
+      <Selection id="printPaperType" multiple="false">      
+       
+        <Item value="1" selected="true">
+         <Label>Plain Paper</Label>
+        </Item>
+       
+        <Item value="2" selected="false">
+         <Label>Inkjet Paper</Label>
+        </Item>
+       
+        <Item value="3" selected="false">
+         <Label>Brother BP61</Label>
+        </Item>
+       
+        <Item value="4" selected="false">
+         <Label>Brother BP71</Label>
+        </Item>
+       
+        <Item value="5" selected="false">
+         <Label>Other Glossy</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+     <IoObject>
+
+     <Title>Border On/Off</Title>
+      <Selection id="printBorderless" multiple="false">      
+       
+        <Item value="1" selected="true">
+         <Label>On</Label>
+        </Item>
+       
+        <Item value="2" selected="false">
+         <Label>Off</Label>
+        </Item>
+       
+      </Selection>       
+        </IoObject>
+         
+     </IoScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>

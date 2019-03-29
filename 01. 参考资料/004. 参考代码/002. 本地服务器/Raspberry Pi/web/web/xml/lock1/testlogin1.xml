@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+<ActivateLock>
+ <UserId>test</UserId>
+ <LockInfo  permitted="true" colorEnable="true">
+
+ </LockInfo>
+ <JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+</ActivateLock>
+</SerioCommands>

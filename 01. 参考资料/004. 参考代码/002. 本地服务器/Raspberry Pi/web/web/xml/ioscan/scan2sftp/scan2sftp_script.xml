@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Sftp>
+            <SftpParams>
+               <Host>10.244.4.136</Host>
+              <StoreDir></StoreDir>
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <FileName>scan2sftp</FileName>
+               <!--PassiveMode>true</PassiveMode-->
+               <PortNum>22</PortNum>
+               <AuthMethod>Password</AuthMethod>
+               <PublicKey>1.pub</PublicKey>
+               <!--<PairKey>ClientKey</PairKey>-->
+            </SftpParams> 
+         </Sftp>
+      </TxProfiles>
+
+      <ScanTray>FB</ScanTray>
+      <ColorMode>Gray</ColorMode>
+      <Resolution>Low</Resolution>
+      <!-- <FileType>JPEG</FileType> -->
+      <FileType>PDF</FileType>
+
+      <DuplexScanEnable>false</DuplexScanEnable>
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+
+
+   </IoScanAndSend>
+</SerioCommands>

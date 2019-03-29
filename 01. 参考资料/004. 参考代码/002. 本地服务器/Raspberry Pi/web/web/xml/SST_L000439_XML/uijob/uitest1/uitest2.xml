@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<Operations>
+					<Op type="Submit"	action="./uitest2/uitest3.xml"></Op>
+				</Operations>
+
+				<Title>message</Title>
+
+				<IoScreen>
+					<IoObject>
+						<Title>./uitest1/uitest2.xml</Title>
+						<Message>./uitest2/uitest3.xml</Message>
+					</IoObject>
+				</IoScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

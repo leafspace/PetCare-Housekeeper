@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands>
+   <DisplayForm>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./8.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./14.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./6.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                           
+<!-- <!-- 
+
+ -->
+<IoObject>
+   <Title>IoObject Title 18</Title>
+   <Description>IoObject Description  18</Description>
+
+   <Selection id="selection-id" multiple="true" maxSelectNum="1">
+      
+      <PageInfo lastPageNum="100" thisPageNum="43" />
+      <Navigations> 
+         <Navi type="Prev" action="foo"></Navi>
+         <Navi type="Next" action="foo"></Navi>
+      </Navigations>
+
+
+
+<Item selected="true" value="1">
+   <Label imgsrc="item1-img2.jpg" >1-2 大阪府 Kazakhstan 兵庫県 神奈川県 北海道 </Label>
+   <Details>
+      <Detail>Detail 1-2-1 富山県 香川県 Cambodia </Detail>
+      <Detail>Detail 1-2-2 Laos 岩手県 北海道 </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="2">
+   <Label imgsrc="item2-img17.jpg" >2-17 兵庫県 山形県 Cyprus 岐阜県 山梨県 </Label>
+   <Details>
+      <Detail>Detail 2-17-1 Philippines 茨城県 愛知県 </Detail>
+      <Detail>Detail 2-17-2 広島県 Kuwait China </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="3">
+   <Label imgsrc="item3-img91.jpg" >3-91 兵庫県 Armenia Iraq Kazakhstan Indonesia </Label>
+   <Details>
+      <Detail>Detail 3-91-1 和歌山県 China 愛媛県 </Detail>
+      <Detail>Detail 3-91-2 茨城県 Timor Armenia </Detail>
+   </Details>
+</Item>
+
+
+<Item selected="false" value="4">
+   <Label imgsrc="item4-img71.jpg" >4-71 Cyprus 福島県 Indonesia Lebanon 奈良県 </Label>
+   <Details>
+      <Detail>Detail 4-71-1 Myanmar 徳島県 Kazakhstan </Detail>
+      <Detail>Detail 4-71-2 群馬県 Myanmar China </Detail>
+   </Details>
+</Item>
+
+   </Selection>
+</IoObject>
+                  
+         
+               </UiScreen>
+      ]]>
+   </DisplayForm>
+</SerioCommands>

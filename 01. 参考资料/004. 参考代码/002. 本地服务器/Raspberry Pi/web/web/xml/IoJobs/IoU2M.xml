@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+  <IoUloadFromMedia>
+    <UloadFiles>
+      <FileName>D:\brother\01050002.jpg</FileName>
+      <FileName>D:\brother\01050001.jpg</FileName>
+    </UloadFiles>
+    <FileInfoAckUrl>/moi/iojob/upload/start/?service=picasa&amp;selectedAuthInfo=1%2FhnKlI6jVHKpUQqgxy_eCYQK5FeEq_k0CFbogt_dg3DI%3AF%2FpIC0lNWKUdwO4lF9dC%2FXgW&amp;selectedAlbumId=5541156229006892993</FileInfoAckUrl>
+    <EachUloadAckUrl>/moi/iojob/upload/next/?service=picasa&amp;selectedAuthInfo=1%2FhnKlI6jVHKpUQqgxy_eCYQK5FeEq_k0CFbogt_dg3DI%3AF%2FpIC0lNWKUdwO4lF9dC%2FXgW&amp;selectedAlbumId=5541156229006892993</EachUloadAckUrl>
+    <JobFinAckUrl>/moi/iojob/upload/complete/?service=picasa&amp;selectedAuthInfo=1%2FhnKlI6jVHKpUQqgxy_eCYQK5FeEq_k0CFbogt_dg3DI%3AF%2FpIC0lNWKUdwO4lF9dC%2FXgW</JobFinAckUrl>
+  </IoUloadFromMedia>
+  <DisplayInfo>
+    <Script>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+      <UiScreen>
+	<NullScreen>
+	</NullScreen>
+      </UiScreen>
+      ]]>
+  </Script> </DisplayInfo>
+</SerioCommands>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands>
+   <DisplayInfo>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./15.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./8.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./13.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                  
+         
+         
+<IoObject>
+   
+   <Title>IoObject Title 19</Title>
+   <Description>IoObject Description  19</Description>
+   <Img imgsrc="image19.jpg">image #19 alt text</Img>
+</IoObject>
+
+         
+<IoObject>
+   
+   <Title>IoObject Title 67</Title>
+   <Description>IoObject Description  67</Description>
+   <Message>SriLanka Yemen Cambodia Jordan 愛媛県 Maldives 岩手県 鳥取県 新潟県 神奈川県 Timor 山梨県 香川県 Mongolia Qatar 徳島県 大阪府 青森県 静岡県 Georgia Nepal 静岡県 Cyprus Iran 神奈川県 </Message>
+</IoObject>
+
+         
+<IoObject>
+   
+   <Title>IoObject Title 47</Title>
+   <Description>IoObject Description  47</Description>
+   <Message>宮崎県 千葉県 香川県 福井県 Cyprus Qatar Armenia Yemen Bahrain UAE Philippines SaudiArabia 和歌山県 Georgia Kyrgyz Kyrgyz 福岡県 Philippines Lebanon 鹿児島県 Lebanon 富山県 香川県 山口県 愛媛県 </Message>
+</IoObject>
+
+         
+<IoObject>
+   
+   <Title>IoObject Title 33</Title>
+   <Description>IoObject Description  33</Description>
+   <Message>広島県 福井県 山口県 Indonesia Qatar Brunei Kazakhstan 福井県 Jordan UAE 埼玉県 島根県 Uzbekistan 茨城県 京都府 群馬県 Kazakhstan Philippines 秋田県 滋賀県 Mongolia Jordan Lebanon UAE SaudiArabia </Message>
+</IoObject>
+
+         
+      </UiScreen>
+      ]]>
+   </DisplayInfo>
+</SerioCommands>

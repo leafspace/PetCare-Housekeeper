@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SerioCommands version="1.0">
+  <IoScanAndSend>
+    <TxProfiles>
+      <Cifs>
+        <CifsParams>
+          <Password>bsitest</Password>
+          <User>bsitest</User>
+          <KerberosServer>1</KerberosServer>
+          <StoreDir>testfile</StoreDir>
+          <Host>10.244.2.53</Host>
+          <AuthMethod>Auto</AuthMethod>
+          <FileName>wang_file</FileName>
+        </CifsParams>
+      </Cifs>
+    </TxProfiles>
+    <ColorMode>Mono</ColorMode>
+    <FileType>PDF</FileType>
+    <Resolution>300</Resolution>
+    <JpgQuality>Normal</JpgQuality>
+    <FileNameFixed>false</FileNameFixed>
+    <PageScanAckUrl>SysXML\UserChoice_No.xml</PageScanAckUrl>
+    <IoDataCommAckUrl>SysXML\FileTransfer.xml</IoDataCommAckUrl>
+    <JobFinAckUrl>SysXML\CloseSession.xml</JobFinAckUrl>
+  </IoScanAndSend>
+  <DisplayInfo>
+    <Script><![CDATA[
+		<?xml version="1.0" encoding="UTF-8"?>
+		<UiScreen>
+			<NullScreen></NullScreen>
+		</UiScreen>
+]]></Script>
+  </DisplayInfo>
+</SerioCommands>

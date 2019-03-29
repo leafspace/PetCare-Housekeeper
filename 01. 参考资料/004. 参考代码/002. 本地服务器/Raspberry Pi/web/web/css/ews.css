@@ -1,0 +1,1853 @@
+﻿@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#rightFrame {
+    text-align: left;
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+}
+
+#pageTitle {
+    margin: 20px 40px 15px 0;
+}
+
+h2 {
+    font-size: 140%;
+    border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 7px;
+    color: #0C2C84;
+}
+
+h3 {
+    font-size: 125%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #0C2C84;
+    margin-right: 10px;
+    clear: both;
+}
+
+.checkbox, .radio {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.checkboxSimple, label.radioSimple {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+label input {
+    margin-right: 3px;
+}
+
+label.disabled {
+    color: #BEBEBE;
+}
+
+.unit {
+    margin-left: 5px;
+}
+
+.help {
+    float: right;
+    margin-top: -3px;
+}
+
+#mainContent {
+    padding: 0;
+}
+
+#pageContents {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    min-height: 453px;
+}
+
+    #pageContents:before,
+    #pageContents:after {
+        content: "";
+        display: table;
+    }
+
+    #pageContents:after {
+        clear: both;
+    }
+
+#pageContents {
+    zoom: 1;
+}
+
+.contentsGroup {
+    margin: 10px 0 0 0;
+    padding: 0 0 10px 50px;
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+}
+
+.contentsGroupRemote {
+    margin: 10px 0 0 0;
+    padding: 0 0 10px 50px;
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    min-width: 1700px;
+    overflow: hidden;
+}
+
+.contentsLine {
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+}
+
+.contentsButtons {
+    margin: 10px 0 0 0;
+    color: #0C2C84;
+    clear: both;
+}
+
+    .contentsButtons input {
+        margin: 10px 10px 10px 0;
+    }
+
+.contentsTable {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCCCCC;
+    table-layout: fixed;
+}
+
+    .contentsTable:before,
+    .contentsTable:after {
+        content: "";
+        display: table;
+    }
+
+    .contentsTable:after {
+        clear: both;
+    }
+
+.contentsTable {
+    zoom: 1;
+}
+
+.links p {
+    line-height: 3em;
+}
+
+.links a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+    .links a:after {
+        content: ">>";
+    }
+
+table {
+    text-align: center;
+    font-size: 100%;
+}
+
+td {
+    margin: 5px;
+    padding: 5px;
+    color: #0C2C84;
+}
+
+th {
+    color: #0C2C84;
+    margin: 5px;
+    padding: 5px;
+}
+
+caption {
+    padding: 5px;
+    color: #0C2C84;
+    font-weight: bold;
+    text-align: left;
+    font-size: 120%;
+}
+
+table .odd {
+    background-color: #F2FAFC;
+}
+
+table .even {
+    background-color: #ffffff;
+}
+
+table.list {
+    text-align: left;
+}
+
+    table.list tbody th {
+        text-align: right;
+    }
+
+        table.list tbody th:after {
+            content: " :";
+        }
+
+    table.list thead th {
+        text-align: center;
+    }
+
+table.contents {
+    text-align: left;
+}
+
+    table.contents th, table.contents td {
+        vertical-align: top;
+    }
+
+    table.contents a {
+        text-decoration: underline;
+    }
+
+table.simple {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    table.simple a {
+        text-decoration: underline;
+    }
+
+    table.simple th {
+        text-align: left;
+    }
+
+table.multiHeader {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 640px;
+}
+
+    table.multiHeader thead th {
+        padding: 3px 1px 3px 0px;
+        background-color: #0C2C84;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        font-weight: normal;
+    }
+
+.items, .longItems {
+    color: #0C2C84;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+    .items dt, .longItems dt {
+        font-weight: bold;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .items dt {
+        clear: both;
+        float: left;
+        width: 230px;
+        margin: 0;
+        padding: 7px 5px 7px 0;
+    }
+
+        .items dt.head {
+            width: auto;
+            float: none;
+        }
+
+        .items dt .optional {
+            font-weight: normal;
+        }
+
+    .longItems dt.head {
+        width: auto;
+        float: none;
+        padding: 7px 5px 7px 0;
+    }
+
+    .items dt.subhead span, .longItems dt.subhead span {
+        display: block;
+        margin-left: 20px;
+        font-weight: normal;
+    }
+
+        .items dt.subhead span span {
+            display: inline;
+            margin-left: 0px;
+        }
+
+    .items dd {
+        margin: 0;
+        padding: 7px 5px 0px 5px;
+    }
+
+        .items dd:after {
+            clear: both;
+            display: block;
+            content: url('../images/pixel.gif');
+            height: 0;
+        }
+
+    .items dd {
+        display: inline-block;
+    }
+
+    .items dd {
+        display: block;
+    }
+
+    .items dt a {
+        font-weight: bold;
+    }
+
+    .items a {
+        text-decoration: underline;
+    }
+
+    .items dd div {
+        display: inline-block;
+        width: 340px;
+        word-wrap: break-word;
+    }
+
+    .items dd dl {
+        margin: 0;
+        padding: 0;
+    }
+
+        .items dd dl dt span {
+            margin-left: 20px;
+            font-weight: normal;
+            display: block;
+        }
+
+dd .child {
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.longItems dd {
+    margin-left: 50px;
+    padding: 7px 0;
+}
+
+dd ul {
+    display: inline-block;
+}
+
+    dd ul li {
+        width: 340px;
+        word-wrap: break-word;
+    }
+
+.tbl2 {
+    color: #0C2C84;
+    width: 450px;
+    float: left;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+    .tbl2 dt {
+        margin: 0 0 0 0;
+        padding: 7px 5px;
+        font-weight: bold;
+    }
+
+    .tbl2 dd {
+        margin: 0 0 0 100px;
+        padding: 7px 5px;
+    }
+
+.tbl3 {
+    color: #0C2C84;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+    .tbl3 dt {
+        clear: both;
+        float: left;
+        width: 150px;
+        margin: 0;
+        font-weight: bold;
+        padding: 7px 5px 10px 5px;
+    }
+
+    .tbl3 dd {
+        float: left;
+        margin: 0;
+        width: 300px;
+        padding: 7px 5px 10px 5px;
+    }
+
+.tbl4 {
+    color: #0C2C84;
+    margin-left: 150px;
+    clear: both;
+}
+
+    .tbl4 dt {
+        clear: both;
+        float: left;
+        width: 220px;
+        margin: 0;
+        padding: 7px 5px;
+    }
+
+    .tbl4 dd {
+        float: left;
+        margin: 0;
+        padding: 7px 5px;
+        width: 230px;
+    }
+
+.tbl4_head {
+    color: #0C2C84;
+    margin-left: 50px;
+    clear: both;
+}
+
+    .tbl4_head dt {
+        clear: both;
+        float: left;
+        width: 320px;
+        margin: 0;
+        padding: 7px 5px;
+        font-weight: bold;
+    }
+
+    .tbl4_head dd {
+        float: left;
+        margin: 0;
+        padding: 7px 5px;
+        width: 230px;
+    }
+
+.paraChkbxItems {
+    color: #0C2C84;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+    .paraChkbxItems dt {
+        font-weight: bold;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .paraChkbxItems dd {
+        margin-left: 20px;
+        padding: 7px 0;
+    }
+
+.statusRed {
+    color: #FF3300;
+    font-weight: bold;
+}
+
+.statusGreen {
+    color: #069159;
+    font-weight: bold;
+}
+
+.second-d {
+    margin: 5px 5px 5px 150px;
+}
+
+    .second-d li {
+        margin-bottom: 10px;
+    }
+
+.plow dt {
+    width: 20px;
+}
+
+.plow dd {
+    width: 430px;
+}
+
+.dumpedData {
+    color: #0C2C84;
+    margin-bottom: 10px;
+    font-size: 85%;
+}
+
+.expired {
+    color: #ff3300;
+}
+
+.certificateName {
+    width: 160px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.servpubkeyName {
+    width: 160px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.certificateIssure {
+    width: 160px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.inputFile {
+    width: 290px;
+}
+
+.csrCountry {
+    width: 55px;
+}
+
+.self {
+    color: #0C2C84;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    margin-left: 50px;
+}
+
+    .self dt {
+        width: 150px;
+        float: left;
+        font-weight: bold;
+        padding: 7px 5px 3px 5px;
+    }
+
+    .self dd {
+        width: 400px;
+        float: left;
+        padding: 7px 5px 3px 5px;
+    }
+
+.ipv4 dt {
+    width: 240px;
+}
+
+.tbl-ipv4 {
+    color: #0C2C84;
+    clear: both;
+}
+
+.wire dt {
+    width: 240px;
+}
+
+.wire2 dt {
+    width: 220px;
+}
+
+.ipv6 {
+    color: #0C2C84;
+    width: 450px;
+    float: left;
+    clear: both;
+    margin-left: 50px;
+}
+
+    .ipv6 dt {
+        margin: 0;
+        padding: 7px 5px;
+        font-weight: bold;
+    }
+
+    .ipv6 dd {
+        margin: 0 0 0 10px;
+        padding: 7px 5px;
+    }
+
+.enable-chk {
+    padding-left: 200px;
+    line-height: 2em;
+}
+
+.advanced a {
+    text-decoration: underline;
+}
+
+.tbl-wireless {
+    color: #0C2C84;
+    margin-left: 3px;
+    clear: both;
+}
+
+    .tbl-wireless th {
+        padding-bottom: 8px;
+    }
+
+.searchSsid {
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+.disableFont {
+    color: #BEBEBE;
+}
+
+.ifStatus {
+    color: red;
+    font-weight: bold;
+}
+
+.tbl-ldap dt {
+    width: 220px;
+}
+
+.tbl-ldap dd input.ldap_textbox {
+    width: 20em;
+}
+
+.tbl-ldap dd input.textbox_password {
+    width: 16em;
+}
+
+table.ldap {
+    border-collapse: collapse;
+    margin-bottom: 7px;
+}
+
+.ldap td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ldaptest dt {
+    width: 120px;
+    text-align: right;
+}
+
+.ldaptest_control {
+    text-align: right;
+    color: #0C2C84;
+}
+
+    .ldaptest_control input {
+        margin: 10px;
+    }
+
+.pop dt {
+    width: 230px;
+}
+
+.ul-ipp li {
+    color: #0C2C84;
+    margin-bottom: 7px;
+}
+
+table.protocol {
+    width: 640px;
+}
+
+    table.protocol th {
+        width: 280px;
+        text-align: left;
+    }
+
+    table.protocol td {
+        width: 180px;
+    }
+
+.reports dt {
+    width: 180px;
+}
+
+.reports_address_list {
+    display: inline-block;
+    width: 380px;
+    word-wrap: break-word;
+}
+
+table.notification td {
+    text-align: center;
+    min-width: 88px;
+}
+
+table.notification input {
+    margin-right: 3px;
+}
+
+table.notification tbody th {
+    font-weight: normal;
+    width: 330px;
+}
+
+.service_list {
+    word-wrap: break-word;
+    width: 300px;
+    display: inline-block;
+}
+
+.test-e-mail {
+    color: #0C2C84;
+    width: 450px;
+    clear: both;
+    margin-left: 50px;
+}
+
+    .test-e-mail dt {
+        margin: 0 0 0 0;
+        padding: 7px 5px;
+        font-weight: bold;
+        font-weight: normal;
+    }
+
+    .test-e-mail dd {
+        margin: 0 0 0 20px;
+        padding: 7px 5px;
+        font-weight: normal;
+    }
+
+.certificate dt {
+    width: 200px;
+}
+
+.resetMessage {
+    color: #0C2C84;
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: -50px;
+    text-align: center;
+}
+
+.bar {
+    display: block;
+    border: 1px solid #AEB3B9;
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+}
+
+.waitIcon {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: -50px;
+}
+
+.log dt {
+    width: 190px;
+}
+
+.printlog dt {
+    width: 300px;
+    font-weight: normal;
+}
+
+.printlog dd {
+    width: 200px;
+    margin-top: 5px;
+}
+
+html > body .printlog dt {
+    width: 310px;
+    font-weight: normal;
+}
+
+html > body .printlog dd {
+    width: 190px;
+    margin-top: 5px;
+}
+
+.slock dt {
+    width: 230px;
+}
+
+table#lock {
+    border-collapse: collapse;
+    font-size: 8pt;
+    width: 870px;
+}
+
+#lock td {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+#lock th {
+    padding: 3px 1px 3px 0px;
+    font-weight: normal;
+}
+
+#lock button {
+    font-size: 8pt;
+    overflow: visible;
+}
+
+    #lock button div {
+        width: 100px;
+        white-space: normal;
+    }
+
+.lockNum {
+}
+
+.lockName {
+    width: 85px;
+    margin: 0px 1px;
+}
+
+.lockPin {
+    width: 30px;
+}
+
+.l_white {
+    background-color: #ffffff;
+}
+
+.lockPageLimitMax {
+    width: 43px;
+}
+
+#printRestriction {
+    width: 640px;
+    text-align: center;
+}
+
+    #printRestriction input {
+        width: 20em;
+    }
+
+.groupmembersNum {
+    text-align: right;
+}
+
+.groupmembersCheckbox {
+    text-align: left;
+    width: 50px;
+}
+
+.groupmembersAddress, .groupmembersName {
+    text-align: left;
+}
+
+    .groupmembersAddress div, .groupmembersName div {
+        word-wrap: break-word;
+        overflow: auto;
+    }
+
+    .groupmembersAddress div {
+        width: 380px;
+    }
+
+    .groupmembersName div {
+        width: 180px;
+    }
+
+table.dial {
+    width: 640px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 8pt;
+}
+
+    table.dial th {
+        text-align: center;
+    }
+
+table.spoo {
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    width: 400px;
+    text-align: center;
+}
+
+table.viewJob {
+    width: 640px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.viewJob td {
+    margin: 0px;
+    padding: 0px;
+    font-size: 80%;
+    padding: 5px;
+    line-height: 120%;
+}
+
+.viewJob tr {
+    margin: 0px;
+    padding: 0px;
+}
+
+.viewJob th {
+    padding: 0px;
+    font-size: 80%;
+    line-height: 120%;
+    padding: 5px;
+}
+
+#textarea_eula {
+    width: 460px;
+    height: 200px;
+    border: 1px solid;
+    border-color: rgb(169, 169, 169);
+    overflow: auto;
+}
+
+.scan dt {
+    width: 200px;
+}
+
+table.profile {
+    margin: 0px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.profile td {
+    margin: 0px;
+    padding: 7px 5px;
+}
+
+.profile tr {
+    margin: 0px;
+    padding: 7px 5px;
+}
+
+table#profile th {
+    width: auto;
+}
+
+.tray dt {
+    width: 220px;
+}
+
+table.tra {
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+
+.tra td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+.tra th {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+table.spoo {
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    width: 400px;
+    text-align: center;
+}
+
+.spoo td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+.spoo th {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+p.spoo-copy {
+    color: #0C2C84;
+    width: 600px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.faxsettings dt {
+    width: 200px;
+}
+
+.remotefax dt {
+    width: 200px;
+}
+
+.e-mail dt {
+    width: 230px;
+}
+
+.relay dt {
+    width: 200px;
+}
+
+.setupsend dd {
+}
+
+.autodialgroups {
+    color: #0C2C84;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    margin-left: 50px;
+}
+
+    .autodialgroups dt {
+        width: 60px;
+        float: left;
+        font-weight: bold;
+        padding: 0px 5px 3px 5px;
+    }
+
+    .autodialgroups dd {
+        width: 400px;
+        float: left;
+        padding: 0px 5px 3px 5px;
+    }
+
+table#groupMembers tbody td {
+    font-size: 120%;
+    background-color: #0C2C84;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.gm {
+    font-size: 125%;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    color: #0C2C84;
+    margin-right: 10px;
+    clear: both;
+    font-weight: bold;
+}
+
+.info dt {
+    width: 30px;
+    text-align: left;
+}
+
+.errorHistory th {
+    width: 25px;
+}
+
+.errorHistory td {
+    width: 180px;
+}
+
+.viewtbl {
+    margin: 0;
+    clear: both;
+    padding: 0;
+}
+
+.contact, .location {
+    list-style-type: none;
+    text-indent: 36px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 290px;
+}
+
+.contact {
+    background: url(../images/contact.gif) 0px 0px no-repeat;
+}
+
+.location {
+    background: url(../images/location.gif) 0px 0px no-repeat;
+}
+
+.moni {
+    width: 250px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #C2C4CA;
+}
+
+.moniOk {
+    background-color: #DDFFCC;
+    color: #000000;
+}
+
+.moniWarning {
+    background-color: #FFDD66;
+    color: #000000;
+}
+
+.moniError {
+    background-color: #FF9696;
+    color: #000000;
+}
+
+.moniEtc {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#ink_level {
+    display: inline-block;
+}
+
+#inkLevel {
+    width: 150px;
+    border-collapse: collapse;
+    border: 0;
+}
+
+#inkLevelMono {
+    width: 38px;
+    border-collapse: collapse;
+    border: 0;
+}
+
+    #inkLevel th, #inkLevelMono th {
+        width: 26px;
+        font-size: 90%;
+        font-weight: normal;
+    }
+
+    #inkLevel td, #inkLevelMono td {
+        height: 60px;
+        width: 26px;
+        margin: 0px;
+        padding: 0px;
+        vertical-align: bottom;
+        background-color: #DCDCDE;
+        border-left: solid 5px #FFFFFF;
+        border-right: solid 5px #FFFFFF;
+    }
+
+.itemList {
+    display: inline-block;
+}
+
+    .itemList li {
+        padding-top: 5px;
+    }
+
+.spacer {
+    margin: 0 3px;
+}
+
+.graph {
+    width: 26px;
+    background-color: #DCDCDE;
+    vertical-align: bottom;
+    margin: 0px;
+    padding: 0 0 2px 0;
+}
+
+html > body .graph {
+    width: 26px;
+    background-color: #DCDCDE;
+    vertical-align: bottom;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gh {
+    height: 60px;
+}
+
+.ink {
+    width: 26px;
+    font-size: 90%;
+}
+
+.black {
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+}
+
+.cyan {
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+}
+
+.magenta {
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+}
+
+.yellow {
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+}
+
+.tonerremain {
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.findNode, .findModel, .findStatus {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.findNode {
+    width: 140px;
+}
+
+td .findNode {
+    background: url(../images/ic_pr.gif) no-repeat 0 0;
+    padding-left: 25px;
+    min-height: 22px;
+}
+
+.findNode a {
+    text-decoration: underline;
+}
+
+.findModel {
+    width: 180px;
+}
+
+td .findModel {
+    text-align: left;
+}
+
+.findStatus {
+    width: 140px;
+}
+
+td .findIp {
+    text-align: left;
+}
+
+.postError {
+    color: #FF3300;
+    font-weight: bold;
+    font-size: 130%;
+    margin: 10px 50px;
+}
+
+.postErrorSub {
+    color: #FF3300;
+    margin: 10px 50px;
+}
+
+.errorLabel {
+    color: #FF3300;
+    font-style: italic;
+}
+
+.errorMessage {
+    color: #FF3300;
+    text-align: left;
+    display: table;
+}
+
+.okMessage {
+    color: #069159;
+    text-align: left;
+    display: table;
+}
+
+.errorMessageTable {
+    color: #FF3300;
+    clear: both;
+}
+
+.postSuccess {
+    color: #069159;
+    font-weight: bold;
+    font-size: 130%;
+    margin: 10px 50px;
+}
+
+.warningMessage {
+    color: #FF3300;
+    margin: 10px 0;
+}
+
+.noteMessage {
+    color: #0C2C84;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+    .noteMessage strong {
+        color: #FF3300;
+    }
+
+p.first-copy {
+    margin: 0 0 40px 0;
+    padding: 7px 5px;
+    color: #0C2C84;
+    float: left;
+}
+
+p.second-copy {
+    margin: 0 0 0px 0;
+    padding: 7px 0px;
+    color: #0C2C84;
+    float: left;
+    clear: both;
+}
+
+p.spc {
+    margin-bottom: 1px;
+    clear: both;
+}
+
+html > body p.spc {
+    padding-bottom: 15px;
+    clear: both;
+}
+
+p.kugiri {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+html > body p.kugiri {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    clear: both;
+    padding-top: 10px;
+}
+
+p.kugiri2 {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    clear: both;
+}
+
+#but {
+    width: 640px;
+    position: absolute;
+    bottom: -10px;
+    height: 85px;
+    clear: both;
+}
+
+html > body #but {
+    width: 640px;
+    position: absolute;
+    bottom: -485px;
+    height: 85px;
+    vertical-align: bottom;
+    clear: both;
+}
+
+input.button {
+    margin-left: 5px;
+}
+
+.under a {
+    clear: both;
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+.t_left {
+    text-align: left;
+}
+
+.t_right {
+    text-align: right;
+}
+
+.t_bottom {
+    vertical-align: bottom;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.t_blu {
+    color: #0C2C84;
+}
+
+.t_gray {
+    color: #BEBEBE;
+}
+
+.t_pink {
+    color: #FF0080;
+    font-weight: bold;
+}
+
+.t_white {
+    color: #ffffff;
+}
+
+.t_red {
+    color: red;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.f120 {
+    font-size: 120%;
+}
+
+.l_blue {
+    background-color: #F2FAFC;
+}
+
+.d_blue {
+    background-color: #0C2C84;
+}
+
+.gray {
+    background-color: #C2C5CA;
+}
+
+.orange {
+    background-color: #FACA7E;
+}
+
+.green {
+    background-color: #DEEBB6;
+}
+
+.l_5 {
+    margin-left: 5px;
+}
+
+.l_10 {
+    margin-left: 10px;
+}
+
+.l_15 {
+    margin-left: 15px;
+}
+
+.l_20 {
+    margin-left: 20px;
+}
+
+.l_40 {
+    margin-left: 40px;
+}
+
+.lr_50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lr_10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.l_55 {
+    margin-left: 55px;
+}
+
+.l_170 {
+    margin-left: 170px;
+}
+
+.r_10 {
+    margin-right: 10px;
+}
+
+.r_20 {
+    margin-right: 20px;
+}
+
+.r_50 {
+    margin-right: 50px;
+}
+
+.b_100 {
+    margin-bottom: 100px;
+}
+
+.b_115 {
+    margin-bottom: 115px;
+}
+
+.b_200 {
+    margin-bottom: 200px;
+}
+
+.b_10 {
+    margin-bottom: 10px;
+}
+
+.b_15 {
+    margin-bottom: 15px;
+}
+
+.b_20 {
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.b_30 {
+    margin-bottom: 30px;
+}
+
+.b_38 {
+    margin-bottom: 38px;
+    padding-bottom: 38px;
+}
+
+.b_5 {
+    margin-bottom: 5px;
+}
+
+.u_20 {
+    margin-top: 20px;
+}
+
+.u_10 {
+    margin-top: 10px;
+}
+
+.u_5 {
+    margin-top: 5px;
+}
+
+.w5 {
+    width: 5px;
+}
+
+.w7 {
+    width: 7px;
+}
+
+.w10 {
+    width: 10px;
+}
+
+.w20 {
+    width: 20px;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.w40 {
+    width: 40px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+.w65 {
+    width: 65px;
+}
+
+.w70 {
+    width: 70px;
+}
+
+.w75 {
+    width: 75px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w90 {
+    width: 90px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w130 {
+    width: 130px;
+}
+
+.w140 {
+    width: 140px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.w160 {
+    width: 160px;
+}
+
+.w180 {
+    width: 180px;
+}
+
+.w190 {
+    width: 190px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w330 {
+    width: 330px;
+}
+
+.w600 {
+    width: 600px;
+}
+
+.w640 {
+    width: 640px;
+}
+
+.ipRangeTo {
+    padding: 7px 0px 0px 20px;
+}
+
+.ipPrefix {
+    width: 55px;
+}
+
+.items dd .scrollBox {
+    height: 100px;
+    width: 320px;
+    overflow: auto;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.items dd .scrollBoxItem {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.scrollContents {
+    width: 590px;
+    height: 350px;
+    overflow: auto;
+}
+
+.dwordNum {
+    width: 100px;
+}
+
+.code {
+    width: 55px;
+}
+
+.date {
+    width: 55px;
+}
+
+.directory {
+    width: 290px;
+}
+
+.emailAddress {
+    width: 240px;
+}
+
+.hostAddress {
+    width: 290px;
+}
+
+.ipAddress {
+    width: 155px;
+}
+
+.nameCommon {
+    width: 155px;
+}
+
+.nameLong {
+    width: 240px;
+}
+
+.password {
+    width: 240px;
+}
+
+.pin {
+    width: 50px;
+}
+
+.port {
+    width: 55px;
+}
+
+.time {
+    width: 55px;
+}
+
+.timeout {
+    width: 55px;
+}
+
+.userName {
+    width: 240px;
+}
+
+.lockName {
+    width: 85px;
+    margin: 0px 1px;
+}
+
+.lockPin {
+    width: 30px;
+}
+
+.lockPageLimitMax {
+    width: 43px;
+}
+
+table.loginname {
+    width: 640px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+    table.loginname th {
+        text-align: center;
+    }
+
+.loginPrintRestriction {
+    width: 265px;
+}
+
+.ipv6Address {
+    width: 330px;
+}
+
+.groupDialName {
+    width: 50px;
+}
+
+.scantoEmailTextArea {
+    width: 290px;
+}
+
+.dialNameINK {
+    width: 130px;
+}
+
+.dialNumINK {
+    width: 130px;
+}
+
+.dialNameFB {
+    width: 50px;
+}
+
+.dialNumFB {
+    width: 100px;
+}
+
+.ldapItem {
+    width: 290px;
+}
+
+.ldapAttribute {
+    width: 290px;
+}
+
+.longData {
+    width: 290px;
+}
+
+.MaximumSize {
+    width: 30px;
+}
+
+.hostName {
+    width: 290px;
+}
+
+.geoLocation {
+    width: 90px;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+}
+
+input,
+select {
+    padding-top: 2px;
+}
+
+table.http-heder {
+    width: 350px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 8pt;
+}
+
+    table.http-heder th {
+        text-align: center;
+    }
+
+.header-name {
+    width: 120px;
+}
+
+.header-val {
+    width: 240px;
+}
+
+.body {
+    width: 430px;
+}
+
+.url {
+    width: 430px;
+}
+
+.faxforward {
+    width: 120px;
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Ftp>
+            <FtpParams>
+               <FileName>IoJobWorks</FileName>
+               <Host>10.244.4.159</Host>
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <StoreDir>scantoftp</StoreDir>
+               <PassiveMode>true</PassiveMode>
+               <PortNum>21</PortNum>
+            </FtpParams> 
+         </Ftp>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>100</Resolution>
+        <!-- FileType:JPEG PDF TIFF XPS -->
+      <FileType>JPEG</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>false</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Low</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>Legal</DocSize>
+      <PageScanAckUrl>../ui/PageScanAckURL.xml</PageScanAckUrl>
+   </IoScanAndSend>
+</SerioCommands>

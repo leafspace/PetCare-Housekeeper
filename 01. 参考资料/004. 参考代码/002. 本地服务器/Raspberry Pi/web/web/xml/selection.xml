@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<IoScreen>
+					<IoObject>
+						<Title>abc</Title>
+						<Selection id="SelectedItem" minSelectNum="1" multiple="true">
+
+						</Selection>
+					</IoObject>
+				</IoScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

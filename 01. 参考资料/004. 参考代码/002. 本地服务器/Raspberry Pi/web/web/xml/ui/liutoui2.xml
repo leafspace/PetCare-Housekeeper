@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+<DisplayForm>
+<Script>
+<![CDATA[
+<UiScreen infoLevel="Normal">
+
+<Operations>
+<Op type="Submit"action="./UIJOB_TEST.xml"></Op>
+<Op type="Back"action="./UIJOB_TEST.xml"></Op>
+</Operations>
+
+<Title>IMAGE</Title>
+
+<IoScreen>
+<IoObject>
+<Title>IMAGE</Title>
+<Description>Message Description</Description>
+<Img imgsrc="./IMAGE.jpg"></Img>
+</IoObject>
+</IoScreen>
+
+</UiScreen>
+]]>
+</Script>
+</DisplayForm>
+</SerioCommands>

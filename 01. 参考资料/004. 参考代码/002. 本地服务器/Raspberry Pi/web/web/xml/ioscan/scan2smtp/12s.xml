@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<SerioCommands version="1.0">
+<IoScanAndSend>
+<TxProfiles>
+<Smtp>
+  <Destination>ryuhei.arita@brother.co.jp</Destination> 
+  <FileName>IMAGE</FileName> 
+  <FileNameFixed>true</FileNameFixed> 
+  <Subject>1234567890</Subject> 
+  <MsgBody>1234567890</MsgBody> 
+  </Smtp>
+  </TxProfiles>
+  <ScanTray>ADF</ScanTray> 
+  <ColorMode>Color</ColorMode> 
+  <Resolution>100</Resolution> 
+  <FileType>JPEG</FileType> 
+  <DuplexScanEnable>false</DuplexScanEnable> 
+  <ShortEdgeBinding>false</ShortEdgeBinding> 
+  <JpgQuality>High</JpgQuality> 
+  <DocSize>Letter</DocSize> 
+  <JobFinAckUrl>./end_message.xml</JobFinAckUrl> 
+</IoScanAndSend>
+<DisplayInfo>
+<Script>
+<![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2SMTP</Title>
+                  <Description>executing scan2smtp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         
+
+  ]]> 
+  </Script>
+  </DisplayInfo>
+  </SerioCommands>

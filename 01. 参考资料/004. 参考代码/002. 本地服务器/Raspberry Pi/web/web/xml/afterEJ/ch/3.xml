@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./4.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./19.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./2.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                           
+
+<IoScreen>
+<IoObject>
+   <Title>IoObject Title 19</Title>
+   <Description>IoObject Description  19</Description>
+   <NumericalArea id="numericalarea_id19">
+      <InitValue>
+         19
+      </InitValue>
+      <MinValue>0</MinValue>
+      <MaxValue>
+         19
+      </MaxValue>
+      <Mask>
+         false
+      </Mask>
+   </NumericalArea>
+</IoObject>
+                  
+         
+         
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 78</Title>
+   <Description>IoObject Description  78</Description>
+   <TextArea id="textarea_id78">
+      <InitValue>
+         SriLanka Bangladesh Myanmar 千葉県 Lebanon 栃木県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         78
+      </MaxLength>
+      <Mask>
+         true
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>Glyph</LetterType>
+<LetterType>EnvDependent</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+         
+<IoObject>
+   
+   <Title>IoObject Title 47</Title>
+   <Description>IoObject Description  47</Description>
+   <Img imgsrc="image47.jpg">image #47 alt text</Img>
+</IoObject>
+
+         
+<IoObject>
+   
+   <Title>IoObject Title 10</Title>
+   <Description>IoObject Description  10</Description>
+   <Img imgsrc="image10.jpg">image #10 alt text</Img>
+</IoObject>
+
+         </IoScreen>
+               </UiScreen>
+      ]]>
+       </Script>
+   </DisplayForm>
+</SerioCommands>

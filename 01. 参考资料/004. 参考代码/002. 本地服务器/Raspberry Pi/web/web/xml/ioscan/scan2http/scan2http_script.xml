@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+        <!-- Scan Command -->
+        <IoScanAndSend>
+                <TxProfiles>
+                        <Http>
+                                <HttpParams>
+                                        <Url>http://10.244.4.139:4567/single?filename=image___FILE_COUNT___.JPEG</Url>
+                                        <AccessMethod>POST</AccessMethod>
+                                        <AdditionalHttpHeaders>
+                                                <HttpHeader>
+                                                                <HeaderName>Content-Type</HeaderName>
+                                                                <HeaderValue>image/jpeg</HeaderValue>
+                                                </HttpHeader>
+                                                <HttpHeader>
+                                                                <HeaderName>MyHeader</HeaderName>
+                                                                <HeaderValue>___FILE_COUNT___</HeaderValue>
+                                                </HttpHeader>
+                                        </AdditionalHttpHeaders>
+                                        <User></User>
+                                        <Password></Password>
+                                        <Template>___FILE_DATA___</Template>
+                                </HttpParams>
+                        </Http>
+                </TxProfiles>
+
+                <ScanTray>ADF</ScanTray>
+                <ColorMode>Color</ColorMode>
+                <Resolution>100</Resolution>
+                <DocSize>Letter</DocSize>
+                <FileType>JPEG</FileType>
+                <DuplexScanEnable>false</DuplexScanEnable>
+        </IoScanAndSend>
+
+        <!-- UI Command -->
+        <DisplayInfo>
+                <Script>
+                        <![CDATA[
+                                <?xml version="1.0" encoding="UTF-8"?>
+                                <UiScreen infoLevel="Normal">
+                                        <IoScreen>
+                                                <IoObject>
+                                                        <Message>Singlepart JPEG</Message>
+                                                </IoObject>
+                                        </IoScreen>
+                                </UiScreen>
+                        ]]>
+                </Script>
+        </DisplayInfo>
+</SerioCommands>

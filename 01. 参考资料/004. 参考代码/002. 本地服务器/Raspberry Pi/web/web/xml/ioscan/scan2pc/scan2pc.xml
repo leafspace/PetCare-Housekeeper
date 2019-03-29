@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Pc>
+   <PcParams>
+<!--File  Image Ocr Email-->
+               <FunctionType>File</FunctionType>
+<!--[USB],APBILXXX,APBIL2006888,APBILHQDMZ249-->
+<!--
+               <FunctionType>Ocr</FunctionType>
+<Destination>APBILHQDMZ249</Destination>
+               <UsePcSetting></UsePcSetting>
+<Destination>[USB]</Destination>
+               <UsePcSetting>true</UsePcSetting>
+-->
+	<Destination>[USB]</Destination>
+
+   </PcParams>
+         </Pc>
+      </TxProfiles>
+
+
+      <Resolution>400</Resolution> 
+      <ColorMode>Mono</ColorMode>
+      <FileType>JPEG</FileType> 
+      <Density>Highest</Density> 
+
+        <!-- Brightness:Lowest Lowser Normal Higher Highest-->
+        <!-- Density:Lowest Lowser Normal Higher Highest-->
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+        <!-- ColorMode:Mono Gray Color -->
+        <!-- FileType:JPEG PDF TIFF SecurePDF-->
+        <!-- SinglePageFile:true false -->
+        <!-- SkipBlankPage:true false -->
+        <!-- SkipBlankPageSensitivity:Lowest Lowser Normal Higher Highest-->
+        <!-- DocSize:A4 Letter Legal LongPaper-->
+        <!-- RemoveBackgroundff Low Normal High-->
+        <!-- DuplexScanEnable:true false -->
+        <!-- ShortEdgeBinding:true false -->
+        <!-- ScanTray:FB ADF -->
+        
+      <Brightness>Highest</Brightness> 
+      <Contrast>Highest</Contrast>
+      <SkipBlankPage>true</SkipBlankPage>
+      <ScanTray>FB</ScanTray>
+      <DuplexScanEnable>false</DuplexScanEnable>
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+      <JpgQuality>Normal</JpgQuality>
+      <DocSize>Legal</DocSize>
+<!--
+      <PageScanAckUrl>./no.xml</PageScanAckUrl>      
+      <Density>Lower</Density> 
+      <Resolution>300</Resolution> 
+      <ColorMode>Color</ColorMode> 
+      <FileType>PDF</FileType> 
+      <SinglePageFile>false</SinglePageFile>
+      <SkipBlankPageSensitivity>Normal</SkipBlankPageSensitivity>
+      <RemoveBackground>Normal</RemoveBackground>
+      <AutoDeskew>false</AutoDeskew>
+      <JobFinAckUrl>./end_message.xml</JobFinAckUrl>
+-->
+      <PageScanAckUrl>no.xml</PageScanAckUrl>
+
+   </IoScanAndSend>
+
+<!--    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+	 -->
+
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2FTP</Title>
+                  <Description>executing scan2ftp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+
+</SerioCommands>

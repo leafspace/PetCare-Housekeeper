@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+			
+				<AutoTransition>5</AutoTransition>
+				
+				<Title>Please Pay</Title>
+
+				<IoScreen>
+					<IoObject>
+						<Title>Please Pay</Title>
+						<Message imgsrc="http://10.244.4.58/ui/1.jpg">5 seconds after this window will be closed</Message>
+					</IoObject>
+				</IoScreen>
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

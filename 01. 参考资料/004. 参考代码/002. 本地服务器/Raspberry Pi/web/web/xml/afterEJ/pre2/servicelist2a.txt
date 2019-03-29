@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+    <UiScreen>
+     
+     <Title>Select Service</Title>
+     <Operations>
+       <Op action="/moi/finish/" type="Back"></Op>
+     </Operations>
+     <LinkScreen>
+      <LinkControl>
+       
+       <LinkItem href="/moi/dbjob/account/list/show/?service=flickr">
+        
+        <Label imgsrc="http://elb02-298147749.us-west-1.elb.amazonaws.com/moi/image/ico_flickr.jpg">flickr</Label>
+                
+       </LinkItem>
+       
+       <LinkItem href="/moi/dbjob/account/list/show/?service=picasa">
+        
+        <Label imgsrc="http://elb02-298147749.us-west-1.elb.amazonaws.com/moi/image/ico_picasa.jpg">picasa</Label>
+                
+       </LinkItem>
+       
+       <LinkItem href="/moi/dbjob/account/list/show/?service=gdocs">
+        
+        <Label imgsrc="http://elb02-298147749.us-west-1.elb.amazonaws.com/moi/image/ico_googledocs.jpg">gdocs</Label>
+                
+       </LinkItem>
+       
+       <LinkItem href="/moi/dbjob/account/list/show/?service=facebook">
+        
+        <Label imgsrc="http://elb02-298147749.us-west-1.elb.amazonaws.com/moi/image/ico_facebook.jpg">facebook</Label>
+                
+       </LinkItem>
+       
+      </LinkControl>
+     </LinkScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>

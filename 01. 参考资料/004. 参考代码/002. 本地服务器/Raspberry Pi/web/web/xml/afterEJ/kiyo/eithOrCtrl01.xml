@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+         <UiScreen>
+            <LinkScreen>
+               <Description>linkctrl01.xml</Description>
+               <EitherOrControl>
+                  <ItemY href="./_choiceA.xml">
+                     <Label imgsrc="./choice.jpg">GOTO choicA</Label>
+                  </ItemY>
+                  <ItemN href="./_choiceB.xml">
+                     <Label imgsrc="./choice.jpg">GOTO choicB</Label>
+                  </ItemN>
+               </EitherOrControl>
+            </LinkScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+<ActivateLock>
+
+	 <!--UserId>zhanln</UserId-->
+	 <UserId>Soluções</UserId>
+
+	 <LockInfo permitted="true" colorEnable="true">
+
+		<Copy permitted="false">
+		</Copy>
+
+		<ScanAndSend permitted="false" colorEnable="true">
+			<Scan2Remote>
+		 	</Scan2Remote>
+			<Scan2PC permitted="false" colorEnable="true">
+		 	</Scan2PC>
+		 	<Scan2Cifs permitted="false" colorEnable="true">
+		 	</Scan2Cifs>
+		 	<Scan2Media>
+		 	</Scan2Media>
+		 	<Scan2FTP permitted="false" colorEnable="true">
+		 	</Scan2FTP>
+		 	<Scan2Smtp permitted="false" colorEnable="true">
+		 	</Scan2Smtp>
+		 	<Scan2Http permitted="false" colorEnable="true">
+		 	</Scan2Http>
+		 	<Scan2SharePoint permitted="false" colorEnable="true">
+		 	</Scan2SharePoint>
+		</ScanAndSend>
+
+		<DirectPrint>
+		</DirectPrint>
+
+		<SendFax>
+		</SendFax>
+
+		<PrintFax>
+		</PrintFax>
+
+		<PcPrint>
+		</PcPrint>
+
+		<WebConnectUload permitted="false">
+		</WebConnectUload>
+
+		<WebConnectDload>
+		</WebConnectDload>
+	</LockInfo>
+
+	<JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+
+</ActivateLock>
+</SerioCommands>

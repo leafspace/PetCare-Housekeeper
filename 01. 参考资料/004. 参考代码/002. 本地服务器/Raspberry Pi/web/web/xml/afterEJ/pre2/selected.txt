@@ -1,0 +1,35 @@
+<?xml version="1 0" encoding="UTF-8" ?>
+<SerioCommands version="1 0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1 0" encoding="UTF-8"?>
+
+    <UiScreen>
+     
+     <Operations>
+      <Op action="/moi/account/deletion/confirm/?totalAccountNumber=1&amp;service=picasa&amp;displayName=take" type="Submit"></Op>
+      
+      <Op action="/moi/account/management/?totalAccountNumber=1&amp;service=picasa&amp;displayName=take" type="Back"></Op>
+      
+     </Operations>
+     <IoScreen>
+      <IoObject>
+       <Title>Delete Account</Title>
+       <Selection id="selecteddisplayName" maxSelectNum="0" multiple="true">
+        
+        <Item selected="false" value="take">
+         
+         <Label>take</Label>
+         
+        </Item>
+        
+       </Selection>
+      </IoObject>
+     </IoScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>
+
+0

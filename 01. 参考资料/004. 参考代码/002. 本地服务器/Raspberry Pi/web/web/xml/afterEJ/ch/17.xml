@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands>
+   <DisplayForm>
+      <![CDATA[
+      <UiScreen infoLevel="Normal">
+         <Title>title</Title>
+         <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./18.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./7.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./16.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                           
+
+<IoObject>
+   <Title>IoObject Title 4</Title>
+   <Description>IoObject Description  4</Description>
+   <NumericalArea id="numericalarea_id4">
+      <InitValue>
+         4
+      </InitValue>
+      <MinValue>0</MinValue>
+      <MaxValue>
+         4
+      </MaxValue>
+      <Mask>
+         true
+      </Mask>
+   </NumericalArea>
+</IoObject>
+                  
+         
+         
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 30</Title>
+   <Description>IoObject Description  30</Description>
+   <TextArea id="textarea_id30">
+      <InitValue>
+         Kuwait Turkey 静岡県 島根県 Malaysia 和歌山県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         30
+      </MaxLength>
+      <Mask>
+         true
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+         
+<IoObject>
+   
+   <Title>IoObject Title 22</Title>
+   <Description>IoObject Description  22</Description>
+   <Img imgsrc="image22.jpg">image #22 alt text</Img>
+</IoObject>
+
+         
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 60</Title>
+   <Description>IoObject Description  60</Description>
+   <TextArea id="textarea_id60">
+      <InitValue>
+         奈良県 京都府 Pakistan Oman 兵庫県 大分県 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         60
+      </MaxLength>
+      <Mask>
+         true
+      </Mask>
+      <LetterTypes>
+         <LetterType>UpperCase</LetterType>
+<LetterType>LowerCase</LetterType>
+<LetterType>Numeric</LetterType>
+<LetterType>Glyph</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+               </UiScreen>
+      ]]>
+   </DisplayForm>
+</SerioCommands>

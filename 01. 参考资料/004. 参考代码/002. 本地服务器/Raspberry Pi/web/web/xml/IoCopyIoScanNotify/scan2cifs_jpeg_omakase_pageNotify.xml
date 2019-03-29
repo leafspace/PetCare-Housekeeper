@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Cifs>
+            <CifsParams>
+               <Host>10.244.4.159</Host>
+               <StoreDir>ScanToNetwork</StoreDir>
+               <FileName>xxw</FileName>
+               <AuthMethod>NTLMv2</AuthMethod>
+               <User>scantest</User>
+               <Password>scantest</Password>
+               <KerberosServer></KerberosServer>
+            </CifsParams>
+         </Cifs>
+      </TxProfiles>
+
+        <!-- ScanTray:FB ADF -->
+      <ScanTray>ADF</ScanTray>
+        <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+        <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>100</Resolution>
+        <!-- FileType:JPEG PDF TIFF -->
+      <FileType>JPEG</FileType>
+        <!-- DuplexScanEnable:true false -->
+      <DuplexScanEnable>true</DuplexScanEnable>
+        <!-- ShortEdgeBinding:true false -->
+      <ShortEdgeBinding>false</ShortEdgeBinding>
+        <!-- JpgQuality:High Normal Low -->
+      <JpgQuality>Normal</JpgQuality>
+        <!-- DocSize:A4 Letter Legal-->
+      <DocSize>Legal</DocSize>
+
+      <PageScanAckUrl>../ui/PageScanAckURL.xml</PageScanAckUrl>
+   </IoScanAndSend>
+
+</SerioCommands>

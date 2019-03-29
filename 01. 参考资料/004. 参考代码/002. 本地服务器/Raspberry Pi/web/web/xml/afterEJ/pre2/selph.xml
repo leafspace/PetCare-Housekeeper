@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<SerioCommands version="1.0">
+	<DisplayForm>
+		<Script>
+			<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+				<UiScreen>
+					
+					<Operations>
+						<Op action="/iojob/download/media/?downloadTarget=media&amp;service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996" type="Submit"></Op>
+						
+						<Op action="/download/album/list/?service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996&amp;downloadTarget=media" type="Back"></Op>
+						
+						<Op action="/download/photo/list/?service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996&amp;downloadTarget=media&amp;totalPhotoPage=2&amp;photoPage=2" type="Prev"></Op>
+						
+						<Op action="/download/photo/list/?service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996&amp;downloadTarget=media&amp;totalPhotoPage=2&amp;photoPage=2" type="Next"></Op>
+						
+					</Operations>
+					<IoScreen>
+						<IoObject>
+							<Title>Select Photos</Title>
+							<Selection id="selectedPhotoId" maxSelectNum="10" multiple="true">
+								
+								<PageInfo lastPageNum="2" thisPageNum="1" />
+								
+								<Item value="4881583184_1">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4137/4881583184_668ca82638_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4880974959_2">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4123/4880974959_d27ef816e4_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4880975045_3">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4114/4880975045_a066a3a7bd_m.jpg"></Label>
+									
+								</Item>
+
+							</Selection>
+						</IoObject>
+					</IoScreen>
+				</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

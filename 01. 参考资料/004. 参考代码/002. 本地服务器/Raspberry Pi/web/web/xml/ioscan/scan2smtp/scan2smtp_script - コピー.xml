@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Smtp>
+            <Destination>dehuai.wang@brother-bsh.com.cn</Destination>
+         </Smtp>
+      </TxProfiles>
+
+
+   </IoScanAndSend>
+   <!-- DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2SMTP</Title>
+                  <Description>executing scan2smtp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo -->
+</SerioCommands>

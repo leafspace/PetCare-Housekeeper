@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<SerioCommands version="1.0">
+	<DisplayForm>
+		<Script>
+			<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+				<UiScreen>
+					
+					<Operations>
+						<Op action="/iojob/download/media/?downloadTarget=media&amp;service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996" type="Submit"></Op>
+						
+						<Op action="/download/album/list/?service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996&amp;downloadTarget=media" type="Back"></Op>
+						
+						<Op action="/download/photo/list/?service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996&amp;downloadTarget=media&amp;totalPhotoPage=2&amp;photoPage=2" type="Prev"></Op>
+						
+						<Op action="/download/photo/list/?service=flickr&amp;selectedAuthInfo=72157624700048836-87ba6f5cd42f3996&amp;downloadTarget=media&amp;totalPhotoPage=2&amp;photoPage=2" type="Next"></Op>
+						
+					</Operations>
+					<IoScreen>
+						<IoObject>
+							<Title>Select Photos</Title>
+							<Selection id="selectedPhotoId" maxSelectNum="10" multiple="true">
+								
+								<PageInfo>
+									<lastPageNum>2</lastPageNum>
+									<thisPageNum>1</thisPageNum>
+								</PageInfo>
+								
+								<Item value="4881583184_1">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4137/4881583184_668ca82638_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4880974959_2">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4123/4880974959_d27ef816e4_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4880975045_3">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4114/4880975045_a066a3a7bd_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4880975129_4">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4082/4880975129_488f4e53fe_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903249636_5">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4075/4903249636_212f6d1f88_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664081_6">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4095/4902664081_91a1bb3c3a_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903249708_7">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4082/4903249708_dbf715ec92_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664161_8">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4120/4902664161_b14d5cc1ed_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664219_9">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4076/4902664219_4769a8f360_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664253_10">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4122/4902664253_d8334d8b81_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903249882_11">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4141/4903249882_1421633d51_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664341_12">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4123/4902664341_39e7e493c0_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903249970_13">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4077/4903249970_ec21f1c762_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664471_14">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4142/4902664471_2316e6ace5_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250020_15">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4095/4903250020_ce1e40f495_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250106_16">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4076/4903250106_bbf792c058_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664549_17">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4122/4902664549_c98aa7d873_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250178_18">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4117/4903250178_9cb40013e4_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664631_19">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4098/4902664631_85a8b110ea_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664677_20">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4082/4902664677_640a07555e_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250278_21">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4143/4903250278_4334d08b4d_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664773_22">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4140/4902664773_54c67b0ab9_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250376_23">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4093/4903250376_b1f5976f61_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664861_24">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4135/4902664861_656dd05357_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902664891_25">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4134/4902664891_e23fa7a3cb_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250470_26">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4123/4903250470_1fc04295d3_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250506_27">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4094/4903250506_375dd8f424_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665011_28">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4079/4902665011_92a1ee37e5_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250592_29">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4079/4903250592_9ff11ba650_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250640_30">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4076/4903250640_8d7e7334a5_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250688_31">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4074/4903250688_a2031ba495_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665193_32">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4082/4902665193_cef6981815_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250760_33">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4079/4903250760_cc22c2e1fc_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250794_34">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4101/4903250794_9560fe0016_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665303_35">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4076/4902665303_5cda6ef14d_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250862_36">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4120/4903250862_c3e0279f48_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250892_37">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4123/4903250892_7168f6e4dd_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250940_38">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4097/4903250940_26e1647cf3_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903250988_39">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4138/4903250988_e101cd6052_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665523_40">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4097/4902665523_a35761c305_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903251076_41">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4137/4903251076_19742dc6d8_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903251122_42">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4123/4903251122_6eee526ddf_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903251160_43">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4094/4903251160_0be70fcb6e_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665661_44">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4080/4902665661_92986eee5d_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665703_45">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4093/4902665703_f23e1fdc04_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665765_46">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4100/4902665765_d6ebb93c40_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665813_47">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4099/4902665813_45ffe00325_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665859_48">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4095/4902665859_168304d25e_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4903251410_49">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4079/4903251410_3836a20e43_m.jpg"></Label>
+									
+								</Item>
+								
+								<Item value="4902665963_50">
+									
+									<Label imgsrc="http://farm5.static.flickr.com/4118/4902665963_af738f2363_m.jpg"></Label>
+									
+								</Item>
+								
+
+							</Selection>
+						</IoObject>
+					</IoScreen>
+				</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

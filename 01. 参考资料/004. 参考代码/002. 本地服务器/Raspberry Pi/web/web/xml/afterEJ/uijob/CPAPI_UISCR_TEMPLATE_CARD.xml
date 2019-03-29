@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+	<DisplayForm>
+		<Script>
+			<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+			<UiScreen>
+				<IoScreen>
+					<IoObject>
+
+						<Title>CPAPI_UISCR_TEMPLATE_CARD</Title>
+
+						<Description>Swipe card</Description>
+
+						<IdScanner id="card">
+							<Label>Idscanner test</Label>
+						</IdScanner>
+
+					</IoObject>
+				</IoScreen>
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

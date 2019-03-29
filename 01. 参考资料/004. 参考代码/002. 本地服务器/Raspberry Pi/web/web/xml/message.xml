@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SerioCommands version="1.0">
+ <DisplayForm>
+  <Script> 
+   <UiScreen>
+    <Title>Fin PCPrnt</Title>
+    <Operations>
+     <Op type="Back"/>
+     <Op type="Skip"/>
+    </Operations>
+    <IoScreen>
+     <IoObject>
+      <Title>Test Message</Title>
+      <Message>Solution Finished</Message>
+     </IoObject>
+    </IoScreen>
+   </UiScreen>
+  </Script> 
+ </DisplayForm>
+</SerioCommands>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./16.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./9.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./14.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+               <IoScreen>
+                              
+               
+               
+<IoObject>
+   
+   <Title>IoObject Title 90</Title>
+   <Description>IoObject Description  90</Description>
+   <Message>Kyrgyz Qatar 埼玉県 Kyrgyz Uzbekistan 宮崎県 VietNam 鳥取県 岐阜県 Singapore Kyrgyz 山口県 茨城県 広島県 兵庫県 宮崎県 Oman Japan 山口県 熊本県 UAE Philippines Kazakhstan Syria Maldives </Message>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 23</Title>
+   <Description>IoObject Description  23</Description>
+   <Message>SaudiArabia 香川県 Mongolia 静岡県 岩手県 Maldives Bangladesh 沖縄県 徳島県 Jordan Bahrain 愛知県 Malaysia Tajikistan Syria Iran 大阪府 Uzbekistan Myanmar 青森県 北海道 沖縄県 Iran China 長野県 </Message>
+</IoObject>
+
+               
+<IoObject>
+   
+   <Title>IoObject Title 21</Title>
+   <Description>IoObject Description  21</Description>
+   <Img imgsrc="image21.jpg">image #21 alt text</Img>
+</IoObject>
+
+                              </IoScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-->
+<SerioCommands version="v009">
+   <DisplayInfo>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./4.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./1.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./2.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+               <IoScreen>
+                              
+               
+<IoObject>
+   
+   <Title>IoObject Title 81</Title>
+   <Description>IoObject Description  81</Description>
+   <Message>静岡県 Bahrain Kyrgyz 東京都 山形県 VietNam 新潟県 長崎県 Indonesia Pakistan VietNam Georgia Maldives Turkey Qatar Turkmenistan 富山県 Pakistan SriLanka 長野県 Indonesia Bahrain 熊本県 山梨県 Georgia </Message>
+</IoObject>
+
+                              </IoScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

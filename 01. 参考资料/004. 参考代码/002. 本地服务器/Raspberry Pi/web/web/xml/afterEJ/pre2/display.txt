@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SerioCommands version="1.0">
+   <DisplayInfo>
+      <Script>
+
+<![CDATA[
+<UiScreen>
+	<Title>title</Title>
+	<Operations>
+		<Op type="Submit" action="/fin">
+			<Label>Submit</Label>
+		</Op>
+		<Op type="Back" action="/first_item.txt">
+			<Label>Back</Label>
+		</Op>
+	</Operations>
+	<IoScreen>
+		<IoObject>
+			<Title>Your Name</Title>
+			<Description></Description>
+			<Message>Miyazawa</Message>
+		</IoObject>
+	</IoScreen>
+</UiScreen>
+]]>
+		</Script>
+	</DisplayInfo>
+</SerioCommands>

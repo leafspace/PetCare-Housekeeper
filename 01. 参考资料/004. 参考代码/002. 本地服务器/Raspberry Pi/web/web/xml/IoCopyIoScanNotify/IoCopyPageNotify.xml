@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+<IoCopy>
+	<ScanTray>ADF</ScanTray>
+	<ColorMode>Color</ColorMode>
+	<CopyQuality>Text</CopyQuality>
+	<Density>Highest</Density>
+	<FeedTray>T1</FeedTray>
+	<Ratio>100</Ratio>
+	<Layout>Normal</Layout>
+	<LayoutOrientation>Landscape</LayoutOrientation>
+	<DuplexScanEnable>false</DuplexScanEnable>
+	<DuplexPrintEnable>true</DuplexPrintEnable>
+	<ShortEdgeBinding>true</ShortEdgeBinding>
+	<Sorting>false</Sorting>
+	<NumCopies>2</NumCopies>
+	<PagePrintAckUrl>./end_message.xml</PagePrintAckUrl>
+</IoCopy>
+
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

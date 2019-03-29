@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SerioCommands version="1.0" >
+    <DisplayForm>
+        <Script>
+<![CDATA[
+<UiScreen>
+    <Title>Input Text</Title>
+    <Operations>
+        <Op type="Submit" action="./second.txt">
+            <Label>Submit</Label>
+        </Op>
+        <Op type="Back" action="./third.txt">
+            <Label>Back</Label>
+        </Op>
+    </Operations>
+    <IoScreen>
+        <IoObject>
+               <Title>IoObject Title 93</Title>
+               <Description>IoObject Description  93</Description>
+            <TextArea id="textarea_id93">
+                <InitValue></InitValue>
+                <LetterTypes>
+                    <LetterType>UpperCase</LetterType>
+                    <LetterType>Numeric</LetterType>
+                </LetterTypes>
+               </TextArea>
+        </IoObject>
+    </IoScreen>
+</UiScreen>
+]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

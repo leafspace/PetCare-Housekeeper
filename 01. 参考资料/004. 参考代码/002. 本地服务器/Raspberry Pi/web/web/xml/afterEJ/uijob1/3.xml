@@ -1,0 +1,38 @@
+<?xml version="1 0" encoding="UTF-8" ?>
+<SerioCommands version="1 0">
+ <DisplayForm>
+  <Script>
+   <![CDATA[<?xml version="1 0" encoding="UTF-8"?>
+
+    <UiScreen>
+     
+     <Operations>
+
+      <Op type="Submit" action="./4.xml" ></Op>
+      
+      <Op type="Back" action="./2.xml" ></Op>
+     </Operations>
+     <IoScreen>
+      <IoObject>
+       <Title>1234567890123456789012345678901234567890123456789012345678901234567890</Title>
+       <Selection id="selecteddisplayName" maxSelectNum="2" minSelectNum="1" multiple="true">
+        
+        <Item selected="false" value="take">
+         <Label>take</Label>
+         </Item>
+        <Item selected="false" value="yama">
+         <Label>yama</Label>
+         </Item>
+        <Item selected="false" value="hayashi">
+         <Label>hayashi</Label>
+         </Item>
+        
+       </Selection>
+      </IoObject>
+     </IoScreen>
+    </UiScreen>
+   ]]>
+  </Script>
+ </DisplayForm>
+</SerioCommands>
+

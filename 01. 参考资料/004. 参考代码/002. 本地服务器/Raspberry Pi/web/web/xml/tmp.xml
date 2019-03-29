@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+    <IoUloadFromMedia>
+        <UloadFiles>
+            <FileName>D:\紫の花.JPG</FileName>
+        </UloadFiles>
+        
+        <FileInfoAckUrl>/moi/iojob/upload/start/?service=facebook&amp;selectedAuthInfo=173135249367820%7C695b914c0da1a2b526e92f87-100001827758515%7CsGTEFm6Tc3AdbsMIkinn5iaWn2c&amp;selectedAlbumId=108028832601375</FileInfoAckUrl>
+        <EachUloadAckUrl>/moi/iojob/upload/next/?service=facebook&amp;selectedAuthInfo=173135249367820%7C695b914c0da1a2b526e92f87-100001827758515%7CsGTEFm6Tc3AdbsMIkinn5iaWn2c&amp;selectedAlbumId=108028832601375</EachUloadAckUrl>
+        
+        <JobFinAckUrl>/moi/iojob/upload/complete/?service=facebook&amp;selectedAuthInfo=173135249367820%7C695b914c0da1a2b526e92f87-100001827758515%7CsGTEFm6Tc3AdbsMIkinn5iaWn2c</JobFinAckUrl>
+        
+    </IoUloadFromMedia>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]> 
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

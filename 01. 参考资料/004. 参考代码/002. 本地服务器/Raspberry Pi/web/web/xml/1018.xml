@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+         <?xml version="1.0" encoding="UTF-8"?>
+
+         <UiScreen>
+            
+            <Title>Download</Title>
+            <Operations>
+               
+               <Op action="/serio/dbjob/account/list/show/?service=picasa" type="Back"></Op>
+               
+            </Operations>
+            <LinkScreen>
+               <LinkControl>
+                  
+                  <LinkItem href="/serio/dbjob/download/user/show/?service=picasa&amp;downloadTarget=media">
+                     
+                     <Label>Save to MediaCard</Label>
+                     
+                  </LinkItem>
+                  
+                  <LinkItem href="/serio/dbjob/download/user/show/?service=picasa&amp;downloadTarget=print">
+                     
+                     <Label>Print</Label>
+                     
+                  </LinkItem>
+                  
+               </LinkControl>
+            </LinkScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

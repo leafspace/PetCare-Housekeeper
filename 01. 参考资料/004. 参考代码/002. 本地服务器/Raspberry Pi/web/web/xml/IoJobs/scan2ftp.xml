@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Ftp>
+            <FtpParams>
+               <FileName>IoJobWorks</FileName>
+               <Host>100.145.100.50</Host>
+               <User>muroika</User>
+               <Password>passs</Password>
+               <StoreDir>.</StoreDir>
+               <PassiveMode>true</PassiveMode>
+               <PortNum>21</PortNum>
+            </FtpParams> 
+         </Ftp>
+      </TxProfiles>
+
+      <!-- <ScanTray>FB</ScanTray> -->
+      <ColorMode>Gray</ColorMode>
+      <Resolution>Low</Resolution>
+      <!-- <FileType>JPEG</FileType> -->
+      <FileType>PDF</FileType>
+
+      <DuplexScanEnable>true</DuplexScanEnable>
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+
+      <JobFinAckUrl>../start.xml</JobFinAckUrl>
+   </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2FTP</Title>
+                  <Description>executing scan2ftp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

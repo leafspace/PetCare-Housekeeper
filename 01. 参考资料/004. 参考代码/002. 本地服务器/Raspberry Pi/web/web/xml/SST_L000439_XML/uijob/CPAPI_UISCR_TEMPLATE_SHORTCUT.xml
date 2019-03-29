@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioCommands version="1.1">
+	<DisplayForm>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+				<UiScreen>
+					<IoScreen>
+						<IoObject>
+							<Title>Title Message</Title>
+							<Shortcut id="Dummy" />
+						</IoObject>
+					</IoScreen>
+					
+				</UiScreen>
+           ]]>
+        </Script>
+	</DisplayForm>
+</SerioCommands>

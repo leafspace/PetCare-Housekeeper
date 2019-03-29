@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SerioCommands version="1.0">
+ <Wait>
+  <Time>10</Time>
+  <JobFinAckUrl>./end_message.xml</JobFinAckUrl>
+ </Wait>
+ <DisplayInfo>
+  <Script> 
+   <UiScreen>
+    <IoScreen>
+     <IoObject>
+      <Title>WaitJob</Title>
+      <Message>Please Wait</Message>
+     </IoObject>
+    </IoScreen>
+   </UiScreen>
+  </Script> 
+ </DisplayInfo>
+</SerioCommands>

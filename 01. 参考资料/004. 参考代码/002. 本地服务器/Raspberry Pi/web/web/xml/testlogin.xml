@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<SerioCommands version="100">
+<ActivateLock>
+ <UserId>tmp_nagai</UserId>
+ <LockInfo>
+ <Copy permitted="true" colorEnable="false">
+</Copy>
+ <SendFax permitted="false" colorEnable="false">
+</SendFax>
+ <ScanAndSend permitted="false" colorEnable="false">
+</ScanAndSend>
+ <DirectPrint permitted="false" colorEnable="false">
+</DirectPrint>
+ <PrintFax permitted="false" colorEnable="false">
+</PrintFax>
+ <PcPrint permitted="false" colorEnable="false">
+</PcPrint>
+</LockInfo>
+ <JobFinAckUrl>./resultoflock.xml</JobFinAckUrl>
+</ActivateLock>
+</SerioCommands>

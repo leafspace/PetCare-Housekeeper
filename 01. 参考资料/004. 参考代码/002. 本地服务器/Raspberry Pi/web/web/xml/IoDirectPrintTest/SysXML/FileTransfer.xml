@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+<DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <AutoTransition>1</AutoTransition>
+            <IoScreen>
+               <IoObject>
+                  <Title>JobDataCommDone</Title>
+                  <Description>File Transfer</Description>
+                  <Message>File Name To Server Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayInfo>
+</SerioCommands>

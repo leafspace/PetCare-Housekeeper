@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend>
+      <TxProfiles>
+         <Smtp>
+            <Destination>kazushige.muroi@brother.co.jp</Destination>
+            <!-- <Destination>kmuroi@postman.dev.dic.brother.co.jp</Destination> -->
+         </Smtp>
+      </TxProfiles>
+      <!-- <ScanTray>FB</ScanTray> -->
+      <ColorMode>Gray</ColorMode>
+      <Resolution>Low</Resolution>
+      <FileType>JPEG</FileType>
+
+      <DuplexScanEnable>true</DuplexScanEnable>
+      <ShortEdgeBinding>true</ShortEdgeBinding>
+
+      <JobFinAckUrl>../start.xml</JobFinAckUrl>
+   </IoScanAndSend>
+   <DisplayInfo>
+      <Script>
+         <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+         <UiScreen infoLevel="Normal">
+            <IoScreen>
+               <IoObject>
+                  <Title>scan2SMTP</Title>
+                  <Description>executing scan2smtp</Description>
+                  <Message>Burning Your Document Now.</Message>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script> 
+   </DisplayInfo>
+</SerioCommands>

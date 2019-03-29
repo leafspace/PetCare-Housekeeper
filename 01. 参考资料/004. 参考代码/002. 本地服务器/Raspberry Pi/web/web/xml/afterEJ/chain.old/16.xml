@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+                  <UiScreen infoLevel="Normal">
+                     <Title>title</Title>
+                     <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./17.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./0.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./15.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+</Operations>
+                     <IoScreen>
+                                                                        
+
+
+
+<IoObject>
+   <Title>IoObject Title 19</Title>
+   <Description>IoObject Description  19</Description>
+   <FileSelection id="fileselection-id_19" multiple="true" maxSelectNum="6">
+   <FileType>jpg</FileType>
+<FileType>xps</FileType>
+<FileType>ps</FileType>
+
+   </FileSelection>
+</IoObject>
+                                                
+                        
+                        
+<IoObject>
+   
+   <Title>IoObject Title 4</Title>
+   <Description>IoObject Description  4</Description>
+   <Message>Nepal Bhutan Afghanistan 東京都 富山県 Azerbaijan Kazakhstan Japan 兵庫県 宮崎県 徳島県 広島県 宮崎県 Myanmar 山形県 Iran 愛媛県 山梨県 島根県 群馬県 Turkey Kazakhstan 香川県 山梨県 沖縄県 </Message>
+</IoObject>
+
+                        
+<IoObject>
+   
+   <Title>IoObject Title 61</Title>
+   <Description>IoObject Description  61</Description>
+   <Img imgsrc="image61.jpg">image #61 alt text</Img>
+</IoObject>
+
+                        
+<!-- <!-- 
+-->
+<IoObject>
+   <Title>IoObject Title 3</Title>
+   <Description>IoObject Description  3</Description>
+   <TextArea id="textarea_id3">
+      <InitValue>
+         Afghanistan Japan Uzbekistan Philippines Uzbekistan Kyrgyz 
+      </InitValue>
+      <MinLength>0</MinLength>
+      <MaxLength>
+         3
+      </MaxLength>
+      <Mask>
+         false
+      </Mask>
+      <LetterTypes>
+         <LetterType>LowerCase</LetterType>
+
+      </LetterTypes>
+   </TextArea>
+</IoObject>
+                                             </IoScreen>
+                  </UiScreen>
+                  ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

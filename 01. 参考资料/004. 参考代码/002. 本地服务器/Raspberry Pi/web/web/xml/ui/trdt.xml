@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <Operations>
+               <Op type="Submit" action="./5.xml">
+               </Op>
+               <Op type="Back" action="./3.xml">
+               </Op>
+            </Operations>
+            <IoScreen>
+               <IoObject>
+                  <Title>String Input</Title>
+                  <Description>xml TextArea Description</Description>
+                  <TextArea id="textarea_id" cpos="Tail">
+                     <InitValue>abscefghijklmn</InitValue>
+                     <MinLength>1</MinLength>
+                     <MaxLength>128</MaxLength>
+                     <Mask>false</Mask>
+                     <LetterTypes>
+                        <LetterType>UpperCase</LetterType>
+                        <LetterType>LowerCase</LetterType>
+                        <LetterType>Glyph</LetterType>
+                     </LetterTypes>
+                  </TextArea>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

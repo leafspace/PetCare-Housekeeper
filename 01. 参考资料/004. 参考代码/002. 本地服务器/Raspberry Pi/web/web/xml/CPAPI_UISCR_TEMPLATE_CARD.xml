@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.0">
+	<DisplayForm>
+		<Script>
+			<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+			<UiScreen>
+				<Operations>
+					<Op type="Submit"	action="./UIJOB_TEST.xml"></Op>
+					<Op type="Back"		action="./UIJOB_TEST.xml"></Op>
+				</Operations>
+			
+				<IoScreen>
+					<IoObject>
+
+						<Title>CPAPI_UISCR_TEMPLATE_CARD</Title>
+
+						<Description>Swipe card</Description>
+
+						<IdScanner id="card">
+							<Label>Idscanner test</Label>
+						</IdScanner>
+
+					</IoObject>
+				</IoScreen>
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

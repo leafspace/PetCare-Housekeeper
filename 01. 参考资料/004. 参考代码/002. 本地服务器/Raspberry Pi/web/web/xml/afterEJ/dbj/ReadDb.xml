@@ -1,0 +1,11 @@
+<SerioCommands version="009a">
+   <ReadDb>
+      <ReadDbProfiles>
+         <ReadDbProfile>
+            <AuthInfo>n4v43VT03K</AuthInfo>
+            <Key>7G51Irk233</Key>
+         </ReadDbProfile>
+      </ReadDbProfiles>
+      <JobFinAckUrl>http://serio.brother.co.jp/~N972/1QM6Dq</JobFinAckUrl>
+   </ReadDb>
+</SerioCommands>

@@ -1,0 +1,6 @@
+--MIIDgzCCAuygAw
+Content-Disposition: form-data; name="xml"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioEvent version="1.3"><DbUpdateDone><ErrorInfo>1</ErrorInfo><UpdateResults><UpdateResult><Key>1.3.6.1.4.1.2435.2.4.3.2435.5.33.7.1.0</Key><UpdateError>80</UpdateError></UpdateResult><UpdateResult><Key>1.3.6.1.4.1.2435.2.4.3.2435.5.33.7.2.0</Key></UpdateResult></UpdateResults></DbUpdateDone></SerioEvent>
+--MIIDgzCCAuygAw--

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="v009">
+	<DisplayForm>
+		<Script>
+			<![CDATA[
+			<UiScreen infoLevel="Normal">
+
+				<Operations>
+					<Op type="Submit"	action="./UIJOB_TEST.xml"></Op>
+					<Op type="Back"		action="./UIJOB_TEST.xml"></Op>
+				</Operations>
+
+				<Title>CPAPI_UISCR_TEMPLATE_LIST</Title>
+
+     <IoScreen>
+      <IoObject>
+       <Title>Single Select</Title>
+       <Selection id="selecteddisplayItem" multiple="false">
+        
+		<Item value="item1"><Label>Item1</Label></Item>
+		<Item value="item2"><Label>Item2</Label></Item>
+		<Item value="item3"><Label>Item3</Label></Item>
+		<Item value="item4"><Label>Item4</Label></Item>
+		<Item value="item5"><Label>Item5</Label></Item>
+		<Item value="item6"><Label>Item6</Label></Item>
+        
+       </Selection>
+      </IoObject>
+     </IoScreen>
+
+
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

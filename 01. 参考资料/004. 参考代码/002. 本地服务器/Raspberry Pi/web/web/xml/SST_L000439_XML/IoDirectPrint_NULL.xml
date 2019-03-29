@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SerioCommands version="1.0">
+
+<IoDirectPrint>
+	<FilePath>http://10.244.2.53/iso-24735.pdf</FilePath>
+	<ColorMode>Color</ColorMode>
+	<PaperType>Plain</PaperType>
+	<PaperSize>A4</PaperSize>
+	<Layout>Normal</Layout>
+	<LayoutOrientation>Landscape</LayoutOrientation>
+	<DuplexPrintEnable>false</DuplexPrintEnable>
+	<ShortEdgeBinding>false</ShortEdgeBinding>
+	<Collate>false</Collate>
+	<FeedTray>Auto</FeedTray>
+	<PrintQuality>Normal</PrintQuality>
+	<PdfOption>Document</PdfOption>
+	<NumCopies>1</NumCopies>
+	<PrintLimit>10</PrintLimit>
+
+	<JobFinAckUrl>./end_message.xml</JobFinAckUrl>
+</IoDirectPrint>
+
+<DisplayInfo>
+	<Script><![CDATA[
+	<?xml version="1.0" encoding="UTF-8"?>
+	<UiScreen>
+	<NullScreen></NullScreen>
+	</UiScreen>
+	]]></Script>
+</DisplayInfo>
+
+</SerioCommands>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<SerioCommands version="1.0" >
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+         <UiScreen infoLevel="Normal">
+       <Title>1234567890123456789012345678901234567890123456789012345678901234567890</Title>
+            <AutoTransition>5</AutoTransition>
+            <!-- -->
+            <Operations>
+               <Op type="Submit" action="./5.xml">
+                  <Label imgsrc="submit.jpg">Submit</Label>
+               </Op>
+               <Op type="Back" action="./3.xml">
+                  <Label imgsrc="back.jpg">Back</Label>
+               </Op>
+            </Operations>
+            <IoScreen>
+               <!-- 
+               -->
+               <IoObject>
+       <Title>1234567890123456789012345678901234567890123456789012345678901234567890</Title>
+                  <Description>xml TextArea Description</Description>
+                  <TextArea id="textarea_id17" cpos="Tail">
+                     <InitValue>test</InitValue>
+                     <MinLength>0</MinLength>
+                     <MaxLength>17</MaxLength>
+                     <Mask>false</Mask>
+                     <LetterTypes>
+                        <LetterType>LowerCase</LetterType>
+                        <LetterType>Glyph</LetterType>
+                     </LetterTypes>
+                  </TextArea>
+               </IoObject>
+            </IoScreen>
+         </UiScreen>
+         ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>

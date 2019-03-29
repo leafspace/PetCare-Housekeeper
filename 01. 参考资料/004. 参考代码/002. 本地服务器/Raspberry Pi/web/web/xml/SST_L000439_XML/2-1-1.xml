@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SerioCommands version="1.0">
+  <IoDirectPrint>
+      <AuthnicationProfiles>
+         <HttpAuth>
+            <HttpAuthParams>
+               <AuthMethod>Auto</AuthMethod>
+               <User>bsitest</User>
+               <Password>bsitest</Password>
+            </HttpAuthParams>
+         </HttpAuth>
+      </AuthnicationProfiles>
+    <FilePath>http://10.244.2.53/P2.PDF</FilePath>
+
+    <ColorMode>Mono</ColorMode>
+    <JobFinAckUrl>./end_message.xml</JobFinAckUrl>
+  </IoDirectPrint>
+  <DisplayInfo>
+    <Script><![CDATA[
+		<?xml version="1.0" encoding="UTF-8"?>
+		<UiScreen>
+			<NullScreen></NullScreen>
+		</UiScreen>
+]]></Script>
+  </DisplayInfo>
+</SerioCommands>

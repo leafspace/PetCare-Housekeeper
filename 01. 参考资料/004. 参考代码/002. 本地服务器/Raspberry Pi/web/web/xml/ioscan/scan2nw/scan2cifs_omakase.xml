@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerioCommands version="1.0">
+   <IoScanAndSend strictParam="true">
+      <TxProfiles>
+         <Cifs>
+            <CifsParams>
+               <Host>10.244.3.110</Host>
+               <StoreDir>Scan2NW_File</StoreDir>
+               <FileName>Mono600DPI</FileName>
+               <FileNameFixed>true</FileNameFixed>
+               <AuthMethod>Auto</AuthMethod>
+               <User>yangne</User>
+               <Password>****</Password>
+               <KerberosServer></KerberosServer>
+            </CifsParams>
+         </Cifs>
+      </TxProfiles>
+            <!-- ScanTray:FB ADF -->
+      <ScanTray>FB</ScanTray>
+
+      <!-- ColorMode:Mono Gray Color -->
+      <ColorMode>Color</ColorMode>
+
+      <!-- Resolution:Low Normal High 600 300 200 100 200x100 Auto -->
+      <Resolution>Normal</Resolution>
+
+      <!-- FileType:JPEG PDF TIFF -->
+      <FileType>TIFF</FileType>
+
+  <JobFinAckUrl></JobFinAckUrl>
+
+
+
+   </IoScanAndSend>
+    <DisplayInfo>
+        <Script>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+                <UiScreen>
+                    <NullScreen></NullScreen>
+                </UiScreen>
+            ]]>
+        </Script>
+    </DisplayInfo>
+</SerioCommands>

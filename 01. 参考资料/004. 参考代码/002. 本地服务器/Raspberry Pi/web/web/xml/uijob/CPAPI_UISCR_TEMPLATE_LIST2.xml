@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SerioCommands version="1.1">
+	<DisplayForm>
+		<Script>
+			<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+			<UiScreen>
+
+				<Operations>
+					<Op type="Submit"	action="./UIJOB_TEST.xml"></Op>
+					<Op type="Back"		action="./UIJOB_TEST.xml"></Op>
+				</Operations>
+
+				<Title>CPAPI_UISCR_TEMPLATE_LIST</Title>
+
+				<IoScreen>
+					<IoObject>
+						<Title>message</Title>
+						<Message>message</Message>
+					</IoObject>
+
+					<IoObject>
+                            <Title>textAreaTitle</Title>
+                            <TextArea id="textArea" cpos="Tail" priorInput="LowerCase">
+                                <InitValue>example text</InitValue>
+                                <MinLength>1</MinLength>
+                                <MaxLength>32</MaxLength>
+                                <Mask>false</Mask>
+                                <LetterTypes>
+                                    <LetterType>UpperCase</LetterType>
+                                    <LetterType>LowerCase</LetterType>
+                                    <LetterType>Numeric</LetterType>
+                                    <LetterType>Glyph</LetterType>
+                                </LetterTypes>
+                            </TextArea>
+					</IoObject>
+                        
+					<IoObject>
+                            <Title>numericalAreaTitle</Title>
+                            <NumericalArea id="numericalArea" cpos="Tail">
+                                <InitValue>587</InitValue>
+                                <MinValue>1</MinValue>
+                                <MaxValue>65535</MaxValue>
+                            </NumericalArea>
+					</IoObject>
+
+					<IoObject>
+                            <Title>selecteAreaTitle</Title>
+                            <Selection id="selecteArea" display="Top" multiple="false">
+                                <Item selected="false" value="None">
+                                    <Label>select1</Label>
+                                </Item>
+                                <Item selected="true" value="smtpAuth">
+                                    <Label>select2</Label>
+                                </Item>
+                                <Item selected="false" value="popbefSmtp">
+                                    <Label>select3</Label>
+                                </Item>
+                            </Selection>
+					</IoObject>
+
+					<IoObject>
+                            <Title>TextArea2(ULN)</Title>
+                            <TextArea id="TextArea2" cpos="Tail" priorInput="LowerCase">
+                                <InitValue>TEST2</InitValue>
+                                <MaxLength>60</MaxLength>
+                                <Mask>true</Mask>
+                                <LetterTypes>
+                                    <LetterType>UpperCase</LetterType>
+                                    <LetterType>LowerCase</LetterType>
+                                    <LetterType>Numeric</LetterType>
+                                </LetterTypes>
+                            </TextArea>
+					</IoObject>
+
+				</IoScreen>
+			</UiScreen>
+			]]>
+		</Script>
+	</DisplayForm>
+</SerioCommands>

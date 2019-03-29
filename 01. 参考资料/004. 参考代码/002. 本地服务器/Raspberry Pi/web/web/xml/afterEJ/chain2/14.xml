@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> <SerioCommands version="v009">
+   <DisplayForm>
+      <Script>
+         <![CDATA[
+            <UiScreen infoLevel="Normal">
+               <Title>title</Title>
+               <AutoTransition>10</AutoTransition>
+<Operations>
+   <Op type="Submit" action="./15.xml">
+   <Label imgsrc="submit.jpg">Submit</Label>
+   </Op>
+   <Op type="SkipGo" action="./1.xml">
+   <Label imgsrc="skipgo.jpg">Skipgo</Label>
+   </Op>
+   <Op type="Back" action="./13.xml">
+   <Label imgsrc="back.jpg">Back</Label>
+   </Op>
+   
+</Operations>
+               <LinkScreen>
+               <Description>Description (茨城県 Kuwait Laos Turkey 岩手県 )</Description>
+               
+<!-- -->
+<LinkControl>
+   
+   
+   <LinkItem href="./5.xml">
+      <Label imgsrc="img01.jpg">LinkItem label 01</Label>
+   </LinkItem>
+   
+   <LinkItem href="./2.xml">
+      <Label imgsrc="img02.jpg">LinkItem label 02</Label>
+   </LinkItem>
+   
+   <LinkItem href="./16.xml">
+      <Label imgsrc="img03.jpg">LinkItem label 03</Label>
+   </LinkItem>
+   
+</LinkControl>               
+               </LinkScreen>
+            </UiScreen>
+            ]]>
+      </Script>
+   </DisplayForm>
+</SerioCommands>
